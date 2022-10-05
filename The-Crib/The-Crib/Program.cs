@@ -16,7 +16,7 @@ namespace The_Crib
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LanguageSelectionForm());
+            Application.Run(new Form1());
         }
     }
 }

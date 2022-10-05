@@ -46,16 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LanguageSelectionForm.cs">
+    <Compile Include="CustomMessageBoxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LanguageSelectionForm.Designer.cs">
-      <DependentUpon>LanguageSelectionForm.cs</DependentUpon>
+    <Compile Include="CustomMessageBoxForm.Designer.cs">
+      <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DictionaryFrontYard.cs" />
+    <Compile Include="FrontYardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontYardForm.Designer.cs">
+      <DependentUpon>FrontYardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LanguageSelectionForm.resx">
-      <DependentUpon>LanguageSelectionForm.cs</DependentUpon>
+    <Compile Include="MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomMessageBoxForm.resx">
+      <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontYardForm.resx">
+      <DependentUpon>FrontYardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +91,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

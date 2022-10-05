@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace The_Crib
 {
-    public partial class LanguageSelectionForm : Form
+    public partial class CustomMessageBoxForm : Form
     {
-        public LanguageSelectionForm()
+        public CustomMessageBoxForm()
         {
             InitializeComponent();
+        }
+
+        public DialogResult ShowDialog(string word, string fiWord)
+        {
+            WordLB.Text = $"{fiWord} = {word}"; // label in "message box"
+            return this.ShowDialog();
         }
     }
 }
