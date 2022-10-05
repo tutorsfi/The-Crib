@@ -60,7 +60,6 @@
     </Compile>
     <Compile Include="DictionaryBathroom.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
-    <Compile Include="DictionaryKidsRoom.cs" />
     <Compile Include="DictionarySauna.cs" />
     <Compile Include="DictionaryUpstairsHallway.cs" />
     <Compile Include="DictionaryWC.cs" />
@@ -75,12 +74,6 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KidsRoomForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KidsRoomForm.Designer.cs">
-      <DependentUpon>KidsRoomForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,9 +113,6 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KidsRoomForm.resx">
-      <DependentUpon>KidsRoomForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -159,7 +149,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\KidsRoom.png" />
+    <None Include="Resources\Sauna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpstairsHallway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bathroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sink1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinet11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
