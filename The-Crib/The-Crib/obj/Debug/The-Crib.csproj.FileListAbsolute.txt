@@ -12,3 +12,17 @@ C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The-Crib.pdb
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.FrontYardForm.resources
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.MainMenuForm.resources
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.CustomMessageBoxForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\bin\Debug\The-Crib.exe.config
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\bin\Debug\The-Crib.exe
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\bin\Debug\The-Crib.pdb
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj.AssemblyReference.cache
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj.SuggestedBindingRedirects.cache
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.CustomMessageBoxForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.FrontYardForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.Form1.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.Properties.Resources.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MainMenuForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj.GenerateResource.cache
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj.CoreCompileInputs.cache
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.exe
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.pdb
