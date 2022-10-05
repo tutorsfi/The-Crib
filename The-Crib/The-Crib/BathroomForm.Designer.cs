@@ -28,20 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.SinkPB = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).BeginInit();
             this.SuspendLayout();
+            // 
+            // SinkPB
+            // 
+            this.SinkPB.BackColor = System.Drawing.Color.Transparent;
+            this.SinkPB.BackgroundImage = global::The_Crib.Properties.Resources.LowerCabinet11;
+            this.SinkPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SinkPB.Image = global::The_Crib.Properties.Resources.Sink1;
+            this.SinkPB.Location = new System.Drawing.Point(682, 471);
+            this.SinkPB.Name = "SinkPB";
+            this.SinkPB.Size = new System.Drawing.Size(221, 292);
+            this.SinkPB.TabIndex = 0;
+            this.SinkPB.TabStop = false;
             // 
             // BathroomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::The_Crib.Properties.Resources.Bathroom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.SinkPB);
             this.Name = "BathroomForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BathroomForm";
+            ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox SinkPB;
     }
 }
