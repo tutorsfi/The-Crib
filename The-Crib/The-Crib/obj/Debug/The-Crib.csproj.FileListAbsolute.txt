@@ -26,3 +26,7 @@ C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj.CoreCompileInputs.cache
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.exe
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.pdb
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.BathroomForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.SaunaForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.UpstairsHallwayForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.WcForm.resources
