@@ -50,7 +50,7 @@ namespace The_Crib
 
         private void DoorPB_Click(object sender, EventArgs e)
         {   
-            // modifie needed comments where line starts
+            // edit needed comments where line starts
             //PictureBox image = sender as PictureBox;
             //diFrYa.Show(image.Name, lanId); // at this point not in use
             //FrontYardForm frYaFo = new FrontYardForm(); // Next room here 
@@ -58,6 +58,48 @@ namespace The_Crib
             //frYaFo.LanguageId = laId; // passing id to another form
             //frYaFo.Show(); // opening next form
             //this.Hide(); // hiding this one
+        }
+
+        private void BushPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void TreePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void RoofPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowKiPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowMasBedPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowBathroomPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowWcPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
         }
     }
 }
