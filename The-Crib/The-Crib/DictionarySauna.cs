@@ -15,29 +15,35 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {
             // order ENG-FI-UA-RUS
-            {"PicName", "Word,Sana,Word,Word"},
-            {"PicName", "Word,Sana,Word,Word"}
+            {"StovePB", "Sauna stove,Kiuas,банна піч,банная печь"},
+            {"BenchesPB", "Sauna benches,Lauteet,лавка у сауні,лавки для сауны"},
+            {"StonesPB", "Stove stones,Kiuaskivet,камні для печі,камни для печи"},
+            {"PailPB", "Pail,Kiulu,відро для сауни,ведро для сауны"},
+            {"LadlePB", "Sauna ladle,Saunakauha,ківш для сауни,ковш для сауны"},
+            {"GnomePB", "Sauna gnome,Saunatonttu,гном для сауни,гном для сауны"},
+            {"ThermometerPB", "Thermometer,Lämpömittari,термометр,термометр"}
         };
 
         public void Show(string pic, int lanId)
         {
             try
             {
+
                 string selectedWord = wordLibrary[pic];
                 string[] separators = { "," };
                 string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
                 string word = wordArr[lanId];
-                string fiWord = wordArr[0];
-                string enWord = wordArr[1];
+                string enWord = wordArr[0];
+                string fiWord = wordArr[1];
                 string uaWord = wordArr[2];
                 string ruWord = wordArr[3];
 
-                // MyNewMessageBox myNewMessageBoxInstance = new MyNewMessageBox();
-                // DialogResult result = myNewMessageBoxInstance.ShowDialog(word,fiWord,uaWord,ruWord);
-                // if (result == DialogResult.OK)
-                // {
-                //      myNewMessageBoxInstance.Close();
-                // }
+                CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm();
+                DialogResult result = customMessageBoxForm.ShowDialog(uaWord, fiWord);
+                if (result == DialogResult.OK)
+                {
+                    customMessageBoxForm.Close();
+                }
 
             }
             catch (Exception ex)
