@@ -58,6 +58,12 @@
     <Compile Include="BathroomForm.Designer.cs">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomDoorMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomDoorMessageBox.Designer.cs">
+      <DependentUpon>CustomDoorMessageBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomMessageBoxForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BathroomForm.resx">
       <DependentUpon>BathroomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomDoorMessageBox.resx">
+      <DependentUpon>CustomDoorMessageBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomMessageBoxForm.resx">
       <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>

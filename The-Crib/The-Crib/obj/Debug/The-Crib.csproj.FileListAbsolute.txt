@@ -35,3 +35,4 @@ C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.Form1.r
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.SaunaForm.resources
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.UpstairsHallwayForm.resources
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.WcForm.resources
+C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.CustomDoorMessageBox.resources

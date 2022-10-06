@@ -74,6 +74,7 @@
             this.DoorPB.Size = new System.Drawing.Size(100, 157);
             this.DoorPB.TabIndex = 2;
             this.DoorPB.TabStop = false;
+            this.DoorPB.Click += new System.EventHandler(this.DoorPB_Click);
             // 
             // WindowDRPB
             // 
@@ -123,6 +124,7 @@
             this.Controls.Add(this.HousePB);
             this.DoubleBuffered = true;
             this.Name = "BackYardForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BackYardForm";
             this.Load += new System.EventHandler(this.BackYardForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.HousePB)).EndInit();
