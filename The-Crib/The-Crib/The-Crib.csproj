@@ -121,6 +121,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
@@ -146,6 +147,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sauna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpstairsHallway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bathroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sink1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinet11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
