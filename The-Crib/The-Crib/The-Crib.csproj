@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackYardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackYardForm.Designer.cs">
+      <DependentUpon>BackYardForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BathroomForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,7 @@
     <Compile Include="CustomMessageBoxForm.Designer.cs">
       <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DictionaryBackyard.cs" />
     <Compile Include="DictionaryBathroom.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionarySauna.cs" />
@@ -101,6 +108,9 @@
     <Compile Include="WcForm.Designer.cs">
       <DependentUpon>WcForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BackYardForm.resx">
+      <DependentUpon>BackYardForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BathroomForm.resx">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </EmbeddedResource>

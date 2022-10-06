@@ -35,7 +35,7 @@
             // 
             // UkrainianLaBT
             // 
-            this.UkrainianLaBT.Location = new System.Drawing.Point(464, 371);
+            this.UkrainianLaBT.Location = new System.Drawing.Point(565, 371);
             this.UkrainianLaBT.Name = "UkrainianLaBT";
             this.UkrainianLaBT.Size = new System.Drawing.Size(120, 44);
             this.UkrainianLaBT.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // RussianLaBT
             // 
-            this.RussianLaBT.Location = new System.Drawing.Point(916, 371);
+            this.RussianLaBT.Location = new System.Drawing.Point(967, 371);
             this.RussianLaBT.Name = "RussianLaBT";
             this.RussianLaBT.Size = new System.Drawing.Size(118, 43);
             this.RussianLaBT.TabIndex = 1;
@@ -63,7 +63,7 @@
             this.NextFormBT.UseVisualStyleBackColor = true;
             this.NextFormBT.Click += new System.EventHandler(this.NextFormBT_Click);
             // 
-            // LanguageSelectionForm
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,7 +71,7 @@
             this.Controls.Add(this.NextFormBT);
             this.Controls.Add(this.RussianLaBT);
             this.Controls.Add(this.UkrainianLaBT);
-            this.Name = "LanguageSelectionForm";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Language";
             this.ResumeLayout(false);
