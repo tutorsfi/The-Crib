@@ -28,7 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.SelectLanguageBt = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // SelectLanguageBt
+            // 
+            this.SelectLanguageBt.Location = new System.Drawing.Point(12, 12);
+            this.SelectLanguageBt.Name = "SelectLanguageBt";
+            this.SelectLanguageBt.Size = new System.Drawing.Size(109, 28);
+            this.SelectLanguageBt.TabIndex = 3;
+            this.SelectLanguageBt.Text = "Select language";
+            this.SelectLanguageBt.UseVisualStyleBackColor = true;
+            this.SelectLanguageBt.Click += new System.EventHandler(this.SelectLanguageBt_Click);
             // 
             // SaunaForm
             // 
@@ -36,13 +47,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.Sauna;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.SelectLanguageBt);
             this.Name = "SaunaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SaunaForm";
+            this.Load += new System.EventHandler(this.SaunaForm_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button SelectLanguageBt;
     }
 }
