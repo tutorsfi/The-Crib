@@ -35,10 +35,11 @@
             // 
             // UkrainianLaBT
             // 
+            this.UkrainianLaBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UkrainianLaBT.Location = new System.Drawing.Point(424, 301);
-            this.UkrainianLaBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UkrainianLaBT.Margin = new System.Windows.Forms.Padding(2);
             this.UkrainianLaBT.Name = "UkrainianLaBT";
-            this.UkrainianLaBT.Size = new System.Drawing.Size(90, 36);
+            this.UkrainianLaBT.Size = new System.Drawing.Size(194, 78);
             this.UkrainianLaBT.TabIndex = 0;
             this.UkrainianLaBT.Text = "UA";
             this.UkrainianLaBT.UseVisualStyleBackColor = true;
@@ -46,10 +47,11 @@
             // 
             // RussianLaBT
             // 
+            this.RussianLaBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RussianLaBT.Location = new System.Drawing.Point(725, 301);
-            this.RussianLaBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RussianLaBT.Margin = new System.Windows.Forms.Padding(2);
             this.RussianLaBT.Name = "RussianLaBT";
-            this.RussianLaBT.Size = new System.Drawing.Size(88, 35);
+            this.RussianLaBT.Size = new System.Drawing.Size(206, 78);
             this.RussianLaBT.TabIndex = 1;
             this.RussianLaBT.Text = "RUS";
             this.RussianLaBT.UseVisualStyleBackColor = true;
@@ -58,7 +60,7 @@
             // NextFormBT
             // 
             this.NextFormBT.Location = new System.Drawing.Point(550, 488);
-            this.NextFormBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NextFormBT.Margin = new System.Windows.Forms.Padding(2);
             this.NextFormBT.Name = "NextFormBT";
             this.NextFormBT.Size = new System.Drawing.Size(84, 36);
             this.NextFormBT.TabIndex = 2;
@@ -75,7 +77,7 @@
             this.Controls.Add(this.NextFormBT);
             this.Controls.Add(this.RussianLaBT);
             this.Controls.Add(this.UkrainianLaBT);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
