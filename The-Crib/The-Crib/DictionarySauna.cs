@@ -15,13 +15,13 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {
             // order ENG-FI-UA-RUS
-            {"StovePB", "Sauna stove,Kiuas,банна піч,банная печь"},
-            {"BenchesPB", "Sauna benches,Lauteet,лавка у сауні,лавки для сауны"},
-            {"StonesPB", "Stove stones,Kiuaskivet,камні для печі,камни для печи"},
-            {"PailPB", "Pail,Kiulu,відро для сауни,ведро для сауны"},
-            {"LadlePB", "Sauna ladle,Saunakauha,ківш для сауни,ковш для сауны"},
-            {"GnomePB", "Sauna gnome,Saunatonttu,гном для сауни,гном для сауны"},
-            {"ThermometerPB", "Thermometer,Lämpömittari,термометр,термометр"}
+            {"StovePB", "sauna stove,kiuas,банна піч,банная печь"},
+            {"BenchesPB", "sauna benches,lauteet,лавка у сауні,лавки для сауны"},
+            {"StonesPB", "stove stones,kiuaskivet,камні для печі,камни для печи"},
+            {"PailPB", "pail,kiulu,відро для сауни,ведро для сауны"},
+            {"LadlePB", "sauna ladle,saunakauha,ківш для сауни,ковш для сауны"},
+            {"GnomePB", "sauna gnome,saunatonttu,гном для сауни,гном для сауны"},
+            {"ThermometerPB", "thermometer,lämpömittari,термометр,термометр"}
         };
 
         public void Show(string pic, int lanId)
