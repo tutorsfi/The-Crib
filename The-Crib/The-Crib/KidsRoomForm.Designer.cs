@@ -39,7 +39,6 @@
             this.ClientSize = new System.Drawing.Size(1632, 883);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "KidsRoomForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KidsRoomForm";
             this.ResumeLayout(false);
 
