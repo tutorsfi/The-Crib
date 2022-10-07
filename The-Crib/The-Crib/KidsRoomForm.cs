@@ -8,16 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// author@ Jenna Koskelo
-/// version 5.10.2022
+/// version 7.10.2022
 /// <summary>
-/// Kids room view. Unfinished. Currently no other graphics for the room exist than the background.
+/// Kids room view. Unfinished. There are no graphics for this room´s objects yet.
 ///</summary>
 
 namespace The_Crib
 {
     public partial class KidsRoomForm : Form
     {
-        DictionaryKidsRoom diKdRm = new DictionaryKidsRoom(); //variable for dictionary class
+
+        DictionaryFrontYard diFrYa = new DictionaryFrontYard(); //variable for class where words are 
         int lanId; // variable for language id
         private int laId; // private declariation for get/set
         public int LanguageId // get/set defenition
