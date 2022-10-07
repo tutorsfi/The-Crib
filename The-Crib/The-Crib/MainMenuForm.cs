@@ -37,6 +37,20 @@ namespace The_Crib
         private void StartGameForm_Load(object sender, EventArgs e)
         {
             lanId = laId;// not necessarily needed
+            Dictionary<string, string> buttonLibrary = new Dictionary<string, string>()
+            {
+                {"StartGameBT", "Start Game,Aloita Peli,Почни гру,Начать игру" },// Need to check used Google Translate
+                {"CreditsBT", "Credits,Tekijät,Кредити,Кредиты"}
+            };
+            string startWord = buttonLibrary["StartGameBT"];//Selecting words for StartGameBT from library by key.
+            string[] separators = { "," };//Defining separators for array assigning
+            string[] wordArr = startWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+            string stWord = wordArr[lanId];//Selecting right word for picture by index.
+            StartGameBT.Text = stWord; // Change text at button
+            string cred = buttonLibrary["CreditsBT"];//Selecting words for CreditsBT from library by key.
+            string[] wordArr1 = cred.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+            string credWord = wordArr1[lanId];//Selecting right word for picture by index.
+            CreditsBT.Text = credWord; // Change text at button
         }
 
         private void StartGameBT_Click(object sender, EventArgs e)

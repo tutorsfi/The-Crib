@@ -48,9 +48,10 @@
             this.HousePB.BackColor = System.Drawing.Color.Transparent;
             this.HousePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("HousePB.BackgroundImage")));
             this.HousePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.HousePB.Location = new System.Drawing.Point(479, 275);
+            this.HousePB.Location = new System.Drawing.Point(346, 274);
+            this.HousePB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.HousePB.Name = "HousePB";
-            this.HousePB.Size = new System.Drawing.Size(780, 364);
+            this.HousePB.Size = new System.Drawing.Size(907, 413);
             this.HousePB.TabIndex = 0;
             this.HousePB.TabStop = false;
             // 
@@ -59,9 +60,10 @@
             this.RoofPB.BackColor = System.Drawing.Color.Transparent;
             this.RoofPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RoofPB.BackgroundImage")));
             this.RoofPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.RoofPB.Location = new System.Drawing.Point(479, 232);
+            this.RoofPB.Location = new System.Drawing.Point(349, 219);
+            this.RoofPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RoofPB.Name = "RoofPB";
-            this.RoofPB.Size = new System.Drawing.Size(780, 50);
+            this.RoofPB.Size = new System.Drawing.Size(904, 60);
             this.RoofPB.TabIndex = 1;
             this.RoofPB.TabStop = false;
             // 
@@ -69,9 +71,10 @@
             // 
             this.DoorPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DoorPB.BackgroundImage")));
             this.DoorPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.DoorPB.Location = new System.Drawing.Point(599, 469);
+            this.DoorPB.Location = new System.Drawing.Point(439, 510);
+            this.DoorPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DoorPB.Name = "DoorPB";
-            this.DoorPB.Size = new System.Drawing.Size(100, 157);
+            this.DoorPB.Size = new System.Drawing.Size(104, 162);
             this.DoorPB.TabIndex = 2;
             this.DoorPB.TabStop = false;
             this.DoorPB.Click += new System.EventHandler(this.DoorPB_Click);
@@ -81,9 +84,10 @@
             this.WindowDRPB.BackColor = System.Drawing.Color.DarkOrange;
             this.WindowDRPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowDRPB.BackgroundImage")));
             this.WindowDRPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.WindowDRPB.Location = new System.Drawing.Point(1003, 482);
+            this.WindowDRPB.Location = new System.Drawing.Point(916, 510);
+            this.WindowDRPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WindowDRPB.Name = "WindowDRPB";
-            this.WindowDRPB.Size = new System.Drawing.Size(160, 116);
+            this.WindowDRPB.Size = new System.Drawing.Size(204, 122);
             this.WindowDRPB.TabIndex = 3;
             this.WindowDRPB.TabStop = false;
             // 
@@ -92,9 +96,10 @@
             this.WindowKRPB.BackColor = System.Drawing.Color.DarkOrange;
             this.WindowKRPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowKRPB.BackgroundImage")));
             this.WindowKRPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.WindowKRPB.Location = new System.Drawing.Point(522, 322);
+            this.WindowKRPB.Location = new System.Drawing.Point(430, 314);
+            this.WindowKRPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WindowKRPB.Name = "WindowKRPB";
-            this.WindowKRPB.Size = new System.Drawing.Size(160, 116);
+            this.WindowKRPB.Size = new System.Drawing.Size(194, 137);
             this.WindowKRPB.TabIndex = 4;
             this.WindowKRPB.TabStop = false;
             // 
@@ -103,19 +108,20 @@
             this.WindowSRPB.BackColor = System.Drawing.Color.DarkOrange;
             this.WindowSRPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowSRPB.BackgroundImage")));
             this.WindowSRPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.WindowSRPB.Location = new System.Drawing.Point(1003, 322);
+            this.WindowSRPB.Location = new System.Drawing.Point(916, 318);
+            this.WindowSRPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WindowSRPB.Name = "WindowSRPB";
-            this.WindowSRPB.Size = new System.Drawing.Size(160, 116);
+            this.WindowSRPB.Size = new System.Drawing.Size(204, 133);
             this.WindowSRPB.TabIndex = 5;
             this.WindowSRPB.TabStop = false;
             // 
             // BackYardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1632, 883);
+            this.ClientSize = new System.Drawing.Size(1634, 891);
             this.Controls.Add(this.WindowSRPB);
             this.Controls.Add(this.WindowKRPB);
             this.Controls.Add(this.WindowDRPB);
@@ -123,9 +129,10 @@
             this.Controls.Add(this.RoofPB);
             this.Controls.Add(this.HousePB);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "BackYardForm";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BackYardForm";
             this.Load += new System.EventHandler(this.BackYardForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.HousePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoofPB)).EndInit();

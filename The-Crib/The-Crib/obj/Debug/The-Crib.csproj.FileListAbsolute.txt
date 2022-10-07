@@ -56,8 +56,4 @@ C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj.CoreCompileInputs.cache
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.exe
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.pdb
-C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.BackYardForm.resources
-C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.CustomDoorMessageBox.resources
-C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KidsRoomForm.resources
-C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MasterBedroomForm.resources
-C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.StudyForm.resources
+C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.KidsRoomForm.resources

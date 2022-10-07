@@ -59,11 +59,11 @@ namespace The_Crib
             }
             else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
             {
-                BackYardForm baYaFo = new BackYardForm();//room where door leads
-                baYaFo.FormClosing += CloseForm;// call CloseForm method
-                baYaFo.LanguageId = laId; // passing id to another form
-                baYaFo.Show();
-                this.Hide();
+                MainMenuForm frYaFo = new MainMenuForm(); // FrontYardForm 
+                frYaFo.FormClosing += CloseForm; //
+                frYaFo.LanguageId = laId; // passing id to another form
+                frYaFo.Show(); // opening next form
+                this.Hide(); // hiding this one
 
             }
         }
