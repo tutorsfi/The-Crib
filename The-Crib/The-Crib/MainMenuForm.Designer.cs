@@ -34,9 +34,10 @@
             // 
             // StartGameBT
             // 
-            this.StartGameBT.Location = new System.Drawing.Point(892, 358);
+            this.StartGameBT.Location = new System.Drawing.Point(669, 291);
+            this.StartGameBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.StartGameBT.Name = "StartGameBT";
-            this.StartGameBT.Size = new System.Drawing.Size(137, 58);
+            this.StartGameBT.Size = new System.Drawing.Size(103, 47);
             this.StartGameBT.TabIndex = 0;
             this.StartGameBT.Text = "Start game";
             this.StartGameBT.UseVisualStyleBackColor = true;
@@ -44,22 +45,24 @@
             // 
             // CreditsBT
             // 
-            this.CreditsBT.Location = new System.Drawing.Point(892, 490);
+            this.CreditsBT.Location = new System.Drawing.Point(669, 398);
+            this.CreditsBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CreditsBT.Name = "CreditsBT";
-            this.CreditsBT.Size = new System.Drawing.Size(137, 59);
+            this.CreditsBT.Size = new System.Drawing.Size(103, 48);
             this.CreditsBT.TabIndex = 1;
             this.CreditsBT.Text = "Credits";
             this.CreditsBT.UseVisualStyleBackColor = true;
             this.CreditsBT.Click += new System.EventHandler(this.CreditsBT_Click);
             // 
-            // StartGameForm
+            // MainMenuForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1632, 883);
+            this.ClientSize = new System.Drawing.Size(1634, 891);
             this.Controls.Add(this.CreditsBT);
             this.Controls.Add(this.StartGameBT);
-            this.Name = "StartGameForm";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartGameForm";
             this.Load += new System.EventHandler(this.StartGameForm_Load);

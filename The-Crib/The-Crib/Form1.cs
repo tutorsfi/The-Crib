@@ -32,19 +32,45 @@ namespace The_Crib
 
         private void UkrainianLaBT_Click(object sender, EventArgs e)
         {
-            laId = 2; // language id number for ukrainian language
-            laSe = true;
+            try 
+            {
+                laId = 2; // language id number for ukrainian language
+                //laSe = true;
+                MainMenuForm MaMeFo = new MainMenuForm(); // MainMenuForm 
+                MaMeFo.FormClosing += CloseForm; //
+                MaMeFo.LanguageId = laId; // passing id to another form
+                MaMeFo.Show(); // opening next form
+                this.Hide(); // hiding this one
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            //laId = 2; // language id number for ukrainian language
+            //laSe = true;
         }
 
         private void RussianLaBT_Click(object sender, EventArgs e)
         {
-            laId = 3; // language id number for russian language
-            laSe = true;
+            try
+            {
+                laId = 3; // language id number for russian language
+                //laSe = true;
+                MainMenuForm MaMeFo = new MainMenuForm(); // MainMenuForm 
+                MaMeFo.FormClosing += CloseForm; //
+                MaMeFo.LanguageId = laId; // passing id to another form
+                MaMeFo.Show(); // opening next form
+                this.Hide(); // hiding this one
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void NextFormBT_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 if(laSe == true)// Checking if language selected
                 {
@@ -64,7 +90,7 @@ namespace The_Crib
             {
                 MessageBox.Show(ex.Message);
             }
-            
+            */
         }
     }
 }

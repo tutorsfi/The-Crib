@@ -55,10 +55,10 @@
             this.HousePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("HousePB.BackgroundImage")));
             this.HousePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.HousePB.InitialImage = null;
-            this.HousePB.Location = new System.Drawing.Point(469, 418);
-            this.HousePB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.HousePB.Location = new System.Drawing.Point(590, 468);
+            this.HousePB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.HousePB.Name = "HousePB";
-            this.HousePB.Size = new System.Drawing.Size(780, 364);
+            this.HousePB.Size = new System.Drawing.Size(585, 296);
             this.HousePB.TabIndex = 0;
             this.HousePB.TabStop = false;
             this.HousePB.Click += new System.EventHandler(this.HousePB_Click);
@@ -67,10 +67,10 @@
             // 
             this.DoorPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DoorPB.BackgroundImage")));
             this.DoorPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.DoorPB.Location = new System.Drawing.Point(809, 619);
-            this.DoorPB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DoorPB.Location = new System.Drawing.Point(835, 633);
+            this.DoorPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DoorPB.Name = "DoorPB";
-            this.DoorPB.Size = new System.Drawing.Size(100, 150);
+            this.DoorPB.Size = new System.Drawing.Size(75, 122);
             this.DoorPB.TabIndex = 1;
             this.DoorPB.TabStop = false;
             this.DoorPB.Click += new System.EventHandler(this.DoorPB_Click);
@@ -80,9 +80,10 @@
             this.RoofPB.BackColor = System.Drawing.Color.Transparent;
             this.RoofPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RoofPB.BackgroundImage")));
             this.RoofPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.RoofPB.Location = new System.Drawing.Point(469, 372);
+            this.RoofPB.Location = new System.Drawing.Point(590, 434);
+            this.RoofPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RoofPB.Name = "RoofPB";
-            this.RoofPB.Size = new System.Drawing.Size(780, 50);
+            this.RoofPB.Size = new System.Drawing.Size(585, 41);
             this.RoofPB.TabIndex = 2;
             this.RoofPB.TabStop = false;
             this.RoofPB.Click += new System.EventHandler(this.RoofPB_Click);
@@ -92,9 +93,10 @@
             this.TreePB.BackColor = System.Drawing.Color.Transparent;
             this.TreePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TreePB.BackgroundImage")));
             this.TreePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TreePB.Location = new System.Drawing.Point(1255, 418);
+            this.TreePB.Location = new System.Drawing.Point(1211, 429);
+            this.TreePB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TreePB.Name = "TreePB";
-            this.TreePB.Size = new System.Drawing.Size(256, 412);
+            this.TreePB.Size = new System.Drawing.Size(192, 335);
             this.TreePB.TabIndex = 3;
             this.TreePB.TabStop = false;
             this.TreePB.Click += new System.EventHandler(this.TreePB_Click);
@@ -104,9 +106,10 @@
             this.BushPB.BackColor = System.Drawing.Color.Transparent;
             this.BushPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BushPB.BackgroundImage")));
             this.BushPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BushPB.Location = new System.Drawing.Point(313, 688);
+            this.BushPB.Location = new System.Drawing.Point(440, 679);
+            this.BushPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BushPB.Name = "BushPB";
-            this.BushPB.Size = new System.Drawing.Size(160, 94);
+            this.BushPB.Size = new System.Drawing.Size(120, 76);
             this.BushPB.TabIndex = 4;
             this.BushPB.TabStop = false;
             this.BushPB.Click += new System.EventHandler(this.BushPB_Click);
@@ -116,9 +119,10 @@
             this.WindowKiPB.BackColor = System.Drawing.Color.DarkOrange;
             this.WindowKiPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowKiPB.BackgroundImage")));
             this.WindowKiPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.WindowKiPB.Location = new System.Drawing.Point(541, 619);
+            this.WindowKiPB.Location = new System.Drawing.Point(631, 624);
+            this.WindowKiPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WindowKiPB.Name = "WindowKiPB";
-            this.WindowKiPB.Size = new System.Drawing.Size(160, 116);
+            this.WindowKiPB.Size = new System.Drawing.Size(120, 94);
             this.WindowKiPB.TabIndex = 5;
             this.WindowKiPB.TabStop = false;
             this.WindowKiPB.Click += new System.EventHandler(this.WindowKiPB_Click);
@@ -128,9 +132,10 @@
             this.WindowWcPB.BackColor = System.Drawing.Color.DarkOrange;
             this.WindowWcPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowWcPB.BackgroundImage")));
             this.WindowWcPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.WindowWcPB.Location = new System.Drawing.Point(1025, 619);
+            this.WindowWcPB.Location = new System.Drawing.Point(1015, 624);
+            this.WindowWcPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WindowWcPB.Name = "WindowWcPB";
-            this.WindowWcPB.Size = new System.Drawing.Size(160, 116);
+            this.WindowWcPB.Size = new System.Drawing.Size(120, 94);
             this.WindowWcPB.TabIndex = 6;
             this.WindowWcPB.TabStop = false;
             this.WindowWcPB.Click += new System.EventHandler(this.WindowWcPB_Click);
@@ -140,9 +145,10 @@
             this.WindowMasBedPB.BackColor = System.Drawing.Color.DarkOrange;
             this.WindowMasBedPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowMasBedPB.BackgroundImage")));
             this.WindowMasBedPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.WindowMasBedPB.Location = new System.Drawing.Point(541, 471);
+            this.WindowMasBedPB.Location = new System.Drawing.Point(631, 492);
+            this.WindowMasBedPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WindowMasBedPB.Name = "WindowMasBedPB";
-            this.WindowMasBedPB.Size = new System.Drawing.Size(160, 116);
+            this.WindowMasBedPB.Size = new System.Drawing.Size(120, 94);
             this.WindowMasBedPB.TabIndex = 7;
             this.WindowMasBedPB.TabStop = false;
             this.WindowMasBedPB.Click += new System.EventHandler(this.WindowMasBedPB_Click);
@@ -152,20 +158,21 @@
             this.WindowBathroomPB.BackColor = System.Drawing.Color.DarkOrange;
             this.WindowBathroomPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowBathroomPB.BackgroundImage")));
             this.WindowBathroomPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.WindowBathroomPB.Location = new System.Drawing.Point(787, 471);
+            this.WindowBathroomPB.Location = new System.Drawing.Point(817, 492);
+            this.WindowBathroomPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WindowBathroomPB.Name = "WindowBathroomPB";
-            this.WindowBathroomPB.Size = new System.Drawing.Size(160, 116);
+            this.WindowBathroomPB.Size = new System.Drawing.Size(120, 94);
             this.WindowBathroomPB.TabIndex = 8;
             this.WindowBathroomPB.TabStop = false;
             this.WindowBathroomPB.Click += new System.EventHandler(this.WindowBathroomPB_Click);
             // 
             // FrontYardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1632, 883);
+            this.ClientSize = new System.Drawing.Size(1634, 891);
             this.Controls.Add(this.WindowBathroomPB);
             this.Controls.Add(this.WindowMasBedPB);
             this.Controls.Add(this.WindowWcPB);
@@ -176,7 +183,7 @@
             this.Controls.Add(this.DoorPB);
             this.Controls.Add(this.HousePB);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrontYardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrontYardForm";

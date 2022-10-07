@@ -35,9 +35,10 @@
             // 
             // UkrainianLaBT
             // 
-            this.UkrainianLaBT.Location = new System.Drawing.Point(565, 371);
+            this.UkrainianLaBT.Location = new System.Drawing.Point(424, 301);
+            this.UkrainianLaBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UkrainianLaBT.Name = "UkrainianLaBT";
-            this.UkrainianLaBT.Size = new System.Drawing.Size(120, 44);
+            this.UkrainianLaBT.Size = new System.Drawing.Size(90, 36);
             this.UkrainianLaBT.TabIndex = 0;
             this.UkrainianLaBT.Text = "UA";
             this.UkrainianLaBT.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // RussianLaBT
             // 
-            this.RussianLaBT.Location = new System.Drawing.Point(967, 371);
+            this.RussianLaBT.Location = new System.Drawing.Point(725, 301);
+            this.RussianLaBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RussianLaBT.Name = "RussianLaBT";
-            this.RussianLaBT.Size = new System.Drawing.Size(118, 43);
+            this.RussianLaBT.Size = new System.Drawing.Size(88, 35);
             this.RussianLaBT.TabIndex = 1;
             this.RussianLaBT.Text = "RUS";
             this.RussianLaBT.UseVisualStyleBackColor = true;
@@ -55,25 +57,28 @@
             // 
             // NextFormBT
             // 
-            this.NextFormBT.Location = new System.Drawing.Point(733, 600);
+            this.NextFormBT.Location = new System.Drawing.Point(550, 488);
+            this.NextFormBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NextFormBT.Name = "NextFormBT";
-            this.NextFormBT.Size = new System.Drawing.Size(112, 44);
+            this.NextFormBT.Size = new System.Drawing.Size(84, 36);
             this.NextFormBT.TabIndex = 2;
             this.NextFormBT.Text = "Next form";
             this.NextFormBT.UseVisualStyleBackColor = true;
+            this.NextFormBT.Visible = false;
             this.NextFormBT.Click += new System.EventHandler(this.NextFormBT_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1632, 883);
+            this.ClientSize = new System.Drawing.Size(1634, 891);
             this.Controls.Add(this.NextFormBT);
             this.Controls.Add(this.RussianLaBT);
             this.Controls.Add(this.UkrainianLaBT);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Language";
             this.ResumeLayout(false);
 
         }
