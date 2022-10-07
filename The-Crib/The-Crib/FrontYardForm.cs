@@ -10,9 +10,8 @@ using System.Windows.Forms;
 /// author@ Antti Kuusisto
 /// version 5.10.2022
 /// <summary>
-/// Front yard view. Unfinished. Door doesn't show words yet. It's now serving only button to enter house. MessageBox needs modification to work when player
-/// clicks door, idea for that needs testing in demo. Who makes room where door leads should edit correct form name to DoorPB_Click() void and edit this
-/// sentance.
+/// Front yard view. Unfinished. New messagebox attached to door. Quick tests in demo doesn't work if code is in class so
+/// now code is in DoorPB_click - method.
 ///</summary>
 
 namespace The_Crib
@@ -49,15 +48,73 @@ namespace The_Crib
         }
 
         private void DoorPB_Click(object sender, EventArgs e)
-        {   
-            // modifie needed comments where line starts
-            //PictureBox image = sender as PictureBox;
-            //diFrYa.Show(image.Name, lanId); // at this point not in use
-            //FrontYardForm frYaFo = new FrontYardForm(); // Next room here 
-            //frYaFo.FormClosing += CloseForm; //
-            //frYaFo.LanguageId = laId; // passing id to another form
-            //frYaFo.Show(); // opening next form
-            //this.Hide(); // hiding this one
+        {
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
+        {
+                {"DoorPB", "a door,ovi,двері,дверь" }// Words for door
+        };
+            string selectedWord = doorLibrary["DoorPB"];//Selecting words for picture from library by key.
+            string[] separators = { "," };//Defining separators for array assigning
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+            string word = wordArr[lanId];//Selecting right word for picture by index.
+            string fiWord = wordArr[0];// variable for finnish word
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord); // calling "message box"
+            if (result == DialogResult.OK)// clicked button in message box for returning to current page
+            {
+                CustMessageBox.Close(); // closing messagebox
+            }
+            else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
+            {
+                BackYardForm baYaFo = new BackYardForm();//room where door leads
+                baYaFo.FormClosing += CloseForm;// call CloseForm method
+                baYaFo.LanguageId = laId; // passing id to another form
+                baYaFo.Show();
+                this.Hide();
+
+            }
+        }
+
+        private void BushPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void TreePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void RoofPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowKiPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowMasBedPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowBathroomPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
+
+        private void WindowWcPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
         }
     }
 }

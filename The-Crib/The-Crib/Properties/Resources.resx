@@ -118,31 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Sink_Bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sink_Bathroom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="UpstairsHallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UpstairsHallway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bathroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LowerCabinet1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LowerCabinet1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LowerCabinet11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LowerCabinet11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WashingMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WashingMachine1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BathroomFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BathroomFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToiletBowl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToiletBowl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sauna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sauna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sink" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sink1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sink1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Shower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shower1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
