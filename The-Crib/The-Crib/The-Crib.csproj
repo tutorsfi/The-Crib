@@ -197,5 +197,20 @@
   <ItemGroup>
     <None Include="Resources\Bathroom2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BathroomFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WashingMachine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToiletBowl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sink_Bathroom1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shower1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
