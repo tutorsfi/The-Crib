@@ -15,15 +15,15 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {
             // order ENG-FI-UA-RUS
-            {"ToiletPB", "Toilet bowl,Pönttö,унітаз,унитаз"},
-            {"ToiletPaperPB", "Toilet paper,Vessapaperi,туалетний папір,туалетная бумага"},
-            {"MirrorPB", "Mirror cabinet,Peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
-            {"SinkPB", "Sink,Lavuaari,раковина,раковина"},
-            {"TapPB", "Tap,Hana,кран,кран"},
-            {"SoapPB", "Handsoap,Käsisaippua,мило для рук,мыло для рук"},
-            {"ToiletBrushPB", "Toilet brush,Vessaharja,йоржик для унітазу,йоржик для унітазу"},
-            {"BidetPB", "Bidet shower,Käsisuihku,біде,гигиенический душ"},
-            {"HandTowelPB", "Hand towel,Käsipyyhe,рушник для рук,полотенце для рук"}
+            {"ToiletPB", "toilet bowl,pönttö,унітаз,унитаз"},
+            {"ToiletPaperPB", "toilet paper,vessapaperi,туалетний папір,туалетная бумага"},
+            {"MirrorPB", "mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
+            {"SinkPB", "sink,lavuaari,раковина,раковина"},
+            {"TapPB", "tap,Hana,кран,кран"},
+            {"SoapPB", "handsoap,käsisaippua,мило для рук,мыло для рук"},
+            {"ToiletBrushPB", "toilet brush,vessaharja,йоржик для унітазу,йоржик для унітазу"},
+            {"BidetPB", "bidet shower,käsisuihku,біде,гигиенический душ"},
+            {"HandTowelPB", "hand towel,käsipyyhe,рушник для рук,полотенце для рук"}
         };
 
         public void Show(string pic, int lanId)

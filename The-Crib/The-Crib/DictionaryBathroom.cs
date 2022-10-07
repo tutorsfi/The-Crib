@@ -17,19 +17,18 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {
             // order ENG-FI-UA-RUS
-            {"ToiletPB", "Toilet bowl,Pönttö,унітаз,унитаз"},
-            {"MirrorPB", "Mirror cabinet,Peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
-            {"HandsoapPB", "Handsoap,Käsisaippua,мило для рук,мыло для рук"},
-            {"ToiletBrushPB", "Toilet brush,Vessaharja,йоржик для унітазу,ёршик для унитаза"},
-            {"SinkPB", "Sink,Lavuaari,раковина,раковина"},
-            {"TapPB", "Tap,Hana,кран,кран"},
-            {"TowelPB","Towel,Pyyhe,рушник,полотенце"},
-            {"ToothBrushPB","Tooth brush,Hammasharja,зубна щітка,зубная щетка"},
-            {"ShowerPB","Shower,Suihku,душ,душ"},
-            {"WashingMachinePB","Washing machine,Pyykinpesukone,пральна машина,стиральная машина"},
-            {"ToothPastePB","Toothpaste,Hammastahna,зубна паста,зубная паста"},
-            {"ShampooPB","Shampoo,Shampoo,шампунь,шампунь"},
-            {"DetergentPB","Laundry detergent,Pyykinpesuaine,пральний порошок,стиральный порошок"}
+            {"ToiletPB", "toilet bowl,pönttö,унітаз,унитаз"},
+            {"MirrorPB", "mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
+            {"HandsoapPB", "handsoap,käsisaippua,мило для рук,мыло для рук"},
+            {"ToiletBrushPB", "toilet brush,vessaharja,йоржик для унітазу,ёршик для унитаза"},
+            {"SinkPB", "sink,lavuaari,раковина,раковина"},
+            {"TowelPB","towel,pyyhe,рушник,полотенце"},
+            {"ToothBrushPB","tooth brush,jammasharja,зубна щітка,зубная щетка"},
+            {"ShowerPB","shower,suihku,душ,душ"},
+            {"WashingMachinePB","washing machine,pyykinpesukone,пральна машина,стиральная машина"},
+            {"ToothPastePB","toothpaste,hammastahna,зубна паста,зубная паста"},
+            {"ShampooPB","shampoo,shampoo,шампунь,шампунь"},
+            {"DetergentPB","laundry detergent,pyykinpesuaine,пральний порошок,стиральный порошок"}
         };
 
         // Method to show the custom messagebox with the original and translated word
