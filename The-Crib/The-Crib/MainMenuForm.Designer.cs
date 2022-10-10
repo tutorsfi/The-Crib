@@ -65,8 +65,8 @@
             this.Controls.Add(this.StartGameBT);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainMenuForm";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StartGameForm";
             this.Load += new System.EventHandler(this.StartGameForm_Load);
             this.ResumeLayout(false);
 

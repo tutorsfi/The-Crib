@@ -255,40 +255,19 @@
     <None Include="Resources\CeilingLamp.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Shower2.png" />
+    <None Include="Resources\Wardrobe_MasterBedroom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SaunaDoorOnTheLeft.png" />
+    <None Include="Resources\Bed_MasterBedroom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SaunaBench1.png" />
+    <None Include="Resources\Bedspread.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SaunaBench11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SaunaBench2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SaunaStove.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Door.png" />
+    <None Include="Resources\base_image.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DoorToLeft.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DoorToLeft1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DoorToRight.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -23,7 +23,8 @@ namespace The_Crib
             {"WindowKiPB","a window,ikkuna,вікно,окно" },// Words for Window
             {"WindowMasBedPB","a window,ikkuna,вікно,окно" },
             {"WindowBathroomPB","a window,ikkuna,вікно,окно"  },
-            {"WindowWcPB","a window,ikkuna,вікно,окно"  }
+            {"WindowWcPB","a window,ikkuna,вікно,окно"  },
+            {"FencePB","a fence,aita,паркан,забор" }//Words for Fence
         };
 
 

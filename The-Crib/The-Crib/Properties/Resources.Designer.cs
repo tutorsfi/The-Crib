@@ -63,19 +63,9 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap arrow {
+        internal static System.Drawing.Bitmap base_image {
             get {
-                object obj = ResourceManager.GetObject("arrow", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrow2 {
-            get {
-                object obj = ResourceManager.GetObject("arrow2", resourceCulture);
+                object obj = ResourceManager.GetObject("base_image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +83,26 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bed_MasterBedroom {
+            get {
+                object obj = ResourceManager.GetObject("Bed_MasterBedroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bedspread {
+            get {
+                object obj = ResourceManager.GetObject("Bedspread", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CeilingLamp {
             get {
                 object obj = ResourceManager.GetObject("CeilingLamp", resourceCulture);
@@ -103,29 +113,9 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Door {
-            get {
-                object obj = ResourceManager.GetObject("Door", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap DoorToLeft {
             get {
                 object obj = ResourceManager.GetObject("DoorToLeft", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap DoorToRight {
-            get {
-                object obj = ResourceManager.GetObject("DoorToRight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,46 +146,6 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap Sauna {
             get {
                 object obj = ResourceManager.GetObject("Sauna", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SaunaBench1 {
-            get {
-                object obj = ResourceManager.GetObject("SaunaBench1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SaunaBench2 {
-            get {
-                object obj = ResourceManager.GetObject("SaunaBench2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SaunaDoorOnTheLeft {
-            get {
-                object obj = ResourceManager.GetObject("SaunaDoorOnTheLeft", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SaunaStove {
-            get {
-                object obj = ResourceManager.GetObject("SaunaStove", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +196,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap UpstairsHallway {
             get {
                 object obj = ResourceManager.GetObject("UpstairsHallway", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Wardrobe_MasterBedroom {
+            get {
+                object obj = ResourceManager.GetObject("Wardrobe_MasterBedroom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
