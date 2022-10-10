@@ -116,5 +116,11 @@ namespace The_Crib
             PictureBox image = sender as PictureBox;
             diFrYa.Show(image.Name, lanId);
         }
+
+        private void FencePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diFrYa.Show(image.Name, lanId);
+        }
     }
 }
