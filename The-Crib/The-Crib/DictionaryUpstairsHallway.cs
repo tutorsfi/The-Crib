@@ -27,13 +27,10 @@ namespace The_Crib
                 string[] separators = { "," };
                 string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
                 string word = wordArr[lanId];
-                string enWord = wordArr[0];
                 string fiWord = wordArr[1];
-                string uaWord = wordArr[2];
-                string ruWord = wordArr[3];
 
                 CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm();
-                DialogResult result = customMessageBoxForm.ShowDialog(uaWord, fiWord);
+                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord);
                 if (result == DialogResult.OK)
                 {
                     customMessageBoxForm.Close();

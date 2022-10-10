@@ -67,5 +67,41 @@ namespace The_Crib
 
             }
         }
+
+        private void HousePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void WindowDRPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void WindowSRPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void WindowKRPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void RoofPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void SwingPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
     }
 }

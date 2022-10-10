@@ -50,18 +50,61 @@ namespace The_Crib
             this.Hide();
         }
 
-        // private void SaunaDoor_Click(object sender, Eventargs e)
-        // {
-        // SaunaRoom sauna = new SaunaRoom();
-        // sauna.FormClosing += CloseForm;
-        // sauna.Show();
-        // this.Hide();
-        // }
+        private void SaunaDoorPB_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>() 
+            {
+                {"SaunaDoorPB","sauna door, saunan ovi,sana,sana"}
+            };
 
-    
+            string selectedWord = doorLibrary["SaunaDoorPB"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            if (result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                SaunaForm Sauna = new SaunaForm();
+                Sauna.FormClosing += CloseForm;
+                Sauna.LanguageId = lanId;
+                Sauna.Show();
+                this.Hide();
+            }
+        }
 
+        private void BathroomLeavePB_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> leave = new Dictionary<string, string>()
+            {
+                {"BathroomLeavePB","upstairs hallway, yläkerran käytävä"}
+            };
 
+            string selectedWord = leave["BathroomLeavePB"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators,StringSplitOptions.RemoveEmptyEntries);
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word,fiWord);
+            if(result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                UpstairsHallwayForm upHallway = new UpstairsHallwayForm();
+                upHallway.FormClosing += CloseForm;
+                upHallway.LanguageId = lanId;
+                upHallway.Show();
+                this.Hide();
+            }
 
-
+        }
     }
 }

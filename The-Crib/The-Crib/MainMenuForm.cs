@@ -40,7 +40,7 @@ namespace The_Crib
             Dictionary<string, string> buttonLibrary = new Dictionary<string, string>()
             {
                 {"StartGameBT", "Start Game,Aloita Peli,Почни гру,Начать игру" },// Need to check used Google Translate
-                {"CreditsBT", "Credits,Tekijät,Кредити,Кредиты"}
+                {"CreditsBT", "Credits,Tekijät,Кредити,Кредиты"} // Need to check used Google Translate
             };
             string startWord = buttonLibrary["StartGameBT"];//Selecting words for StartGameBT from library by key.
             string[] separators = { "," };//Defining separators for array assigning
