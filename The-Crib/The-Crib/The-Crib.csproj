@@ -270,19 +270,16 @@
     <None Include="Resources\DoorToLeft.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\koivu_metsä.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\semi_transparent_background.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Frontyard.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\maapallo.png" />
+    <None Include="Resources\semi_transparent_background1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\TUTORS_logo_nega_h40mm.png" />
+    <None Include="Resources\TUTORS_logo_nega_h40mm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maapallo_owl.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
