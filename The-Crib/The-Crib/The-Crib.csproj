@@ -267,9 +267,6 @@
     <None Include="Resources\base_image.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\DoorToLeft.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Frontyard.png" />
   </ItemGroup>
   <ItemGroup>
@@ -282,19 +279,28 @@
     <None Include="Resources\maapallo_owl.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Study_base.png" />
+    <None Include="Resources\SaunaBench1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Desk.png" />
+    <None Include="Resources\arrow.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Laptop.png" />
+    <None Include="Resources\arrow2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\OfficeChair.png" />
+    <None Include="Resources\Door.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Study_base1.png" />
+    <None Include="Resources\DoorToRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToRight1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaDoorOnTheLeft.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

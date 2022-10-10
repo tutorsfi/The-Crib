@@ -36,6 +36,7 @@
             this.BorderRight = new System.Windows.Forms.Panel();
             this.MessBoxPNL = new System.Windows.Forms.Panel();
             this.BorderBottom = new System.Windows.Forms.Panel();
+            this.OnlyInYardDoorsLB = new System.Windows.Forms.Label();
             this.MessBoxPNL.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,12 +44,12 @@
             // 
             this.WordLB.AutoSize = true;
             this.WordLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WordLB.Location = new System.Drawing.Point(69, 54);
+            this.WordLB.Location = new System.Drawing.Point(116, 28);
             this.WordLB.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WordLB.Name = "WordLB";
-            this.WordLB.Size = new System.Drawing.Size(86, 31);
+            this.WordLB.Size = new System.Drawing.Size(277, 31);
             this.WordLB.TabIndex = 0;
-            this.WordLB.Text = "label1";
+            this.WordLB.Text = "Vocabulary goes here";
             this.WordLB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ReturnBT
@@ -128,6 +129,17 @@
             this.BorderBottom.Size = new System.Drawing.Size(496, 4);
             this.BorderBottom.TabIndex = 6;
             // 
+            // OnlyInYardDoorsLB
+            // 
+            this.OnlyInYardDoorsLB.AutoSize = true;
+            this.OnlyInYardDoorsLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OnlyInYardDoorsLB.Location = new System.Drawing.Point(116, 82);
+            this.OnlyInYardDoorsLB.Name = "OnlyInYardDoorsLB";
+            this.OnlyInYardDoorsLB.Size = new System.Drawing.Size(185, 31);
+            this.OnlyInYardDoorsLB.TabIndex = 0;
+            this.OnlyInYardDoorsLB.Text = "Room to enter";
+            this.OnlyInYardDoorsLB.Visible = false;
+            // 
             // CustomDoorMessageBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -135,6 +147,7 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(501, 228);
+            this.Controls.Add(this.OnlyInYardDoorsLB);
             this.Controls.Add(this.BorderRight);
             this.Controls.Add(this.BorderLeft);
             this.Controls.Add(this.BorderTop);
@@ -165,5 +178,6 @@
         private System.Windows.Forms.Panel BorderRight;
         private System.Windows.Forms.Panel MessBoxPNL;
         private System.Windows.Forms.Panel BorderBottom;
+        private System.Windows.Forms.Label OnlyInYardDoorsLB;
     }
 }
