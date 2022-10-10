@@ -121,17 +121,23 @@
   <data name="base_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="semi_transparent_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\semi_transparent_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="KidsRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KidsRoom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StudyRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StudyRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Bed_MasterBedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed_MasterBedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koivu_metsä" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\koivu_metsä.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maapallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maapallo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WashingMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WashingMachine1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,14 +145,17 @@
   <data name="Sink_Bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sink_Bathroom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MasterBedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MasterBedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CeilingLamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CeilingLamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sauna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sauna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MasterBedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MasterBedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Frontyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frontyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ToiletBowl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ToiletBowl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,13 +169,19 @@
   <data name="Wardrobe_MasterBedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wardrobe_MasterBedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="WC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Shower" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shower1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoorToLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DoorToLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BathroomFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BathroomFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DoorToLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DoorToLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TUTORS_logo_nega_h40mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TUTORS_logo_nega_h40mm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

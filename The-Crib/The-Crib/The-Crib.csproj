@@ -269,5 +269,20 @@
   <ItemGroup>
     <None Include="Resources\DoorToLeft.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koivu_metsä.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semi_transparent_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frontyard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maapallo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUTORS_logo_nega_h40mm.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
