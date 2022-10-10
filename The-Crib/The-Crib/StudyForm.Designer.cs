@@ -62,7 +62,6 @@
             // deskSTPB
             // 
             this.deskSTPB.BackColor = System.Drawing.Color.Transparent;
-            this.deskSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Desk;
             this.deskSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.deskSTPB.Location = new System.Drawing.Point(835, 475);
             this.deskSTPB.Name = "deskSTPB";
@@ -74,7 +73,7 @@
             // laptopSTPB
             // 
             this.laptopSTPB.BackColor = System.Drawing.Color.Transparent;
-            this.laptopSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Laptop;
+            this.laptopSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Laptop1;
             this.laptopSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.laptopSTPB.Location = new System.Drawing.Point(1146, 396);
             this.laptopSTPB.Name = "laptopSTPB";
@@ -86,7 +85,7 @@
             // chairSTPB
             // 
             this.chairSTPB.BackColor = System.Drawing.Color.Transparent;
-            this.chairSTPB.BackgroundImage = global::The_Crib.Properties.Resources.OfficeChair;
+            this.chairSTPB.BackgroundImage = global::The_Crib.Properties.Resources.OfficeChair1;
             this.chairSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.chairSTPB.Location = new System.Drawing.Point(1232, 423);
             this.chairSTPB.Name = "chairSTPB";
@@ -240,9 +239,9 @@
             this.doorSTPB.BackColor = System.Drawing.Color.Transparent;
             this.doorSTPB.BackgroundImage = global::The_Crib.Properties.Resources.DoorToLeft;
             this.doorSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.doorSTPB.Location = new System.Drawing.Point(-12, 89);
+            this.doorSTPB.Location = new System.Drawing.Point(1, 92);
             this.doorSTPB.Name = "doorSTPB";
-            this.doorSTPB.Size = new System.Drawing.Size(292, 799);
+            this.doorSTPB.Size = new System.Drawing.Size(185, 787);
             this.doorSTPB.TabIndex = 17;
             this.doorSTPB.TabStop = false;
             this.doorSTPB.Click += new System.EventHandler(this.doorSTPB_Click);
@@ -251,7 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::The_Crib.Properties.Resources.Study_base1;
+            this.BackgroundImage = global::The_Crib.Properties.Resources.Study_base2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
             this.Controls.Add(this.doorSTPB);

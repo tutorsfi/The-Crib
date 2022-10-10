@@ -69,17 +69,23 @@ namespace The_Crib
 
         private void doorBRPB_Click(object sender, EventArgs e)
         {
+            bool show = false;
             Dictionary<string, string> doorDic = new Dictionary<string, string>()
         {
-                {"DoorMBPB", "a door,ovi,двері,дверь" }// EN - FI - UA - RU
+                {"DoorMBPB", "a door,ovi,двері,дверь" },    // EN - FI - UA - RU
+                {"room","a living room,olohuone,Вітальня,гостиная" }
         };
             string selectedWord = doorDic["DoorMBPB"];
+            string roomWord = doorDic["room"];
             string[] separators = { "," };
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[0];
             string word = wordArr[lanId];   //Selecting right word by lang index
             string fiWord = wordArr[0];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
             if (result == DialogResult.OK)  //return to current form 
             {
                 CustMessageBox.Close(); 
