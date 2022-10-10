@@ -42,17 +42,23 @@ namespace The_Crib
 
         private void DoorPB_Click(object sender, EventArgs e)
         {
+            bool show = true; // boolean for outdoors to show label where is translation for door
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
         {
-                {"DoorPB", "a door,ovi,двері,дверь" }// Words for door
+                {"DoorPB", "a door,ovi,двері,дверь" },// Words for door
+                {"room","a living room,olohuone,Вітальня,гостиная" }// need to verify.
         };
             string selectedWord = doorLibrary["DoorPB"];//Selecting words for picture from library by key.
+            string roomWord = doorLibrary["room"];//Selecting words for room
             string[] separators = { "," };//Defining separators for array assigning
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];// selecting room words
+            string fiRoom = roomArr[0];// fi room name
             string word = wordArr[lanId];//Selecting right word for picture by index.
             string fiWord = wordArr[0];// variable for finnish word
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord); // calling "message box"
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show); // calling "message box"
             if (result == DialogResult.OK)// clicked button in message box for returning to current page
             {
                 CustMessageBox.Close(); // closing messagebox
