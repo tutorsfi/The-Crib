@@ -281,5 +281,20 @@
   <ItemGroup>
     <None Include="Resources\maapallo_owl.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Study_base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laptop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OfficeChair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Study_base1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

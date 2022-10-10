@@ -130,8 +130,14 @@
   <data name="StudyRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StudyRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Study_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Study_base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maapallo_owl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maapallo_owl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bed_MasterBedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed_MasterBedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +147,12 @@
   </data>
   <data name="Sink_Bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sink_Bathroom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OfficeChair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OfficeChair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CeilingLamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CeilingLamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +172,8 @@
   <data name="ToiletBowl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ToiletBowl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bedspread" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bedspread.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Laptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laptop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="UpstairsHallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UpstairsHallway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,10 +190,13 @@
   <data name="DoorToLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DoorToLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Bedspread" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bedspread.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BathroomFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BathroomFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maapallo_owl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maapallo_owl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Study_base1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Study_base1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

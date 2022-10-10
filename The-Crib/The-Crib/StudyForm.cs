@@ -19,7 +19,7 @@ namespace The_Crib
     public partial class StudyForm : Form
     {
 
-        DictionaryFrontYard diFrYa = new DictionaryFrontYard(); //variable for class where words are 
+        DictionaryStudyRoom study = new DictionaryStudyRoom(); //variable for class where words are 
         int lanId; // variable for language id
         private int laId; // private declariation for get/set
         public int LanguageId // get/set defenition
@@ -31,6 +31,99 @@ namespace The_Crib
         public StudyForm()
         {
             InitializeComponent();
+        }
+
+        void CloseForm(object sender, FormClosingEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void deskSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void laptopSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void chairSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void calendarSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void phoneSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void notebookSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void penSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void desklampSTRPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void bookshelfSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void extensionCordSTPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            study.Show(image.Name, lanId);
+        }
+
+        private void doorSTPB_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> doorDic = new Dictionary<string, string>()
+        {
+                {"DoorSTPB", "a door,ovi,двері,дверь" }// EN - FI - UA - RU
+        };
+            string selectedWord = doorDic["DoorMBPB"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string word = wordArr[lanId];   //Selecting right word by lang index
+            string fiWord = wordArr[0];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            if (result == DialogResult.OK)  //return to current form 
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)    // move to next rooom
+            {
+                UpstairsHallwayForm hallway = new UpstairsHallwayForm();    //room the door leads to
+                hallway.FormClosing += CloseForm;   // call CloseForm method
+                hallway.LanguageId = laId;  // passing lang id to other form
+                hallway.Show();
+                this.Hide();
+
+            }
         }
     }
 }
