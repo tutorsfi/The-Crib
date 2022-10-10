@@ -269,5 +269,32 @@
   <ItemGroup>
     <None Include="Resources\DoorToLeft.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToRight1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToRight2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaBench12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaBench21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaStove1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaDoorOnTheLeft1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
