@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.UkrainianLaBT = new System.Windows.Forms.Button();
             this.RussianLaBT = new System.Windows.Forms.Button();
             this.NextFormBT = new System.Windows.Forms.Button();
@@ -35,20 +36,21 @@
             // 
             // UkrainianLaBT
             // 
+            this.UkrainianLaBT.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("UkrainianLaBT.BackgroundImage")));
+            this.UkrainianLaBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.UkrainianLaBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UkrainianLaBT.Location = new System.Drawing.Point(424, 301);
+            this.UkrainianLaBT.Location = new System.Drawing.Point(550, 301);
             this.UkrainianLaBT.Margin = new System.Windows.Forms.Padding(2);
             this.UkrainianLaBT.Name = "UkrainianLaBT";
             this.UkrainianLaBT.Size = new System.Drawing.Size(194, 78);
             this.UkrainianLaBT.TabIndex = 0;
-            this.UkrainianLaBT.Text = "UA";
             this.UkrainianLaBT.UseVisualStyleBackColor = true;
             this.UkrainianLaBT.Click += new System.EventHandler(this.UkrainianLaBT_Click);
             // 
             // RussianLaBT
             // 
             this.RussianLaBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RussianLaBT.Location = new System.Drawing.Point(725, 301);
+            this.RussianLaBT.Location = new System.Drawing.Point(855, 301);
             this.RussianLaBT.Margin = new System.Windows.Forms.Padding(2);
             this.RussianLaBT.Name = "RussianLaBT";
             this.RussianLaBT.Size = new System.Drawing.Size(206, 78);
