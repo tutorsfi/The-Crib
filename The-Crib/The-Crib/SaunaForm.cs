@@ -37,12 +37,6 @@ namespace The_Crib
             this.Close();
         }
 
-        //private void SaunaImgPB(object sender, EventArgs e)
-        //{
-        // PictureBox image = sender as PictureBox;
-        // look.Show(image.Name, lanId);
-        //}
-
         private void SelectLanguageBt_Click(object sender, EventArgs e)
         {
             Form1 seLa = new Form1();
@@ -51,8 +45,38 @@ namespace The_Crib
             this.Hide();
         }
 
+        private void SaunaImgPB(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            look.Show(image.Name, lanId);
+        }
 
+        private void LeaveSaunaPB_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> leave = new Dictionary<string, string>()
+            {
+                {"LeaveSaunaPB","bathroom, kylpyhuone"}
+            };
 
-
+            string selectedWord = leave["LeaveSaunaPB"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            if (result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                BathroomForm bathroom = new BathroomForm();
+                bathroom.FormClosing += CloseForm;
+                bathroom.LanguageId = lanId;
+                bathroom.Show();
+                this.Hide();
+            }
+        }
     }
 }

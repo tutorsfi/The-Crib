@@ -57,3 +57,6 @@ C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.csproj
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.exe
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The-Crib.pdb
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.KidsRoomForm.resources
+C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KidsRoomForm.resources
+C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MasterBedroomForm.resources
+C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.StudyForm.resources
