@@ -254,5 +254,20 @@
   <ItemGroup>
     <None Include="Resources\CeilingLamp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wardrobe_MasterBedroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_MasterBedroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bedspread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToLeft.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
