@@ -105,7 +105,7 @@
             // 
             this.SaunaDoorPB.BackColor = System.Drawing.Color.Transparent;
             this.SaunaDoorPB.Image = global::The_Crib.Properties.Resources.SaunaDoorOnTheLeft;
-            this.SaunaDoorPB.Location = new System.Drawing.Point(-1, 110);
+            this.SaunaDoorPB.Location = new System.Drawing.Point(0, 107);
             this.SaunaDoorPB.Name = "SaunaDoorPB";
             this.SaunaDoorPB.Size = new System.Drawing.Size(194, 824);
             this.SaunaDoorPB.TabIndex = 7;

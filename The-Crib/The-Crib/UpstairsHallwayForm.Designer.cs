@@ -88,7 +88,7 @@
             // StudyDoorPB
             // 
             this.StudyDoorPB.BackColor = System.Drawing.Color.Transparent;
-            this.StudyDoorPB.Image = global::The_Crib.Properties.Resources.DoorToRight;
+            this.StudyDoorPB.Image = global::The_Crib.Properties.Resources.DoorToRight1;
             this.StudyDoorPB.Location = new System.Drawing.Point(1470, 200);
             this.StudyDoorPB.Name = "StudyDoorPB";
             this.StudyDoorPB.Size = new System.Drawing.Size(153, 675);
