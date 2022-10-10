@@ -121,11 +121,8 @@
   <data name="base_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DoorToRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DoorToRight1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="semi_transparent_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\semi_transparent_background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="KidsRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KidsRoom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,17 +136,11 @@
   <data name="Bed_MasterBedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed_MasterBedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SaunaDoorOnTheLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SaunaDoorOnTheLeft1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="WashingMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WashingMachine1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sink_Bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sink_Bathroom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Door" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Door1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CeilingLamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CeilingLamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,8 +148,11 @@
   <data name="Sauna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sauna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MasterBedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MasterBedroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Frontyard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frontyard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TUTORS_logo_nega_h40mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TUTORS_logo_nega_h40mm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SaunaBench2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SaunaBench21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,16 +178,31 @@
   <data name="DoorToLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DoorToLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SaunaBench1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SaunaBench12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DoorToRight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DoorToRight2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BathroomFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BathroomFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maapallo_owl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maapallo_owl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoorToRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DoorToRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoorToRight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DoorToRight1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaunaBench1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaunaBench1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaunaDoorOnTheLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaunaDoorOnTheLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
