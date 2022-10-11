@@ -74,6 +74,7 @@
     <Compile Include="DictionaryBathroom.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
+    <Compile Include="DictionaryKitchen.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
     <Compile Include="DictionarySauna.cs" />
     <Compile Include="DictionaryStudyRoom.cs" />
@@ -96,6 +97,12 @@
     </Compile>
     <Compile Include="KidsRoomForm.Designer.cs">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitchenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitchenForm.Designer.cs">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterBedroomForm.cs">
       <SubType>Form</SubType>
@@ -155,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KidsRoomForm.resx">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitchenForm.resx">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
@@ -253,6 +263,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CeilingLamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitchen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freezer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fridge.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
