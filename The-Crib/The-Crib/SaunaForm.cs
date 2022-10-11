@@ -53,18 +53,24 @@ namespace The_Crib
 
         private void LeaveSaunaPB_Click(object sender, EventArgs e)
         {
-            Dictionary<string, string> leave = new Dictionary<string, string>()
+            bool show = true;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"LeaveSaunaPB","bathroom, kylpyhuone"}
+                {"LeaveSaunaPB","return,takaisin,word,word"},
+                {"room","a bathroom,kylpyhuone,word,word"}
             };
 
-            string selectedWord = leave["LeaveSaunaPB"];
+            string selectedWord = doorLibrary["LeaveSaunaPB"];
+            string roomWord = doorLibrary["room"];
             string[] separators = { "," };
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord,fiRoom,show);
             if (result == DialogResult.OK)
             {
                 CustMessageBox.Close();
@@ -73,7 +79,7 @@ namespace The_Crib
             {
                 BathroomForm bathroom = new BathroomForm();
                 bathroom.FormClosing += CloseForm;
-                bathroom.LanguageId = lanId;
+                bathroom.LanguageId = laId;
                 bathroom.Show();
                 this.Hide();
             }

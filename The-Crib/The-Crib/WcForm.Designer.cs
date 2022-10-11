@@ -50,6 +50,7 @@
             this.Name = "WcForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WcForm";
+            this.Load += new System.EventHandler(this.WcForm_Load);
             this.ResumeLayout(false);
 
         }

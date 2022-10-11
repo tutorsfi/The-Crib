@@ -48,18 +48,24 @@ namespace The_Crib
 
         private void BathroomDoorPB_Click(object sender, EventArgs e)
         {
+            bool show = true;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"BathroomDoorPB","bathroom door, kylpyhuoneen ovi,sana,sana"}
+                {"BathroomDoorPB","a door,ovi,двері,дверь"},
+                {"room","a bathroom, kylpyhuone,word,word"}
             };
 
             string selectedWord = doorLibrary["BathroomDoorPB"];
+            string roomWord = doorLibrary["room"];
             string[] separators = { "," };
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
             if (result == DialogResult.OK)
             {
                 CustMessageBox.Close();
@@ -78,18 +84,24 @@ namespace The_Crib
 
         private void KidsRoomDoorPB_Click(object sender, EventArgs e)
         {
-            Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
+            bool show = true;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"KidsRoomDoorPB","kid's room, lastenhuone, word,word"}
+                {"KidsRoomDoorPB","a door,ovi,двері,дверь"},
+                {"room","a kid's room,lastenhuone,word,word"}
             };
 
-            string selectedWord = doorlibrary["KidsRoomDoorPB"];
+            string selectedWord = doorLibrary["KidsRoomDoorPB"];
+            string roomWord = doorLibrary["room"];
             string[] separators = { "," };
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word,fiWord);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
            
             if(result == DialogResult.OK)
             {
@@ -108,18 +120,24 @@ namespace The_Crib
 
         private void BedroomDoorPB_Click(object sender, EventArgs e)
         {
-            Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
+            bool show = true;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"BedroomDoorPB","master bedroom, makuuhuone,word,word"}
+                {"BedroomDoorPB","a door,ovi,двері,дверь"},
+                {"room","a bedroom, makuuhuone,word,word"}
             };
 
-            string selectedWord = doorlibrary["BedroomDoorPB"];
+            string selectedWord = doorLibrary["BedroomDoorPB"];
+            string roomWord = doorLibrary["room"];
             string[] separators = { "," };
             string[] wordArr = selectedWord.Split(separators,StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word,fiWord);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
 
             if(result == DialogResult.OK)
             {
@@ -137,18 +155,24 @@ namespace The_Crib
 
         private void StudyDoorPB_Click(object sender, EventArgs e)
         {
+            bool show = true;
             Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
             {
-                {"StudyDoorPB","study,työhuone,word,word"}
+                {"StudyDoorPB","a door,ovi,двері,дверь"},
+                {"room","a study, työhuone,word,word"}
             };
 
             string selectedWord = doorlibrary["StudyDoorPB"];
+            string roomWord = doorlibrary["room"];
             string[] separators = { "," };
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
 
             if (result == DialogResult.OK)
             {
