@@ -16,5 +16,10 @@ namespace The_Crib
         {
             InitializeComponent();
         }
+
+        private void WcForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

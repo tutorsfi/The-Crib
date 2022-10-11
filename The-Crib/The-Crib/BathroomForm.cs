@@ -52,18 +52,24 @@ namespace The_Crib
 
         private void SaunaDoorPB_Click(object sender, EventArgs e)
         {
+            bool show = true;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>() 
             {
-                {"SaunaDoorPB","sauna door, saunan ovi,sana,sana"}
+                {"SaunaDoorPB","a door,ovi,двері,дверь"},
+                {"room","a sauna, sauna,word,word"}
             };
 
             string selectedWord = doorLibrary["SaunaDoorPB"];
+            string roomWord = doorLibrary["room"];
             string[] separators = { "," };
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
             if (result == DialogResult.OK)
             {
                 CustMessageBox.Close();
@@ -80,28 +86,34 @@ namespace The_Crib
 
         private void BathroomLeavePB_Click(object sender, EventArgs e)
         {
+            bool show = true;
             Dictionary<string, string> leave = new Dictionary<string, string>()
             {
-                {"BathroomLeavePB","upstairs hallway, yläkerran käytävä"}
+                {"BathroomLeavePB","a door,ovi,двері,дверь"},
+                {"room","upstairs hallway, yläkerran käytävä,word,word"}
             };
 
             string selectedWord = leave["BathroomLeavePB"];
+            string roomWord = leave["room"];
             string[] separators = { "," };
-            string[] wordArr = selectedWord.Split(separators,StringSplitOptions.RemoveEmptyEntries);
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word,fiWord);
-            if(result == DialogResult.OK)
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
+            if (result == DialogResult.OK)
             {
                 CustMessageBox.Close();
             }
             else if (result == DialogResult.Yes)
             {
-                UpstairsHallwayForm upHallway = new UpstairsHallwayForm();
-                upHallway.FormClosing += CloseForm;
-                upHallway.LanguageId = lanId;
-                upHallway.Show();
+                UpstairsHallwayForm upstairs = new UpstairsHallwayForm();
+                upstairs.FormClosing += CloseForm;
+                upstairs.LanguageId = laId;
+                upstairs.Show();
                 this.Hide();
             }
 
