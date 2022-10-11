@@ -133,6 +133,16 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Desk {
+            get {
+                object obj = ResourceManager.GetObject("Desk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Door {
             get {
                 object obj = ResourceManager.GetObject("Door", resourceCulture);
@@ -193,9 +203,49 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Laptop {
+            get {
+                object obj = ResourceManager.GetObject("Laptop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Laptop1 {
+            get {
+                object obj = ResourceManager.GetObject("Laptop1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap maapallo_owl {
             get {
                 object obj = ResourceManager.GetObject("maapallo_owl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OfficeChair {
+            get {
+                object obj = ResourceManager.GetObject("OfficeChair", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OfficeChair1 {
+            get {
+                object obj = ResourceManager.GetObject("OfficeChair1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -276,6 +326,36 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap Sink_Bathroom {
             get {
                 object obj = ResourceManager.GetObject("Sink_Bathroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Study_base {
+            get {
+                object obj = ResourceManager.GetObject("Study_base", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Study_base1 {
+            get {
+                object obj = ResourceManager.GetObject("Study_base1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Study_base2 {
+            get {
+                object obj = ResourceManager.GetObject("Study_base2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
