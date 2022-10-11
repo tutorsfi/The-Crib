@@ -58,6 +58,12 @@
     <Compile Include="BathroomForm.Designer.cs">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreditsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditsForm.Designer.cs">
+      <DependentUpon>CreditsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomDoorMessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BathroomForm.resx">
       <DependentUpon>BathroomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditsForm.resx">
+      <DependentUpon>CreditsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomDoorMessageBox.resx">
       <DependentUpon>CustomDoorMessageBox.cs</DependentUpon>
@@ -310,6 +319,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\OfficeChair1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_ukraine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_russia.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

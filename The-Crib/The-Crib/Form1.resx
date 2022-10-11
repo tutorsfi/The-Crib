@@ -117,19 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="UkrainianLaBT.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAagAAACECAIAAABKyShuAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAd1JREFUeF7t1DEVxEAAQsF1dm3ER80Z2PRIgOFNg4F/fs8LMEX4gDnCB8wRPmCO
-        8AFzhA+YI3zAHOED5ggfMEf4gDnCB8wRPmCO8AFzhA+YI3zAHOED5ggfMEf4gDnCB8wRPmCO8AFzhA+Y
-        I3zAHOED5ggfMEf4gDnCB8wRPmCO8AFzhA+YI3zAHOED5ggfMEf4gDnCB8wRPmCO8AFzhA+YI3zAHOED
-        5ggfMEf4gDnCB8wRPmCO8AFzhA+YI3zAHOED5ggfMEf4gDnCB8wRPmCO8AFzhA+YI3zAHOED5ggfMEf4
-        gDnCB8wRPmCO8AFzhA+YI3zAHOED5pxrZja2c/8AW/ID1MsPUC8/QL38APXyA9TLD1AvP0C9/AD18gPU
-        yw9QLz9AvfwA9fID1MsPUC8/QL38APXyA9TLD1AvP0C9/AD18gPUyw9QLz9AvfwA9fID1MsPUC8/QL38
-        APXyA9TLD1AvP0C9/AD18gPUyw9QLz9AvfwA9fID1MsPUC8/QL38APXyA9TLD1AvP0C9/AD18gPUyw9Q
-        Lz9AvfwA9fID1MsPUC8/QL38APXyA9TLD1AvP0C9/AD18gPUyw9QLz9AvfwA9fID1MsPUC8/QL38APXO
-        NTMbm/CZ2dju/QA0M02VY8R4NgAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>

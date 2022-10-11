@@ -12,7 +12,7 @@ namespace The_Crib
 {
     public class DictionaryUpstairsHallway
     {
-        Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
+        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all hallway-words
         {
             // order ENG-FI-UA-RUS
             {"", "Word,Sana,Word,Word"}
@@ -23,15 +23,15 @@ namespace The_Crib
             try
             {
 
-                string selectedWord = wordLibrary[pic];
-                string[] separators = { "," };
-                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-                string word = wordArr[lanId];
+                string selectedWord = wordLibrary[pic]; // selecting the words from the library
+                string[] separators = { "," }; // defining separators for array assigning
+                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries); // words to array
+                string word = wordArr[lanId]; // selecting the right word for the label
                 string fiWord = wordArr[1];
 
-                CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm();
-                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord);
-                if (result == DialogResult.OK)
+                CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm(); // custom messagebox
+                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord); // selecting the words for the custom messagebox
+                if (result == DialogResult.OK) // when OK is clicked, the messagebox closes
                 {
                     customMessageBoxForm.Close();
                 }

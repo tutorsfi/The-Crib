@@ -12,23 +12,22 @@ namespace The_Crib
 {
     public class DictionaryBathroom
     {
-        // Dictionary to store all the words
-        // first is the name of the picturebox, second comes the words in different languages
-        Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
+        
+        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all bathroom-words
         {
             // order ENG-FI-UA-RUS
-            {"ToiletPB", "toilet bowl,pönttö,унітаз,унитаз"},
-            {"MirrorPB", "mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
-            {"HandsoapPB", "handsoap,käsisaippua,мило для рук,мыло для рук"},
-            {"ToiletBrushPB", "toilet brush,vessaharja,йоржик для унітазу,ёршик для унитаза"},
-            {"SinkPB", "sink,lavuaari,раковина,раковина"},
-            {"TowelPB","towel,pyyhe,рушник,полотенце"},
-            {"ToothBrushPB","tooth brush,jammasharja,зубна щітка,зубная щетка"},
-            {"ShowerPB","shower,suihku,душ,душ"},
-            {"WashingMachinePB","washing machine,pyykinpesukone,пральна машина,стиральная машина"},
-            {"ToothPastePB","toothpaste,hammastahna,зубна паста,зубная паста"},
-            {"ShampooPB","shampoo,shampoo,шампунь,шампунь"},
-            {"DetergentPB","laundry detergent,pyykinpesuaine,пральний порошок,стиральный порошок"}
+            {"ToiletPB", "a toilet bowl,pönttö,унітаз,унитаз"},
+            {"MirrorPB", "a mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
+            {"HandsoapPB", "a handsoap,käsisaippua,мило для рук,мыло для рук"},
+            {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,ёршик для унитаза"},
+            {"SinkPB", "a sink,lavuaari,раковина,раковина"},
+            {"TowelPB","a towel,pyyhe,рушник,полотенце"},
+            {"ToothBrushPB","a tooth brush,jammasharja,зубна щітка,зубная щетка"},
+            {"ShowerPB","a shower,suihku,душ,душ"},
+            {"WashingMachinePB","a washing machine,pyykinpesukone,пральна машина,стиральная машина"},
+            {"ToothPastePB","a toothpaste,hammastahna,зубна паста,зубная паста"},
+            {"ShampooPB","a shampoo,shampoo,шампунь,шампунь"},
+            {"DetergentPB","a laundry detergent,pyykinpesuaine,пральний порошок,стиральный порошок"}
         };
 
         // Method to show the custom messagebox with the original and translated word
@@ -37,15 +36,15 @@ namespace The_Crib
             try
             {
 
-               string selectedWord = wordLibrary[pic];
-                string[] separators = { "," };
-                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-                string word = wordArr[lanId];
+                string selectedWord = wordLibrary[pic]; // selecting the words from the library
+                string[] separators = { "," }; // defining separators for array assigning
+                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries); // words to array
+                string word = wordArr[lanId]; // selecting the right word for the label
                 string fiWord = wordArr[1];
 
-                CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm();
-                DialogResult result = customMessageBoxForm.ShowDialog(word,fiWord);
-                if (result == DialogResult.OK)
+                CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm(); // custom messagebox
+                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord); // selecting the words for the custom messagebox
+                if (result == DialogResult.OK) // when OK is clicked, the messagebox closes
                 {
                     customMessageBoxForm.Close();
                 }

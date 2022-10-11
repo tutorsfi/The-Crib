@@ -17,11 +17,13 @@ namespace The_Crib
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
-            Application.Run(new BathroomForm());
+            //Application.Run(new BathroomForm());
             //Application.Run(new BackYardForm());
             //Application.Run(new MasterBedroomForm());
             //Application.Run(new MainMenuForm());
             //Application.Run(new StudyForm());
+            //Application.Run(new CreditsForm());
+            Application.Run(new WcForm());
         }
     }
     

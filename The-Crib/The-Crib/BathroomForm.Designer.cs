@@ -147,7 +147,7 @@
             this.Name = "BathroomForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BathroomForm";
-            this.Load += new System.EventHandler(this.BathroomForm_Load);
+        
             ((System.ComponentModel.ISupportInitialize)(this.WashingMachinePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowerPB)).EndInit();

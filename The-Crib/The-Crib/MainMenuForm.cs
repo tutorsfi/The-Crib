@@ -64,7 +64,11 @@ namespace The_Crib
 
         private void CreditsBT_Click(object sender, EventArgs e)
         {
-
+            CreditsForm creditsForm = new CreditsForm(); // CreditsForm
+            creditsForm.FormClosing += CloseForm; // Close current form as new form opens
+            creditsForm.LanguageId = laId; // passing language id to another form
+            creditsForm.Show(); // open the next form
+            this.Hide(); // hiding the current form
         }
     }
 }
