@@ -67,3 +67,4 @@ C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.StudyF
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KidsRoomForm.resources
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MasterBedroomForm.resources
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.StudyForm.resources
+C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.CreditsForm.resources
