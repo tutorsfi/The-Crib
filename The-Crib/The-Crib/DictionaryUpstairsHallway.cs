@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// Author@ Karoliina Salo
+/// Version 12.10.2022
+/// <summary>
+/// Dictionary-class for upstairs hallway. Unfinished, waiting for some graphics.
+/// </summary>
+
 namespace The_Crib
 {
     public class DictionaryUpstairsHallway

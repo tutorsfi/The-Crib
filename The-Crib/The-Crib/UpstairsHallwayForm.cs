@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// Author@ Karoliina Salo
+/// Version 12.10.2022
+/// <summary>
+/// Code for upstairshallway-form. Unfinished, needs work with translations and commenting. Need to update where downstairs-arrow takes.
+/// </summary>
+
 namespace The_Crib
 {
     public partial class UpstairsHallwayForm : Form
@@ -187,6 +193,43 @@ namespace The_Crib
                 this.Hide();
             }
 
+
+        }
+
+        private void ToDownStairsPB_Click(object sender, EventArgs e)
+        {
+
+            bool show = true;
+            Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
+            {
+                {"ToDownStairsPB","a door,ovi,двері,дверь"},
+                {"room","a hallway, eteinen,word,word"}
+            };
+
+            string selectedWord = doorlibrary["ToDownStairsPB"];
+            string roomWord = doorlibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+
+            if (result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                StudyForm study = new StudyForm(); // FIX THIS
+                study.FormClosing += CloseForm;
+                study.LanguageId = lanId;
+                study.Show();
+                this.Hide();
+            }
 
         }
     }
