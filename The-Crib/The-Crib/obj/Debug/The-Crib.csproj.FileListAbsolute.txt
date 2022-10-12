@@ -68,3 +68,4 @@ C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KidsRo
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MasterBedroomForm.resources
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.StudyForm.resources
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.CreditsForm.resources
+C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.CreditsForm.resources
