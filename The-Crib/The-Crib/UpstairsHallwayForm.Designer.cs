@@ -34,10 +34,12 @@
             this.KidsRoomDoorPB = new System.Windows.Forms.PictureBox();
             this.BedroomDoorPB = new System.Windows.Forms.PictureBox();
             this.StudyDoorPB = new System.Windows.Forms.PictureBox();
+            this.ToDownStairsPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.BathroomDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.KidsRoomDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BedroomDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudyDoorPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToDownStairsPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -97,12 +99,24 @@
             this.StudyDoorPB.TabStop = false;
             this.StudyDoorPB.Click += new System.EventHandler(this.StudyDoorPB_Click);
             // 
+            // ToDownStairsPB
+            // 
+            this.ToDownStairsPB.BackColor = System.Drawing.Color.Transparent;
+            this.ToDownStairsPB.Image = global::The_Crib.Properties.Resources.arrow_left;
+            this.ToDownStairsPB.Location = new System.Drawing.Point(12, 806);
+            this.ToDownStairsPB.Name = "ToDownStairsPB";
+            this.ToDownStairsPB.Size = new System.Drawing.Size(85, 73);
+            this.ToDownStairsPB.TabIndex = 9;
+            this.ToDownStairsPB.TabStop = false;
+            this.ToDownStairsPB.Click += new System.EventHandler(this.ToDownStairsPB_Click);
+            // 
             // UpstairsHallwayForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.UpstairsHallway;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.ToDownStairsPB);
             this.Controls.Add(this.StudyDoorPB);
             this.Controls.Add(this.BedroomDoorPB);
             this.Controls.Add(this.KidsRoomDoorPB);
@@ -116,6 +130,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.KidsRoomDoorPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BedroomDoorPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudyDoorPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToDownStairsPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -127,5 +142,6 @@
         private System.Windows.Forms.PictureBox KidsRoomDoorPB;
         private System.Windows.Forms.PictureBox BedroomDoorPB;
         private System.Windows.Forms.PictureBox StudyDoorPB;
+        private System.Windows.Forms.PictureBox ToDownStairsPB;
     }
 }

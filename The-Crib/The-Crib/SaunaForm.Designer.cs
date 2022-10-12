@@ -85,10 +85,10 @@
             // LeaveSaunaPB
             // 
             this.LeaveSaunaPB.BackColor = System.Drawing.Color.Transparent;
-            this.LeaveSaunaPB.Image = global::The_Crib.Properties.Resources.arrow2;
-            this.LeaveSaunaPB.Location = new System.Drawing.Point(12, 829);
+            this.LeaveSaunaPB.Image = global::The_Crib.Properties.Resources.arrow_left;
+            this.LeaveSaunaPB.Location = new System.Drawing.Point(12, 808);
             this.LeaveSaunaPB.Name = "LeaveSaunaPB";
-            this.LeaveSaunaPB.Size = new System.Drawing.Size(100, 50);
+            this.LeaveSaunaPB.Size = new System.Drawing.Size(100, 71);
             this.LeaveSaunaPB.TabIndex = 7;
             this.LeaveSaunaPB.TabStop = false;
             this.LeaveSaunaPB.Click += new System.EventHandler(this.LeaveSaunaPB_Click);

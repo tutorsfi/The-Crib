@@ -39,6 +39,7 @@
             this.WindowMasBedPB = new System.Windows.Forms.PictureBox();
             this.WindowBathroomPB = new System.Windows.Forms.PictureBox();
             this.FencePB = new System.Windows.Forms.PictureBox();
+            this.ArrowToBackyardPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.HousePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoofPB)).BeginInit();
@@ -49,6 +50,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.WindowMasBedPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WindowBathroomPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FencePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ArrowToBackyardPB)).BeginInit();
             this.SuspendLayout();
             // 
             // HousePB
@@ -169,6 +171,18 @@
             this.FencePB.TabStop = false;
             this.FencePB.Click += new System.EventHandler(this.FencePB_Click);
             // 
+            // ArrowToBackyardPB
+            // 
+            this.ArrowToBackyardPB.BackColor = System.Drawing.Color.Transparent;
+            this.ArrowToBackyardPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ArrowToBackyardPB.BackgroundImage")));
+            this.ArrowToBackyardPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ArrowToBackyardPB.Location = new System.Drawing.Point(1484, 629);
+            this.ArrowToBackyardPB.Name = "ArrowToBackyardPB";
+            this.ArrowToBackyardPB.Size = new System.Drawing.Size(100, 50);
+            this.ArrowToBackyardPB.TabIndex = 10;
+            this.ArrowToBackyardPB.TabStop = false;
+            this.ArrowToBackyardPB.Click += new System.EventHandler(this.ArrowToBackyardPB_Click);
+            // 
             // FrontYardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +190,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.ArrowToBackyardPB);
             this.Controls.Add(this.FencePB);
             this.Controls.Add(this.WindowBathroomPB);
             this.Controls.Add(this.WindowMasBedPB);
@@ -202,6 +217,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.WindowMasBedPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.WindowBathroomPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FencePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ArrowToBackyardPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -218,5 +234,6 @@
         private System.Windows.Forms.PictureBox WindowMasBedPB;
         private System.Windows.Forms.PictureBox WindowBathroomPB;
         private System.Windows.Forms.PictureBox FencePB;
+        private System.Windows.Forms.PictureBox ArrowToBackyardPB;
     }
 }

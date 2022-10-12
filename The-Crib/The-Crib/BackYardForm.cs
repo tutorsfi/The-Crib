@@ -54,11 +54,11 @@ namespace The_Crib
             string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
             string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
             string room = roomArr[lanId];// selecting room words
-            string fiRoom = roomArr[0];// fi room name
+            string fiRoom = roomArr[1];// fi room name
             string word = wordArr[lanId];//Selecting right word for picture by index.
-            string fiWord = wordArr[0];// variable for finnish word
+            string fiWord = wordArr[1];// variable for finnish word
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show); // calling "message box"
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show); // calling "message box"
             if (result == DialogResult.OK)// clicked button in message box for returning to current page
             {
                 CustMessageBox.Close(); // closing messagebox
@@ -105,6 +105,48 @@ namespace The_Crib
         }
 
         private void SwingPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void TerracePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void OutdoorChairPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void OutdoorTablePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void RakePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void BroomPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void ToyShovelPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void ToyBucketPB_Click(object sender, EventArgs e)
         {
             PictureBox image = sender as PictureBox;
             diBaYa.Show(image.Name, lanId);
