@@ -122,10 +122,10 @@
             // BathroomLeavePB
             // 
             this.BathroomLeavePB.BackColor = System.Drawing.Color.Transparent;
-            this.BathroomLeavePB.Image = global::The_Crib.Properties.Resources.arrow;
-            this.BathroomLeavePB.Location = new System.Drawing.Point(1530, 829);
+            this.BathroomLeavePB.Image = global::The_Crib.Properties.Resources.arrow_right;
+            this.BathroomLeavePB.Location = new System.Drawing.Point(1542, 806);
             this.BathroomLeavePB.Name = "BathroomLeavePB";
-            this.BathroomLeavePB.Size = new System.Drawing.Size(92, 50);
+            this.BathroomLeavePB.Size = new System.Drawing.Size(80, 73);
             this.BathroomLeavePB.TabIndex = 8;
             this.BathroomLeavePB.TabStop = false;
             this.BathroomLeavePB.Click += new System.EventHandler(this.BathroomLeavePB_Click);
