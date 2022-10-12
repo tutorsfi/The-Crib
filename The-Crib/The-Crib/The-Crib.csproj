@@ -58,6 +58,12 @@
     <Compile Include="BathroomForm.Designer.cs">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreditsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditsForm.Designer.cs">
+      <DependentUpon>CreditsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomDoorMessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,7 +80,6 @@
     <Compile Include="DictionaryBathroom.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
-    <Compile Include="DictionaryKitchen.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
     <Compile Include="DictionarySauna.cs" />
     <Compile Include="DictionaryStudyRoom.cs" />
@@ -97,12 +102,6 @@
     </Compile>
     <Compile Include="KidsRoomForm.Designer.cs">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KitchenForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KitchenForm.Designer.cs">
-      <DependentUpon>KitchenForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterBedroomForm.cs">
       <SubType>Form</SubType>
@@ -148,6 +147,9 @@
     <EmbeddedResource Include="BathroomForm.resx">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreditsForm.resx">
+      <DependentUpon>CreditsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomDoorMessageBox.resx">
       <DependentUpon>CustomDoorMessageBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,9 +164,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KidsRoomForm.resx">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KitchenForm.resx">
-      <DependentUpon>KitchenForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
@@ -265,13 +264,67 @@
     <None Include="Resources\CeilingLamp.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Kitchen.png" />
+    <None Include="Resources\Wardrobe_MasterBedroom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\freezer.png" />
+    <None Include="Resources\Bed_MasterBedroom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Fridge.png" />
+    <None Include="Resources\Bedspread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frontyard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semi_transparent_background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUTORS_logo_nega_h40mm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maapallo_owl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaBench1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoorToRight1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaDoorOnTheLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Study_base2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laptop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OfficeChair1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_ukraine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_russia.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

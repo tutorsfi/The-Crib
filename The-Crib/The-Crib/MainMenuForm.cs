@@ -40,7 +40,7 @@ namespace The_Crib
             Dictionary<string, string> buttonLibrary = new Dictionary<string, string>()
             {
                 {"StartGameBT", "Start Game,Aloita Peli,Почни гру,Начать игру" },// Need to check used Google Translate
-                {"CreditsBT", "Credits,Tekijät,Кредити,Кредиты"}
+                {"CreditsBT", "Credits,Tekijät,Кредити,Кредиты"} // Need to check used Google Translate
             };
             string startWord = buttonLibrary["StartGameBT"];//Selecting words for StartGameBT from library by key.
             string[] separators = { "," };//Defining separators for array assigning
@@ -64,7 +64,11 @@ namespace The_Crib
 
         private void CreditsBT_Click(object sender, EventArgs e)
         {
-
+            CreditsForm creditsForm = new CreditsForm(); // CreditsForm
+            creditsForm.FormClosing += CloseForm; // Close current form as new form opens
+            creditsForm.LanguageId = laId; // passing language id to another form
+            creditsForm.Show(); // open the next form
+            this.Hide(); // hiding the current form
         }
     }
 }

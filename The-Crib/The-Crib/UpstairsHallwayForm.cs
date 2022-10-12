@@ -37,11 +37,6 @@ namespace The_Crib
             this.Close();
         }
 
-        //private void UpstairsHallwayImgPB(object sender, EventArgs e)
-        //{
-        //    PictureBox image = sender as PictureBox;
-        //    look.Show(image.Name, lanId);
-        //}
 
         private void SelectLanguageBt_Click(object sender, EventArgs e)
         {
@@ -51,6 +46,148 @@ namespace The_Crib
             this.Hide();
         }
 
+        private void BathroomDoorPB_Click(object sender, EventArgs e)
+        {
+            bool show = true;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
+            {
+                {"BathroomDoorPB","a door,ovi,двері,дверь"},
+                {"room","a bathroom, kylpyhuone,word,word"}
+            };
 
+            string selectedWord = doorLibrary["BathroomDoorPB"];
+            string roomWord = doorLibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+            if (result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                BathroomForm bathroom = new BathroomForm();
+                bathroom.FormClosing += CloseForm;
+                bathroom.LanguageId = lanId;
+                bathroom.Show();
+                this.Hide();
+            }
+
+
+        }
+
+        private void KidsRoomDoorPB_Click(object sender, EventArgs e)
+        {
+            bool show = true;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
+            {
+                {"KidsRoomDoorPB","a door,ovi,двері,дверь"},
+                {"room","a kid's room,lastenhuone,word,word"}
+            };
+
+            string selectedWord = doorLibrary["KidsRoomDoorPB"];
+            string roomWord = doorLibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+           
+            if(result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                KidsRoomForm kidsRoom = new KidsRoomForm();
+                kidsRoom.FormClosing += CloseForm;
+                kidsRoom.LanguageId = lanId;
+                kidsRoom.Show();
+                this.Hide();
+            }
+
+        }
+
+        private void BedroomDoorPB_Click(object sender, EventArgs e)
+        {
+            bool show = true;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
+            {
+                {"BedroomDoorPB","a door,ovi,двері,дверь"},
+                {"room","a bedroom, makuuhuone,word,word"}
+            };
+
+            string selectedWord = doorLibrary["BedroomDoorPB"];
+            string roomWord = doorLibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators,StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+
+            if(result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if(result == DialogResult.Yes)
+            {
+                MasterBedroomForm masterBedroom = new MasterBedroomForm();
+                masterBedroom.FormClosing += CloseForm;
+                masterBedroom.LanguageId = lanId;
+                masterBedroom.Show();
+                this.Hide();
+            }
+        }
+
+        private void StudyDoorPB_Click(object sender, EventArgs e)
+        {
+            bool show = true;
+            Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
+            {
+                {"StudyDoorPB","a door,ovi,двері,дверь"},
+                {"room","a study, työhuone,word,word"}
+            };
+
+            string selectedWord = doorlibrary["StudyDoorPB"];
+            string roomWord = doorlibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+
+            if (result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                StudyForm study = new StudyForm();
+                study.FormClosing += CloseForm;
+                study.LanguageId = lanId;
+                study.Show();
+                this.Hide();
+            }
+
+
+        }
     }
 }

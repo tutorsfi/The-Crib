@@ -17,9 +17,11 @@ namespace The_Crib
             InitializeComponent();
         }
 
-        public DialogResult ShowDialog(string word, string fiWord)
+        public DialogResult ShowDialog(string word, string fiWord, string roomWord, string fiRoom, bool show)
         {
             WordLB.Text = $"{fiWord} = {word}"; // label in "message box"
+            OnlyInYardDoorsLB.Text = $"{fiRoom} = {roomWord}";
+            OnlyInYardDoorsLB.Visible = show;
             return this.ShowDialog();
         }
     }

@@ -33,10 +33,15 @@
             this.ToiletPB = new System.Windows.Forms.PictureBox();
             this.ShowerPB = new System.Windows.Forms.PictureBox();
             this.SinkPB = new System.Windows.Forms.PictureBox();
+            this.SaunaDoorPB = new System.Windows.Forms.PictureBox();
+            this.LeaveLB = new System.Windows.Forms.Label();
+            this.BathroomLeavePB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.WashingMachinePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowerPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaDoorPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BathroomLeavePB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -96,6 +101,35 @@
             this.SinkPB.TabStop = false;
             this.SinkPB.Click += new System.EventHandler(this.BathroomImgPB);
             // 
+            // SaunaDoorPB
+            // 
+            this.SaunaDoorPB.BackColor = System.Drawing.Color.Transparent;
+            this.SaunaDoorPB.Image = global::The_Crib.Properties.Resources.SaunaDoorOnTheLeft;
+            this.SaunaDoorPB.Location = new System.Drawing.Point(0, 107);
+            this.SaunaDoorPB.Name = "SaunaDoorPB";
+            this.SaunaDoorPB.Size = new System.Drawing.Size(194, 824);
+            this.SaunaDoorPB.TabIndex = 7;
+            this.SaunaDoorPB.TabStop = false;
+            this.SaunaDoorPB.Click += new System.EventHandler(this.SaunaDoorPB_Click);
+            // 
+            // LeaveLB
+            // 
+            this.LeaveLB.Location = new System.Drawing.Point(0, 0);
+            this.LeaveLB.Name = "LeaveLB";
+            this.LeaveLB.Size = new System.Drawing.Size(100, 23);
+            this.LeaveLB.TabIndex = 0;
+            // 
+            // BathroomLeavePB
+            // 
+            this.BathroomLeavePB.BackColor = System.Drawing.Color.Transparent;
+            this.BathroomLeavePB.Image = global::The_Crib.Properties.Resources.arrow;
+            this.BathroomLeavePB.Location = new System.Drawing.Point(1530, 829);
+            this.BathroomLeavePB.Name = "BathroomLeavePB";
+            this.BathroomLeavePB.Size = new System.Drawing.Size(92, 50);
+            this.BathroomLeavePB.TabIndex = 8;
+            this.BathroomLeavePB.TabStop = false;
+            this.BathroomLeavePB.Click += new System.EventHandler(this.BathroomLeavePB_Click);
+            // 
             // BathroomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -103,6 +137,8 @@
             this.BackgroundImage = global::The_Crib.Properties.Resources.BathroomFinal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.BathroomLeavePB);
+            this.Controls.Add(this.SaunaDoorPB);
             this.Controls.Add(this.SinkPB);
             this.Controls.Add(this.ShowerPB);
             this.Controls.Add(this.ToiletPB);
@@ -111,11 +147,13 @@
             this.Name = "BathroomForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BathroomForm";
-            this.Load += new System.EventHandler(this.BathroomForm_Load);
+        
             ((System.ComponentModel.ISupportInitialize)(this.WashingMachinePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowerPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaDoorPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BathroomLeavePB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -126,5 +164,8 @@
         private System.Windows.Forms.PictureBox ToiletPB;
         private System.Windows.Forms.PictureBox ShowerPB;
         private System.Windows.Forms.PictureBox SinkPB;
+        private System.Windows.Forms.PictureBox SaunaDoorPB;
+        private System.Windows.Forms.Label LeaveLB;
+        private System.Windows.Forms.PictureBox BathroomLeavePB;
     }
 }

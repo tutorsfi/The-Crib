@@ -29,6 +29,14 @@
         private void InitializeComponent()
         {
             this.SelectLanguageBt = new System.Windows.Forms.Button();
+            this.SaunaBenchOnePB = new System.Windows.Forms.PictureBox();
+            this.SaunaBenchTwoPB = new System.Windows.Forms.PictureBox();
+            this.SaunaStovePB = new System.Windows.Forms.PictureBox();
+            this.LeaveSaunaPB = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaBenchOnePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaBenchTwoPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaStovePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeaveSaunaPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -41,17 +49,69 @@
             this.SelectLanguageBt.UseVisualStyleBackColor = true;
             this.SelectLanguageBt.Click += new System.EventHandler(this.SelectLanguageBt_Click);
             // 
+            // SaunaBenchOnePB
+            // 
+            this.SaunaBenchOnePB.BackColor = System.Drawing.Color.Transparent;
+            this.SaunaBenchOnePB.Image = global::The_Crib.Properties.Resources.SaunaBench1;
+            this.SaunaBenchOnePB.Location = new System.Drawing.Point(106, 265);
+            this.SaunaBenchOnePB.Name = "SaunaBenchOnePB";
+            this.SaunaBenchOnePB.Size = new System.Drawing.Size(1516, 92);
+            this.SaunaBenchOnePB.TabIndex = 4;
+            this.SaunaBenchOnePB.TabStop = false;
+            this.SaunaBenchOnePB.Click += new System.EventHandler(this.SaunaImgPB);
+            // 
+            // SaunaBenchTwoPB
+            // 
+            this.SaunaBenchTwoPB.BackColor = System.Drawing.Color.Transparent;
+            this.SaunaBenchTwoPB.Image = global::The_Crib.Properties.Resources.SaunaBench2;
+            this.SaunaBenchTwoPB.Location = new System.Drawing.Point(67, 450);
+            this.SaunaBenchTwoPB.Name = "SaunaBenchTwoPB";
+            this.SaunaBenchTwoPB.Size = new System.Drawing.Size(1570, 166);
+            this.SaunaBenchTwoPB.TabIndex = 5;
+            this.SaunaBenchTwoPB.TabStop = false;
+            this.SaunaBenchTwoPB.Click += new System.EventHandler(this.SaunaImgPB);
+            // 
+            // SaunaStovePB
+            // 
+            this.SaunaStovePB.BackColor = System.Drawing.Color.Transparent;
+            this.SaunaStovePB.Image = global::The_Crib.Properties.Resources.SaunaStove;
+            this.SaunaStovePB.Location = new System.Drawing.Point(1241, 667);
+            this.SaunaStovePB.Name = "SaunaStovePB";
+            this.SaunaStovePB.Size = new System.Drawing.Size(396, 223);
+            this.SaunaStovePB.TabIndex = 6;
+            this.SaunaStovePB.TabStop = false;
+            this.SaunaStovePB.Click += new System.EventHandler(this.SaunaImgPB);
+            // 
+            // LeaveSaunaPB
+            // 
+            this.LeaveSaunaPB.BackColor = System.Drawing.Color.Transparent;
+            this.LeaveSaunaPB.Image = global::The_Crib.Properties.Resources.arrow2;
+            this.LeaveSaunaPB.Location = new System.Drawing.Point(12, 829);
+            this.LeaveSaunaPB.Name = "LeaveSaunaPB";
+            this.LeaveSaunaPB.Size = new System.Drawing.Size(100, 50);
+            this.LeaveSaunaPB.TabIndex = 7;
+            this.LeaveSaunaPB.TabStop = false;
+            this.LeaveSaunaPB.Click += new System.EventHandler(this.LeaveSaunaPB_Click);
+            // 
             // SaunaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.Sauna;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.LeaveSaunaPB);
+            this.Controls.Add(this.SaunaStovePB);
+            this.Controls.Add(this.SaunaBenchTwoPB);
+            this.Controls.Add(this.SaunaBenchOnePB);
             this.Controls.Add(this.SelectLanguageBt);
             this.Name = "SaunaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SaunaForm";
             this.Load += new System.EventHandler(this.SaunaForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaBenchOnePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaBenchTwoPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaStovePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeaveSaunaPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -59,5 +119,9 @@
         #endregion
 
         private System.Windows.Forms.Button SelectLanguageBt;
+        private System.Windows.Forms.PictureBox SaunaBenchOnePB;
+        private System.Windows.Forms.PictureBox SaunaBenchTwoPB;
+        private System.Windows.Forms.PictureBox SaunaStovePB;
+        private System.Windows.Forms.PictureBox LeaveSaunaPB;
     }
 }

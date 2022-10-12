@@ -16,9 +16,23 @@ namespace The_Crib
         Dictionary<string, string> backyardLibrary = new Dictionary<string, string>()
         {   // PictureBox name is key. value order ENG-FI-UA-RUS
             {"HousePB", "a house,talo,дім,дом" },// Words for house
-            {"RoofPB","a roof,katto,дах,крыша" }// Words for roof
-           /* {"","" },// Words for bush
-            {"","" }// Words for Tree*/
+            {"RoofPB","a roof,katto,дах,крыша" },// Words for roof
+            {"WindowDRPB","a window,ikkuna,вікно,окно" },// Words for Window
+            {"WindowSRPB","a window,ikkuna,вікно,окно" },// Words for Window
+            {"WindowKRPB","a window,ikkuna,вікно,окно" },// Words for Window
+            {"SwingPB","a swing,keinu,гойдалки,качели" },// Words for Swing
+            {"OutdoorTablePB","an outdoor table,puutarhapöytä,садовий стіл,садовый стол" },// Words for outdoor table
+            {"OutdoorChairPB","an outdoor chair,puutarhatuoli,садовий стілець,садовый стул" },// Words for outdoor chair
+            {"ToyShovelPB","a toy shovel,lelulapio,іграшкова лопатка,игрушечная лопатка" },// Words for toy shovel
+            {"ToyBucketPB","a bucket,ämpäri,відро,ведро" },// Words for bucket
+            {"TerracePB","terrace,terassi,тераса,терраса" },//Words for terrace
+            {"RakePB","a rake,harava,граблі,грабли" },// Words for rake
+            {"BroomPB","a broom,harja,мітла,метла" }// Words for broom
+            /*{"","a sandbox,hiekkalaatikko,пісочниця,песочница" },// Words for sandbox           
+            //{"","a sunshade,auringonvarjo,парасолька для сонця,зонт от солнца" },// Words for sunshade
+            //{"","a grill,grilli,гриль,гриль" },// Words for grill
+            //{"","a playhouse,leikkimökki,ігровий дім,игровой домик" },// Words for playhouse
+            //{"","a ball,pallo,м'яч,мяч" },// Words for ball*/
         };
 
 
