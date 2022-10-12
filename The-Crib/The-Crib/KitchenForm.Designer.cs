@@ -111,7 +111,7 @@ namespace The_Crib
             this.MicrowaveKPB.BackColor = System.Drawing.Color.Transparent;
             this.MicrowaveKPB.Location = new System.Drawing.Point(286, 374);
             this.MicrowaveKPB.Name = "MicrowaveKPB";
-            this.MicrowaveKPB.Size = new System.Drawing.Size(168, 106);
+            this.MicrowaveKPB.Size = new System.Drawing.Size(168, 97);
             this.MicrowaveKPB.TabIndex = 6;
             this.MicrowaveKPB.TabStop = false;
             // 
