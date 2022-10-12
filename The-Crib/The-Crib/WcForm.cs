@@ -8,6 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// Author@ Karoliina Salo
+/// Version 12.10.2022
+/// <summary>
+/// Code for wc-form. Unfinished, needs work with translations.
+/// </summary>
+
+
 namespace The_Crib
 {
     public partial class WcForm : Form

@@ -7,6 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+/// Author@ Karoliina Salo
+/// Version 12.10.2022
+/// <summary>
+/// Dictionary-class for wc. Finished.
+/// Dictionary may hold some unused words due to lack of graphics received in time.
+/// </summary>
 
 namespace The_Crib
 {

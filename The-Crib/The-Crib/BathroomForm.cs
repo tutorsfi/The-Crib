@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// Author@ Karoliina Salo
+/// Version 12.10.2022
+/// <summary>
+/// Code for bathroom-form. Unfinished, needs work with translations
+/// </summary>
+
 namespace The_Crib
 {
     public partial class BathroomForm : Form
@@ -26,7 +32,7 @@ namespace The_Crib
             set { laId = value; }
         }
 
-        private void BathroomForm_Load(object sender, EventArgs e)
+        private void BathroomForm_Load_1(object sender, EventArgs e)
         {
             lanId = laId; // passing the language id to this form
         }
@@ -118,5 +124,7 @@ namespace The_Crib
             }
 
         }
+
+      
     }
 }
