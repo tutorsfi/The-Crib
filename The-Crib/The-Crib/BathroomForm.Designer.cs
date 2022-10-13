@@ -36,12 +36,14 @@
             this.SaunaDoorPB = new System.Windows.Forms.PictureBox();
             this.LeaveLB = new System.Windows.Forms.Label();
             this.BathroomLeavePB = new System.Windows.Forms.PictureBox();
+            this.MirrorCabinetPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.WashingMachinePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowerPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SaunaDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BathroomLeavePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -130,6 +132,17 @@
             this.BathroomLeavePB.TabStop = false;
             this.BathroomLeavePB.Click += new System.EventHandler(this.BathroomLeavePB_Click);
             // 
+            // MirrorCabinetPB
+            // 
+            this.MirrorCabinetPB.Image = global::The_Crib.Properties.Resources.MirrorCabinet;
+            this.MirrorCabinetPB.Location = new System.Drawing.Point(601, 107);
+            this.MirrorCabinetPB.Name = "MirrorCabinetPB";
+            this.MirrorCabinetPB.Size = new System.Drawing.Size(184, 232);
+            this.MirrorCabinetPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MirrorCabinetPB.TabIndex = 9;
+            this.MirrorCabinetPB.TabStop = false;
+            this.MirrorCabinetPB.Click += new System.EventHandler(this.BathroomImgPB);
+            // 
             // BathroomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,6 +150,7 @@
             this.BackgroundImage = global::The_Crib.Properties.Resources.BathroomFinal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.MirrorCabinetPB);
             this.Controls.Add(this.BathroomLeavePB);
             this.Controls.Add(this.SaunaDoorPB);
             this.Controls.Add(this.SinkPB);
@@ -154,6 +168,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SaunaDoorPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BathroomLeavePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -167,5 +182,6 @@
         private System.Windows.Forms.PictureBox SaunaDoorPB;
         private System.Windows.Forms.Label LeaveLB;
         private System.Windows.Forms.PictureBox BathroomLeavePB;
+        private System.Windows.Forms.PictureBox MirrorCabinetPB;
     }
 }
