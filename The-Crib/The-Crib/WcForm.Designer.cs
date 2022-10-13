@@ -33,10 +33,12 @@
             this.SinkPB = new System.Windows.Forms.PictureBox();
             this.ToiletPB = new System.Windows.Forms.PictureBox();
             this.LampPB = new System.Windows.Forms.PictureBox();
+            this.MirrorCabinetPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.WcDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LampPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -97,12 +99,24 @@
             this.LampPB.TabStop = false;
             this.LampPB.Click += new System.EventHandler(this.ToiletImgPB);
             // 
+            // MirrorCabinetPB
+            // 
+            this.MirrorCabinetPB.Image = global::The_Crib.Properties.Resources.MirrorCabinet;
+            this.MirrorCabinetPB.Location = new System.Drawing.Point(846, 235);
+            this.MirrorCabinetPB.Name = "MirrorCabinetPB";
+            this.MirrorCabinetPB.Size = new System.Drawing.Size(181, 221);
+            this.MirrorCabinetPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MirrorCabinetPB.TabIndex = 10;
+            this.MirrorCabinetPB.TabStop = false;
+            this.MirrorCabinetPB.Click += new System.EventHandler(this.MirrorCabinetPB_Click);
+            // 
             // WcForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.WC;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.MirrorCabinetPB);
             this.Controls.Add(this.LampPB);
             this.Controls.Add(this.ToiletPB);
             this.Controls.Add(this.SinkPB);
@@ -116,6 +130,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LampPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -127,5 +142,6 @@
         private System.Windows.Forms.PictureBox SinkPB;
         private System.Windows.Forms.PictureBox ToiletPB;
         private System.Windows.Forms.PictureBox LampPB;
+        private System.Windows.Forms.PictureBox MirrorCabinetPB;
     }
 }

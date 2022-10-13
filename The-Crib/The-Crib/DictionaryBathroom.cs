@@ -24,7 +24,7 @@ namespace The_Crib
         {
             // order ENG-FI-UA-RUS
             {"ToiletPB", "a toilet bowl,pönttö,унітаз,унитаз"},
-            {"MirrorPB", "a mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
+            {"MirrorCabinetPB", "a mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
             {"HandsoapPB", "a handsoap,käsisaippua,мило для рук,мыло для рук"},
             {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,ёршик для унитаза"},
             {"SinkPB", "a sink,lavuaari,раковина,раковина"},

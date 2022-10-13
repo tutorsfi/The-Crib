@@ -273,6 +273,16 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HandTowel {
+            get {
+                object obj = ResourceManager.GetObject("HandTowel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap KidsRoom {
             get {
                 object obj = ResourceManager.GetObject("KidsRoom", resourceCulture);
@@ -323,6 +333,26 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MirrorCabinet {
+            get {
+                object obj = ResourceManager.GetObject("MirrorCabinet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mirrorcabinetbg {
+            get {
+                object obj = ResourceManager.GetObject("mirrorcabinetbg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Notebook {
             get {
                 object obj = ResourceManager.GetObject("Notebook", resourceCulture);
@@ -346,6 +376,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap OfficeChair1 {
             get {
                 object obj = ResourceManager.GetObject("OfficeChair1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pail {
+            get {
+                object obj = ResourceManager.GetObject("Pail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,6 +473,16 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sauna_with_benches {
+            get {
+                object obj = ResourceManager.GetObject("sauna_with_benches", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SaunaBench1 {
             get {
                 object obj = ResourceManager.GetObject("SaunaBench1", resourceCulture);
@@ -456,6 +506,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap SaunaDoorOnTheLeft {
             get {
                 object obj = ResourceManager.GetObject("SaunaDoorOnTheLeft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SaunaLadle {
+            get {
+                object obj = ResourceManager.GetObject("SaunaLadle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -496,6 +556,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap Sink_Bathroom {
             get {
                 object obj = ResourceManager.GetObject("Sink_Bathroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap StoveStones {
+            get {
+                object obj = ResourceManager.GetObject("StoveStones", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

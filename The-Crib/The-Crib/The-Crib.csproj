@@ -81,6 +81,7 @@
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
+    <Compile Include="DictionaryMirrorCabinet.cs" />
     <Compile Include="DictionarySauna.cs" />
     <Compile Include="DictionaryStudyRoom.cs" />
     <Compile Include="DictionaryUpstairsHallway.cs" />
@@ -114,6 +115,12 @@
     </Compile>
     <Compile Include="MasterBedroomForm.Designer.cs">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MirrorCabinetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MirrorCabinetForm.Designer.cs">
+      <DependentUpon>MirrorCabinetForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -176,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MirrorCabinetForm.resx">
+      <DependentUpon>MirrorCabinetForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -394,6 +404,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Wardrobe_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HandTowel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirrorCabinetWithBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauna_with_benches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaLadle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoveStones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wc_with_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MirrorCabinetOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MirrorCabinet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirrorcabinetbg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -25,9 +25,9 @@ namespace The_Crib
             {"SaunaStovePB", "a sauna stove,kiuas,банна піч,банная печь"},
             {"SaunaBenchOnePB", "sauna benches,lauteet,лавка у сауні,лавки для сауны"},
             {"SaunaBenchTwoPB", "sauna benches,lauteet,лавка у сауні,лавки для сауны"},
-            {"StonesPB", "stove stones,kiuaskivet,камні для печі,камни для печи"},
+            {"StoveStonesPB", "stove stones,kiuaskivet,камні для печі,камни для печи"},
             {"PailPB", "a pail,kiulu,відро для сауни,ведро для сауны"},
-            {"LadlePB", "a sauna ladle,saunakauha,ківш для сауни,ковш для сауны"},
+            {"SaunaLadlePB", "a sauna ladle,saunakauha,ківш для сауни,ковш для сауны"},
             {"GnomePB", "a sauna gnome,saunatonttu,гном для сауни,гном для сауны"},
             {"ThermometerPB", "a thermometer,lämpömittari,термометр,термометр"}
         };
