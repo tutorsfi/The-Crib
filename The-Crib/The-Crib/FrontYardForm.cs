@@ -67,7 +67,7 @@ namespace The_Crib
                 string word = wordArr[lanId];//Selecting right word for picture by index.
                 string fiWord = wordArr[1];// variable for finnish word
                 CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
-                DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show); // calling "message box"
+                DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show,lanId); // calling "message box"
                 if (result == DialogResult.OK)// clicked button in message box for returning to current page
                 {
                     CustMessageBox.Close(); // closing messagebox
@@ -141,7 +141,6 @@ namespace The_Crib
         {
             try
             {
-                bool show = false; // boolean for outdoors to show label where is translation for door
                 Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
                 {
                         {"ArrowToBackyardPB", "backyard,takapiha,задній двір,задний двор" }// Words for backyard

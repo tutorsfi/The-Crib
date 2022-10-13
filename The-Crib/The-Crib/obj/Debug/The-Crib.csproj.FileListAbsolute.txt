@@ -71,3 +71,4 @@ C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.Credit
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.CreditsForm.resources
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.CreditsForm.resources
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KidsWardrobeForm.resources
+C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.KidsWardrobeForm.resources
