@@ -103,6 +103,12 @@
     <Compile Include="KidsRoomForm.Designer.cs">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KidsWardrobeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KidsWardrobeForm.Designer.cs">
+      <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterBedroomForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KidsRoomForm.resx">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KidsWardrobeForm.resx">
+      <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
@@ -331,6 +340,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookshelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KidsRoom_base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duvet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pillow_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeddyBear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicturesOfAnimals_Bunny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicturesOfAnimals_Cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicturesOfAnimals_Dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToyCubes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToyCar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WardrobeOpen_Kid%27sRoom_clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pants_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wardrobe_Kid%27sRoom.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

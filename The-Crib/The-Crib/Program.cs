@@ -22,6 +22,7 @@ namespace The_Crib
             //Application.Run(new MasterBedroomForm());
             //Application.Run(new MainMenuForm());
             //Application.Run(new StudyForm());
+            //Application.Run(new KidsRoomForm());
         }
     }
     
