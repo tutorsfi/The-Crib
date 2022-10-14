@@ -86,6 +86,12 @@
     <Compile Include="DictionaryStudyRoom.cs" />
     <Compile Include="DictionaryUpstairsHallway.cs" />
     <Compile Include="DictionaryWC.cs" />
+    <Compile Include="DiningRoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiningRoomForm.Designer.cs">
+      <DependentUpon>DiningRoomForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrontYardForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomMessageBoxForm.resx">
       <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiningRoomForm.resx">
+      <DependentUpon>DiningRoomForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrontYardForm.resx">
       <DependentUpon>FrontYardForm.cs</DependentUpon>
@@ -443,6 +452,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mirrorcabinetbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaStool.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
