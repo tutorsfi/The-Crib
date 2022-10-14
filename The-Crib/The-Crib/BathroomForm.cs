@@ -75,7 +75,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox(); // custom messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show); // selecting the words for the custom messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show,lanId); // selecting the words for the custom messagebox
             if (result == DialogResult.OK) // if OK is clicked, the messagebox closes
             {
                 CustMessageBox.Close();
@@ -109,7 +109,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox(); // custom messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show); // selecting the words for the custom messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId); // selecting the words for the custom messagebox
             if (result == DialogResult.OK)// if OK is clicked, the messagebox closes
             {
                 CustMessageBox.Close();
