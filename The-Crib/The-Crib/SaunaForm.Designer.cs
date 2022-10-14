@@ -36,6 +36,7 @@
             this.PailPB = new System.Windows.Forms.PictureBox();
             this.SaunaLadlePB = new System.Windows.Forms.PictureBox();
             this.StoveStonesPB = new System.Windows.Forms.PictureBox();
+            this.SaunaStoolPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.SaunaBenchOnePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SaunaBenchTwoPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SaunaStovePB)).BeginInit();
@@ -43,6 +44,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PailPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SaunaLadlePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StoveStonesPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaStoolPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -132,12 +134,24 @@
             this.StoveStonesPB.TabStop = false;
             this.StoveStonesPB.Click += new System.EventHandler(this.SaunaImgPB);
             // 
+            // SaunaStoolPB
+            // 
+            this.SaunaStoolPB.BackColor = System.Drawing.Color.Transparent;
+            this.SaunaStoolPB.Image = global::The_Crib.Properties.Resources.SaunaStool;
+            this.SaunaStoolPB.Location = new System.Drawing.Point(106, 686);
+            this.SaunaStoolPB.Name = "SaunaStoolPB";
+            this.SaunaStoolPB.Size = new System.Drawing.Size(469, 209);
+            this.SaunaStoolPB.TabIndex = 11;
+            this.SaunaStoolPB.TabStop = false;
+            this.SaunaStoolPB.Click += new System.EventHandler(this.SaunaImgPB);
+            // 
             // SaunaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.sauna_with_benches;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.SaunaStoolPB);
             this.Controls.Add(this.StoveStonesPB);
             this.Controls.Add(this.SaunaLadlePB);
             this.Controls.Add(this.PailPB);
@@ -157,6 +171,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PailPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SaunaLadlePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StoveStonesPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaunaStoolPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -171,5 +186,6 @@
         private System.Windows.Forms.PictureBox PailPB;
         private System.Windows.Forms.PictureBox SaunaLadlePB;
         private System.Windows.Forms.PictureBox StoveStonesPB;
+        private System.Windows.Forms.PictureBox SaunaStoolPB;
     }
 }
