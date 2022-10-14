@@ -19,7 +19,7 @@ namespace The_Crib
 {
     internal class DictionaryMirrorCabinet
     {
-        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all bathroom-words
+        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all mirror cabinet -words
         {
             // order ENG-FI-UA-RUS
             {"ToothbrushPB","a tooth brush,hammasharja,зубна щітка,зубная щетка"},

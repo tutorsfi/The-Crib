@@ -25,7 +25,7 @@ namespace The_Crib
             {"ToiletPaperPB", "a toilet paper,vessapaperi,туалетний папір,туалетная бумага"},
             {"SinkPB", "a sink,lavuaari,раковина,раковина"},
             {"TapPB", "a  tap,hana,кран,кран"},
-            {"LampPB","a ceiling lamp, kattolamppu,word,word" },
+            {"LampPB","a ceiling lamp,kattolamppu,люстра,люстра"},
             {"SoapPB", "a handsoap,käsisaippua,мило для рук,мыло для рук"},
             {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,йоржик для унітазу"},
             {"BidetPB", "a bidet shower,käsisuihku,біде,гигиенический душ"},

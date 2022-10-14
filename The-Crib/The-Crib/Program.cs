@@ -24,7 +24,8 @@ namespace The_Crib
             //Application.Run(new StudyForm());
             //Application.Run(new KidsRoomForm());
             //Application.Run(new SaunaForm());
-            Application.Run(new WcForm());
+            //Application.Run(new WcForm());
+            Application.Run(new DiningRoomForm());
         }
     }
     
