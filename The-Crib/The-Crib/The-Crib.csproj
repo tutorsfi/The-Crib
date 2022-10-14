@@ -110,6 +110,12 @@
     <Compile Include="KidsWardrobeForm.Designer.cs">
       <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="LivingRoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LivingRoomForm.Designer.cs">
+      <DependentUpon>LivingRoomForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterBedroomForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KidsWardrobeForm.resx">
       <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LivingRoomForm.resx">
+      <DependentUpon>LivingRoomForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
