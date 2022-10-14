@@ -50,7 +50,7 @@ namespace The_Crib
                 string fiWord = wordArr[1];
 
                 CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm(); // custom messagebox
-                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord); // selecting the words for the custom messagebox
+                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord,lanId); // selecting the words for the custom messagebox
                 if (result == DialogResult.OK) // when OK is clicked, the messagebox closes
                 {
                     customMessageBoxForm.Close();
