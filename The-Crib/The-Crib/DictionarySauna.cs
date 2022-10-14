@@ -29,7 +29,7 @@ namespace The_Crib
             {"PailPB", "a pail,kiulu,відро для сауни,ведро для сауны"},
             {"SaunaLadlePB", "a sauna ladle,saunakauha,ківш для сауни,ковш для сауны"},
             {"GnomePB", "a sauna gnome,saunatonttu,гном для сауни,гном для сауны"},
-            {"SaunaStoolPB","a sauna stool, saunajakkara, word,word"},
+            {"SaunaStoolPB","a sauna stool, saunajakkara, word,табурет для сауны"}, // CHECK UA TRANSLATION
             {"ThermometerPB", "a thermometer,lämpömittari,термометр,термометр"}
         };
 

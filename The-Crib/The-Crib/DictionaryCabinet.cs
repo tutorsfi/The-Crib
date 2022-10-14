@@ -7,31 +7,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 /// Author@ Karoliina Salo
 /// Version 12.10.2022
 /// <summary>
-/// Dictionary-class for wc. Finished.
+/// Dictionary-class for dining room cabinet. Unfinished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
 /// </summary>
 
 namespace The_Crib
 {
-    public class DictionaryWC
+    internal class DictionaryCabinet
     {
-        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all wc-words
+        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all cabinet -words
         {
             // order ENG-FI-UA-RUS
-            {"ToiletPB", "a toilet bowl,pönttö,унітаз,унитаз"},
-            {"ToiletPaperPB", "a toilet paper,vessapaperi,туалетний папір,туалетная бумага"},
-            {"SinkPB", "a sink,lavuaari,раковина,раковина"},
-            {"TapPB", "a  tap,hana,кран,кран"},
-            {"LampPB","a ceiling lamp,kattolamppu,люстра,люстра"},
-            {"SoapPB", "a handsoap,käsisaippua,мило для рук,мыло для рук"},
-            {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,йоржик для унітазу"},
-            {"BidetPB", "a bidet shower,käsisuihku,біде,гигиенический душ"},
-            {"HandTowelPB", "a hand towel,käsipyyhe,рушник для рук,полотенце для рук"}
+            {"PlatePB","a plate,lautanen,тарілка,тарелка"},
+            {"GlassPB","a glass,lasi,склянка,стакан"},
+            {"GlassTwoPB","a glass,lasi,склянка,стакан"},
+            {"GlassThreePB","a glass,lasi,склянка,стакан"},
+            {"MugPB","a mug,muki,кружка,кружка"},
+            {"MugTwoPB","a mug,muki,кружка,кружка"}
         };
 
+        // Method to show the custom messagebox with the original and translated word
         public void Show(string pic, int lanId)
         {
             try
@@ -56,7 +55,6 @@ namespace The_Crib
                 MessageBox.Show(ex.Message);
             }
         }
-
 
     }
 }

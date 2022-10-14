@@ -10,33 +10,28 @@ using System.Windows.Forms;
 /// Author@ Karoliina Salo
 /// Version 12.10.2022
 /// <summary>
-/// Dictionary-class for wc. Finished.
+/// Dictionary-class for dining room. Unfinished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
 /// </summary>
 
 namespace The_Crib
 {
-    public class DictionaryWC
+    internal class DictionaryDiningRoom
     {
-        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all wc-words
+        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all sauna-words
         {
             // order ENG-FI-UA-RUS
-            {"ToiletPB", "a toilet bowl,pönttö,унітаз,унитаз"},
-            {"ToiletPaperPB", "a toilet paper,vessapaperi,туалетний папір,туалетная бумага"},
-            {"SinkPB", "a sink,lavuaari,раковина,раковина"},
-            {"TapPB", "a  tap,hana,кран,кран"},
-            {"LampPB","a ceiling lamp,kattolamppu,люстра,люстра"},
-            {"SoapPB", "a handsoap,käsisaippua,мило для рук,мыло для рук"},
-            {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,йоржик для унітазу"},
-            {"BidetPB", "a bidet shower,käsisuihku,біде,гигиенический душ"},
-            {"HandTowelPB", "a hand towel,käsipyyhe,рушник для рук,полотенце для рук"}
+            {"SideTablePB", "a side table,sivupöytä,приставний стіл,приставной столик"},
+            {"ChairPB", "a chair, tuoli,стілець,word"},
+            {"TablePB", "a table,pöytä,стіл,стол"},
+            {"WindowPB", "a window,ikkuna,вікно,окно"},
+            {"LampPB", "a ceiling lamp,kattolamppu,люстра,люстра"}
         };
 
         public void Show(string pic, int lanId)
         {
             try
             {
-
                 string selectedWord = wordLibrary[pic]; // selecting the words from the library
                 string[] separators = { "," }; // defining separators for array assigning
                 string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries); // words to array
@@ -56,7 +51,6 @@ namespace The_Crib
                 MessageBox.Show(ex.Message);
             }
         }
-
 
     }
 }
