@@ -80,6 +80,7 @@
     <Compile Include="DictionaryBathroom.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
+    <Compile Include="DictionaryLivingRoom.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
     <Compile Include="DictionaryMirrorCabinet.cs" />
     <Compile Include="DictionarySauna.cs" />
