@@ -36,5 +36,22 @@ namespace The_Crib
             PictureBox image = sender as PictureBox;
             kids.Show(image.Name, lanId);
         }
+
+        private void shirtKRPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            kids.Show(image.Name, lanId);
+        }
+
+        private void dressKRPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            kids.Show(image.Name, lanId);
+        }
+
+        private void KidsWardrobeForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
     }
 }

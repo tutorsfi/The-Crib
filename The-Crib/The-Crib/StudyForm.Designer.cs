@@ -118,7 +118,6 @@
             this.phoneSTPB.BackColor = System.Drawing.Color.Transparent;
             this.phoneSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Phone;
             this.phoneSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.phoneSTPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.phoneSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.phoneSTPB.Location = new System.Drawing.Point(876, 475);
             this.phoneSTPB.Name = "phoneSTPB";
@@ -243,6 +242,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "StudyForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudyForm";
             ((System.ComponentModel.ISupportInitialize)(this.deskSTPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.laptopSTPB)).EndInit();

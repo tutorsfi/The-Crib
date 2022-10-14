@@ -40,6 +40,7 @@
             this.toyCarKRPB = new System.Windows.Forms.PictureBox();
             this.doorKRPB = new System.Windows.Forms.PictureBox();
             this.wardrobeKRPB = new System.Windows.Forms.PictureBox();
+            this.langBtnMB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.kidsBedKRPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.duvetKRPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dollKRPB)).BeginInit();
@@ -209,6 +210,23 @@
             this.wardrobeKRPB.TabStop = false;
             this.wardrobeKRPB.Click += new System.EventHandler(this.wardrobeKRPB_Click);
             // 
+            // langBtnMB
+            // 
+            this.langBtnMB.BackColor = System.Drawing.Color.DarkSalmon;
+            this.langBtnMB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.langBtnMB.FlatAppearance.BorderSize = 0;
+            this.langBtnMB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.langBtnMB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langBtnMB.ForeColor = System.Drawing.Color.White;
+            this.langBtnMB.Location = new System.Drawing.Point(13, 13);
+            this.langBtnMB.Margin = new System.Windows.Forms.Padding(4);
+            this.langBtnMB.Name = "langBtnMB";
+            this.langBtnMB.Size = new System.Drawing.Size(124, 60);
+            this.langBtnMB.TabIndex = 20;
+            this.langBtnMB.Text = "Language selection\r\n";
+            this.langBtnMB.UseVisualStyleBackColor = false;
+            this.langBtnMB.Click += new System.EventHandler(this.langBtnMB_Click);
+            // 
             // KidsRoomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -216,6 +234,7 @@
             this.BackgroundImage = global::The_Crib.Properties.Resources.KidsRoom_base;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.langBtnMB);
             this.Controls.Add(this.wardrobeKRPB);
             this.Controls.Add(this.doorKRPB);
             this.Controls.Add(this.toyCarKRPB);
@@ -262,5 +281,6 @@
         private System.Windows.Forms.PictureBox toyCarKRPB;
         private System.Windows.Forms.PictureBox doorKRPB;
         private System.Windows.Forms.PictureBox wardrobeKRPB;
+        private System.Windows.Forms.Button langBtnMB;
     }
 }

@@ -128,6 +128,12 @@
     <Compile Include="MasterBedroomForm.Designer.cs">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterBedroomWardrobeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterBedroomWardrobeForm.Designer.cs">
+      <DependentUpon>MasterBedroomWardrobeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MirrorCabinetForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,6 +207,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterBedroomWardrobeForm.resx">
+      <DependentUpon>MasterBedroomWardrobeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MirrorCabinetForm.resx">
       <DependentUpon>MirrorCabinetForm.cs</DependentUpon>
@@ -455,6 +464,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SaunaStool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shirt_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dress_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nightstand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WardrobeOpen_MasterBedroom.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
