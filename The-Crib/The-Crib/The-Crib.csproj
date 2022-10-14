@@ -477,5 +477,8 @@
   <ItemGroup>
     <None Include="Resources\WardrobeOpen_MasterBedroom.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suit1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

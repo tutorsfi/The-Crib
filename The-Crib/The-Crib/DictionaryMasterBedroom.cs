@@ -19,6 +19,7 @@ namespace The_Crib
             {"socksMBPB", "socks,sukat,шкарпетки,носки" },
             {"underwearMBPB", "underwear,alusvaatteet,нижня білизна,нижнее белье" },
             {"suitMBPB", "a suit,puku,костюм ,костюм" },
+            {"dressMBPB", "a dress,mekko,плаття,платье" },
             {"ceilingLampMBPB", "a ceiling lamp,kattolamppu,лампалюстра,люстра" },
             {"sweaterMBPB", "a sweater,villapaita,светр,свитер" },
             {"shortsMBPB", "shorts,sortsit,шорти,шорты" },

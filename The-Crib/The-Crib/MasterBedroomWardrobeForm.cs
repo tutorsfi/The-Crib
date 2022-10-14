@@ -25,5 +25,17 @@ namespace The_Crib
         {
             InitializeComponent();
         }
+
+        private void dressMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
+
+        private void suitMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
     }
 }

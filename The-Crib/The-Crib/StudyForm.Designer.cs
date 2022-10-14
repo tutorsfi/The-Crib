@@ -42,6 +42,7 @@
             this.extensionCordSTPB = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.doorSTPB = new System.Windows.Forms.PictureBox();
+            this.langBtnST = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.deskSTPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.laptopSTPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chairSTPB)).BeginInit();
@@ -218,6 +219,23 @@
             this.doorSTPB.TabStop = false;
             this.doorSTPB.Click += new System.EventHandler(this.doorSTPB_Click);
             // 
+            // langBtnST
+            // 
+            this.langBtnST.BackColor = System.Drawing.Color.DarkSalmon;
+            this.langBtnST.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.langBtnST.FlatAppearance.BorderSize = 0;
+            this.langBtnST.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.langBtnST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langBtnST.ForeColor = System.Drawing.Color.White;
+            this.langBtnST.Location = new System.Drawing.Point(13, 13);
+            this.langBtnST.Margin = new System.Windows.Forms.Padding(4);
+            this.langBtnST.Name = "langBtnST";
+            this.langBtnST.Size = new System.Drawing.Size(124, 60);
+            this.langBtnST.TabIndex = 18;
+            this.langBtnST.Text = "Language selection\r\n";
+            this.langBtnST.UseVisualStyleBackColor = false;
+            this.langBtnST.Click += new System.EventHandler(this.langBtnST_Click);
+            // 
             // StudyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -225,6 +243,7 @@
             this.BackgroundImage = global::The_Crib.Properties.Resources.Study_base2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.langBtnST);
             this.Controls.Add(this.doorSTPB);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.extensionCordSTPB);
@@ -276,5 +295,6 @@
         private System.Windows.Forms.PictureBox extensionCordSTPB;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox doorSTPB;
+        private System.Windows.Forms.Button langBtnST;
     }
 }
