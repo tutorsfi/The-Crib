@@ -295,4 +295,28 @@
   <data name="Wardrobe_Kid'sRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wardrobe_Kid'sRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="HandTowel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HandTowel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaunaLadle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaunaLadle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sauna_with_benches" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sauna_with_benches.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StoveStones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StoveStones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MirrorCabinet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MirrorCabinet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mirrorcabinetbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mirrorcabinetbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaunaStool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaunaStool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

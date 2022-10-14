@@ -77,7 +77,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox(); // custom messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show); // selecting the words for the custom messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId); // selecting the words for the custom messagebox
             if (result == DialogResult.OK) // if OK is clicked, the messagebox closes
             {
                 CustMessageBox.Close();
@@ -92,6 +92,38 @@ namespace The_Crib
             }
         }
 
-        
+        private void MirrorCabinetPB_Click(object sender, EventArgs e)
+        {
+            bool show = false;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
+            {
+                {"MirrorCabinetPB", "a mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
+                {"room","hallway,käytävä,коридор,прихожая"}
+            };
+            string selectedWord = doorLibrary["MirrorCabinetPB"];
+            string roomWord = doorLibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];   //Selecting right word by lang index
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show, lanId);
+            if (result == DialogResult.OK)  //return to current form 
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)    // move to next rooom
+            {
+                MirrorCabinetForm mirrorCabinet = new MirrorCabinetForm();    //room the door leads to
+                mirrorCabinet.LanguageId = laId;  // passing lang id to other form
+                mirrorCabinet.Show();
+                
+
+            }
+
+        }
     }
 }

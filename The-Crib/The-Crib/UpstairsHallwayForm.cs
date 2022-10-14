@@ -71,7 +71,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId);
             if (result == DialogResult.OK)
             {
                 CustMessageBox.Close();
@@ -107,7 +107,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show,lanId);
            
             if(result == DialogResult.OK)
             {
@@ -143,7 +143,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId);
 
             if(result == DialogResult.OK)
             {
@@ -178,7 +178,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId);
 
             if (result == DialogResult.OK)
             {
@@ -216,7 +216,7 @@ namespace The_Crib
             string word = wordArr[lanId];
             string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId);
 
             if (result == DialogResult.OK)
             {
