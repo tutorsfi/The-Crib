@@ -116,7 +116,7 @@ namespace The_Crib
             string word = wordArr[lanId];   //Selecting right word by lang index
             string fiWord = wordArr[0];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show, lanId);
             if (result == DialogResult.OK)  //return to current form 
             {
                 CustMessageBox.Close();
@@ -130,6 +130,14 @@ namespace The_Crib
                 this.Hide();
 
             }
+        }
+
+        private void langBtnST_Click(object sender, EventArgs e)
+        {
+            Form1 langMenu = new Form1();    //room the door leads to
+            langMenu.FormClosing += CloseForm;   // call CloseForm method
+            langMenu.Show();
+            this.Hide();
         }
     }
 }

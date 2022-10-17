@@ -34,18 +34,15 @@
             this.calendarSTPB = new System.Windows.Forms.PictureBox();
             this.labelTex = new System.Windows.Forms.Label();
             this.phoneSTPB = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.notebookSTPB = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.penSTPB = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.desklampSTRPB = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.bookshelfSTPB = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.extensionCordSTPB = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.doorSTPB = new System.Windows.Forms.PictureBox();
+            this.langBtnST = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.deskSTPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.laptopSTPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chairSTPB)).BeginInit();
@@ -75,6 +72,7 @@
             this.laptopSTPB.BackColor = System.Drawing.Color.Transparent;
             this.laptopSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Laptop1;
             this.laptopSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.laptopSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.laptopSTPB.Location = new System.Drawing.Point(1146, 396);
             this.laptopSTPB.Name = "laptopSTPB";
             this.laptopSTPB.Size = new System.Drawing.Size(216, 140);
@@ -87,6 +85,7 @@
             this.chairSTPB.BackColor = System.Drawing.Color.Transparent;
             this.chairSTPB.BackgroundImage = global::The_Crib.Properties.Resources.OfficeChair1;
             this.chairSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.chairSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chairSTPB.Location = new System.Drawing.Point(1232, 423);
             this.chairSTPB.Name = "chairSTPB";
             this.chairSTPB.Size = new System.Drawing.Size(316, 456);
@@ -97,6 +96,7 @@
             // calendarSTPB
             // 
             this.calendarSTPB.BackColor = System.Drawing.Color.Silver;
+            this.calendarSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.calendarSTPB.Location = new System.Drawing.Point(895, 229);
             this.calendarSTPB.Name = "calendarSTPB";
             this.calendarSTPB.Size = new System.Drawing.Size(141, 150);
@@ -116,64 +116,42 @@
             // 
             // phoneSTPB
             // 
-            this.phoneSTPB.BackColor = System.Drawing.Color.LightGray;
-            this.phoneSTPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.phoneSTPB.Location = new System.Drawing.Point(889, 475);
+            this.phoneSTPB.BackColor = System.Drawing.Color.Transparent;
+            this.phoneSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Phone;
+            this.phoneSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.phoneSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.phoneSTPB.Location = new System.Drawing.Point(876, 475);
             this.phoneSTPB.Name = "phoneSTPB";
-            this.phoneSTPB.Size = new System.Drawing.Size(48, 55);
+            this.phoneSTPB.Size = new System.Drawing.Size(56, 67);
             this.phoneSTPB.TabIndex = 5;
             this.phoneSTPB.TabStop = false;
             this.phoneSTPB.Click += new System.EventHandler(this.phoneSTPB_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(892, 500);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 16);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "phone";
-            // 
             // notebookSTPB
             // 
-            this.notebookSTPB.BackColor = System.Drawing.Color.YellowGreen;
-            this.notebookSTPB.Location = new System.Drawing.Point(975, 463);
+            this.notebookSTPB.BackColor = System.Drawing.Color.Transparent;
+            this.notebookSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Notebook;
+            this.notebookSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.notebookSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.notebookSTPB.Location = new System.Drawing.Point(1007, 475);
             this.notebookSTPB.Name = "notebookSTPB";
             this.notebookSTPB.Size = new System.Drawing.Size(86, 67);
             this.notebookSTPB.TabIndex = 7;
             this.notebookSTPB.TabStop = false;
             this.notebookSTPB.Click += new System.EventHandler(this.notebookSTPB_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.YellowGreen;
-            this.label2.Location = new System.Drawing.Point(985, 486);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 16);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "notebook";
-            // 
             // penSTPB
             // 
-            this.penSTPB.BackColor = System.Drawing.Color.Yellow;
-            this.penSTPB.Location = new System.Drawing.Point(1091, 469);
+            this.penSTPB.BackColor = System.Drawing.Color.Transparent;
+            this.penSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Pen;
+            this.penSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.penSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.penSTPB.Location = new System.Drawing.Point(1084, 511);
             this.penSTPB.Name = "penSTPB";
-            this.penSTPB.Size = new System.Drawing.Size(15, 61);
+            this.penSTPB.Size = new System.Drawing.Size(70, 19);
             this.penSTPB.TabIndex = 9;
             this.penSTPB.TabStop = false;
             this.penSTPB.Click += new System.EventHandler(this.penSTPB_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Yellow;
-            this.label3.Location = new System.Drawing.Point(1088, 533);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 16);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "pen";
             // 
             // desklampSTRPB
             // 
@@ -189,6 +167,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.IndianRed;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Location = new System.Drawing.Point(1443, 344);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 16);
@@ -197,27 +176,20 @@
             // 
             // bookshelfSTPB
             // 
-            this.bookshelfSTPB.BackColor = System.Drawing.Color.BurlyWood;
-            this.bookshelfSTPB.Location = new System.Drawing.Point(343, 101);
+            this.bookshelfSTPB.BackColor = System.Drawing.Color.Transparent;
+            this.bookshelfSTPB.BackgroundImage = global::The_Crib.Properties.Resources.Bookshelf;
+            this.bookshelfSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bookshelfSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookshelfSTPB.Location = new System.Drawing.Point(343, 112);
             this.bookshelfSTPB.Name = "bookshelfSTPB";
-            this.bookshelfSTPB.Size = new System.Drawing.Size(495, 532);
+            this.bookshelfSTPB.Size = new System.Drawing.Size(495, 533);
             this.bookshelfSTPB.TabIndex = 13;
             this.bookshelfSTPB.TabStop = false;
             this.bookshelfSTPB.Click += new System.EventHandler(this.bookshelfSTPB_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.BurlyWood;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(516, 314);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 25);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "bookshelf";
-            // 
             // extensionCordSTPB
             // 
+            this.extensionCordSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.extensionCordSTPB.Location = new System.Drawing.Point(975, 736);
             this.extensionCordSTPB.Name = "extensionCordSTPB";
             this.extensionCordSTPB.Size = new System.Drawing.Size(164, 50);
@@ -239,12 +211,30 @@
             this.doorSTPB.BackColor = System.Drawing.Color.Transparent;
             this.doorSTPB.BackgroundImage = global::The_Crib.Properties.Resources.DoorToLeft;
             this.doorSTPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.doorSTPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.doorSTPB.Location = new System.Drawing.Point(1, 92);
             this.doorSTPB.Name = "doorSTPB";
             this.doorSTPB.Size = new System.Drawing.Size(185, 787);
             this.doorSTPB.TabIndex = 17;
             this.doorSTPB.TabStop = false;
             this.doorSTPB.Click += new System.EventHandler(this.doorSTPB_Click);
+            // 
+            // langBtnST
+            // 
+            this.langBtnST.BackColor = System.Drawing.Color.DarkSalmon;
+            this.langBtnST.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.langBtnST.FlatAppearance.BorderSize = 0;
+            this.langBtnST.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.langBtnST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langBtnST.ForeColor = System.Drawing.Color.White;
+            this.langBtnST.Location = new System.Drawing.Point(13, 13);
+            this.langBtnST.Margin = new System.Windows.Forms.Padding(4);
+            this.langBtnST.Name = "langBtnST";
+            this.langBtnST.Size = new System.Drawing.Size(124, 60);
+            this.langBtnST.TabIndex = 18;
+            this.langBtnST.Text = "Language selection\r\n";
+            this.langBtnST.UseVisualStyleBackColor = false;
+            this.langBtnST.Click += new System.EventHandler(this.langBtnST_Click);
             // 
             // StudyForm
             // 
@@ -253,17 +243,14 @@
             this.BackgroundImage = global::The_Crib.Properties.Resources.Study_base2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.langBtnST);
             this.Controls.Add(this.doorSTPB);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.extensionCordSTPB);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.bookshelfSTPB);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.penSTPB);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.notebookSTPB);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.phoneSTPB);
             this.Controls.Add(this.labelTex);
             this.Controls.Add(this.calendarSTPB);
@@ -274,6 +261,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "StudyForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudyForm";
             ((System.ComponentModel.ISupportInitialize)(this.deskSTPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.laptopSTPB)).EndInit();
@@ -299,17 +287,14 @@
         private System.Windows.Forms.PictureBox calendarSTPB;
         private System.Windows.Forms.Label labelTex;
         private System.Windows.Forms.PictureBox phoneSTPB;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox notebookSTPB;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox penSTPB;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox desklampSTRPB;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox bookshelfSTPB;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox extensionCordSTPB;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox doorSTPB;
+        private System.Windows.Forms.Button langBtnST;
     }
 }

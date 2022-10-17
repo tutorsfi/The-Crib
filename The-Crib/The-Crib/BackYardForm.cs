@@ -58,17 +58,17 @@ namespace The_Crib
             string word = wordArr[lanId];//Selecting right word for picture by index.
             string fiWord = wordArr[1];// variable for finnish word
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show); // calling "message box"
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId); // calling "message box"
             if (result == DialogResult.OK)// clicked button in message box for returning to current page
             {
                 CustMessageBox.Close(); // closing messagebox
             }
             else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
             {
-                MainMenuForm frYaFo = new MainMenuForm(); // FrontYardForm 
-                frYaFo.FormClosing += CloseForm; //
-                frYaFo.LanguageId = laId; // passing id to another form
-                frYaFo.Show(); // opening next form
+                LivingRoomForm liRoFo = new LivingRoomForm(); // FrontYardForm 
+                liRoFo.FormClosing += CloseForm; //
+                liRoFo.LanguageId = laId; // passing id to another form
+                liRoFo.Show(); // opening next form
                 this.Hide(); // hiding this one
 
             }

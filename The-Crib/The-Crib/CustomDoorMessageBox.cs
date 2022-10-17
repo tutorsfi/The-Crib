@@ -18,20 +18,24 @@ namespace The_Crib
             InitializeComponent();
         }
         
+        //dictionary for button texts.
         Dictionary<string, string> buttonLibrary = new Dictionary<string, string>()
             {
                 {"ReturnBT","return,palaa,UA-r,RUS-r" },
                 {"ChangeFormBT","enter,mene,UA-c,RUS-c" }
             };
 
-        public DialogResult ShowDialog(string word, string fiWord, string roomWord, string fiRoom, bool show)
+        //Method for doors
+        public DialogResult ShowDialog(string word, string fiWord, string roomWord, string fiRoom, bool show, int lanId)
         {
             WordLB.Text = $"{fiWord} = {word}"; // label in "message box"
             OnlyInYardDoorsLB.Text = $"{fiRoom} = {roomWord}";
             OnlyInYardDoorsLB.Visible = show;
+            MessageBoxButtonTexts(lanId); // new feature for button translations.
             return this.ShowDialog();
         }
 
+        //Method for arrow to backyaed in front yard view
         public DialogResult ShowDialog1(string word, string fiWord, int lanId)
         {
             WordLB.Text = $"{fiWord} = {word}"; // label in "message box"
@@ -39,6 +43,7 @@ namespace The_Crib
             return this.ShowDialog();
         }
 
+        //Method for buttons text output
         private void MessageBoxButtonTexts(int lanId)
         {
             string selectedWord = buttonLibrary["ReturnBT"];//Selecting words for ReturnBT from library by key.
@@ -51,5 +56,7 @@ namespace The_Crib
             ReturnBT.Text = $"{returnWord}";
             ChangeFormBT.Text = $"{changeWord}";
         }
+
+        
     }
 }

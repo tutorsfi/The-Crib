@@ -19,6 +19,7 @@ namespace The_Crib
             {"socksMBPB", "socks,sukat,шкарпетки,носки" },
             {"underwearMBPB", "underwear,alusvaatteet,нижня білизна,нижнее белье" },
             {"suitMBPB", "a suit,puku,костюм ,костюм" },
+            {"dressMBPB", "a dress,mekko,плаття,платье" },
             {"ceilingLampMBPB", "a ceiling lamp,kattolamppu,лампалюстра,люстра" },
             {"sweaterMBPB", "a sweater,villapaita,светр,свитер" },
             {"shortsMBPB", "shorts,sortsit,шорти,шорты" },
@@ -37,7 +38,7 @@ namespace The_Crib
                 string word = wordArr[lanId];   //Selecting right language word for picture by index.
                 string fiWord = wordArr[1]; //finnish word is always index value 1
                 CustomMessageBoxForm cuMeFo = new CustomMessageBoxForm();   // variable for custom message box
-                DialogResult result = cuMeFo.ShowDialog(word, fiWord); // calling "message box"
+                DialogResult result = cuMeFo.ShowDialog(word, fiWord, lanId); // calling "message box"
                 if (result == DialogResult.OK)  // clicked OK in message box
                 {
                     cuMeFo.Close(); // closing form

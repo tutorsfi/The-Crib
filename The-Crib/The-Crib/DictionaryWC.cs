@@ -23,10 +23,9 @@ namespace The_Crib
             // order ENG-FI-UA-RUS
             {"ToiletPB", "a toilet bowl,pönttö,унітаз,унитаз"},
             {"ToiletPaperPB", "a toilet paper,vessapaperi,туалетний папір,туалетная бумага"},
-            {"MirrorPB", "a mirror cabinet,peilikaappi,шкаф із дзеркалом,зеркальный шкаф"},
             {"SinkPB", "a sink,lavuaari,раковина,раковина"},
             {"TapPB", "a  tap,hana,кран,кран"},
-            {"LampPB","a ceiling lamp, kattolamppu,word,word" },
+            {"LampPB","a ceiling lamp,kattolamppu,люстра,люстра"},
             {"SoapPB", "a handsoap,käsisaippua,мило для рук,мыло для рук"},
             {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,йоржик для унітазу"},
             {"BidetPB", "a bidet shower,käsisuihku,біде,гигиенический душ"},
@@ -45,7 +44,7 @@ namespace The_Crib
                 string fiWord = wordArr[1];
 
                 CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm(); // custom messagebox
-                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord); // selecting the words for the custom messagebox
+                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord, lanId); // selecting the words for the custom messagebox
                 if (result == DialogResult.OK) // when OK is clicked, the messagebox closes
                 {
                     customMessageBoxForm.Close();

@@ -51,8 +51,36 @@ namespace The_Crib
 
         private void WardrobeMBPB_Click(object sender, EventArgs e)
         {
-            PictureBox image = sender as PictureBox;
-            dimaBr.Show(image.Name, lanId);
+            //PictureBox image = sender as PictureBox;
+            //dimaBr.Show(image.Name, lanId);
+            bool show = false;
+            Dictionary<string, string> doorDic = new Dictionary<string, string>()
+        {
+               {"wardrobeMBPB", "a wardrobe,vaatekaappi,шафа для одягу,шкаф для одежды" },  // EN - FI - UA - RU
+                {"room","hallway,käytävä,коридор,прихожая" } //ua needs checking
+        };
+            string selectedWord = doorDic["wardrobeMBPB"];
+            string roomWord = doorDic["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[0];
+            string word = wordArr[lanId];   //Selecting right word by lang index
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show, lanId);
+            if (result == DialogResult.OK)  //return to current form 
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)    // move to next rooom
+            {
+                MasterBedroomWardrobeForm bdrm = new MasterBedroomWardrobeForm();    //room the door leads to
+                bdrm.LanguageId = laId;  // passing lang id to other form
+                bdrm.Show();
+
+            }
         }
 
         private void bedMBPB_Click(object sender, EventArgs e)
@@ -85,7 +113,7 @@ namespace The_Crib
             string word = wordArr[lanId];   //Selecting right word by lang index
             string fiWord = wordArr[0];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show);
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show, lanId);
             if (result == DialogResult.OK)  //return to current form 
             {
                 CustMessageBox.Close(); 

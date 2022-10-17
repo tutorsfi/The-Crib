@@ -81,10 +81,17 @@
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
+    <Compile Include="DictionaryMirrorCabinet.cs" />
     <Compile Include="DictionarySauna.cs" />
     <Compile Include="DictionaryStudyRoom.cs" />
     <Compile Include="DictionaryUpstairsHallway.cs" />
     <Compile Include="DictionaryWC.cs" />
+    <Compile Include="DiningRoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiningRoomForm.Designer.cs">
+      <DependentUpon>DiningRoomForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrontYardForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,29 +104,41 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HallwayForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HallwayForm.Designer.cs">
-      <DependentUpon>HallwayForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="KidsRoomForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="KidsRoomForm.Designer.cs">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="KitchenForm.cs">
+    <Compile Include="KidsWardrobeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KitchenForm.Designer.cs">
-      <DependentUpon>KitchenForm.cs</DependentUpon>
+    <Compile Include="KidsWardrobeForm.Designer.cs">
+      <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LivingRoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LivingRoomForm.Designer.cs">
+      <DependentUpon>LivingRoomForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterBedroomForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MasterBedroomForm.Designer.cs">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterBedroomWardrobeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterBedroomWardrobeForm.Designer.cs">
+      <DependentUpon>MasterBedroomWardrobeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MirrorCabinetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MirrorCabinetForm.Designer.cs">
+      <DependentUpon>MirrorCabinetForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -168,23 +187,32 @@
     <EmbeddedResource Include="CustomMessageBoxForm.resx">
       <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DiningRoomForm.resx">
+      <DependentUpon>DiningRoomForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrontYardForm.resx">
       <DependentUpon>FrontYardForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HallwayForm.resx">
-      <DependentUpon>HallwayForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="KidsRoomForm.resx">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KitchenForm.resx">
-      <DependentUpon>KitchenForm.cs</DependentUpon>
+    <EmbeddedResource Include="KidsWardrobeForm.resx">
+      <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LivingRoomForm.resx">
+      <DependentUpon>LivingRoomForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterBedroomWardrobeForm.resx">
+      <DependentUpon>MasterBedroomWardrobeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MirrorCabinetForm.resx">
+      <DependentUpon>MirrorCabinetForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -349,6 +377,108 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookshelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KidsRoom_base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duvet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pillow_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeddyBear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicturesOfAnimals_Bunny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicturesOfAnimals_Cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicturesOfAnimals_Dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToyCubes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToyCar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WardrobeOpen_Kid%27sRoom_clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pants_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wardrobe_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HandTowel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirrorCabinetWithBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauna_with_benches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaLadle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoveStones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wc_with_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MirrorCabinetOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MirrorCabinet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirrorcabinetbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaunaStool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shirt_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dress_Kid%27sRoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nightstand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WardrobeOpen_MasterBedroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suit1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

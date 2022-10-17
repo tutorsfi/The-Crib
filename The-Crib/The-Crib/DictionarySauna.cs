@@ -25,10 +25,11 @@ namespace The_Crib
             {"SaunaStovePB", "a sauna stove,kiuas,банна піч,банная печь"},
             {"SaunaBenchOnePB", "sauna benches,lauteet,лавка у сауні,лавки для сауны"},
             {"SaunaBenchTwoPB", "sauna benches,lauteet,лавка у сауні,лавки для сауны"},
-            {"StonesPB", "stove stones,kiuaskivet,камні для печі,камни для печи"},
+            {"StoveStonesPB", "stove stones,kiuaskivet,камні для печі,камни для печи"},
             {"PailPB", "a pail,kiulu,відро для сауни,ведро для сауны"},
-            {"LadlePB", "a sauna ladle,saunakauha,ківш для сауни,ковш для сауны"},
+            {"SaunaLadlePB", "a sauna ladle,saunakauha,ківш для сауни,ковш для сауны"},
             {"GnomePB", "a sauna gnome,saunatonttu,гном для сауни,гном для сауны"},
+            {"SaunaStoolPB","a sauna stool, saunajakkara, word,табурет для сауны"}, // CHECK UA TRANSLATION
             {"ThermometerPB", "a thermometer,lämpömittari,термометр,термометр"}
         };
 
@@ -43,7 +44,7 @@ namespace The_Crib
                 string fiWord = wordArr[1];
 
                 CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm(); // custom messagebox
-                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord); // selecting the words for the custom messagebox
+                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord, lanId); // selecting the words for the custom messagebox
                 if (result == DialogResult.OK) // when OK is clicked, the messagebox closes
                 {
                     customMessageBoxForm.Close();

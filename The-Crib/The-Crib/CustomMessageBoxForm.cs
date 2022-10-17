@@ -17,9 +17,18 @@ namespace The_Crib
             InitializeComponent();
         }
 
-        public DialogResult ShowDialog(string word, string fiWord)
+        Dictionary<string, string> buttonLibrary = new Dictionary<string, string>()
+            {
+                {"ReturnBT","return,palaa,UA-r,RUS-r" }
+            };
+        public DialogResult ShowDialog(string word, string fiWord, int lanId)
         {
+            string selectedWord = buttonLibrary["ReturnBT"];//Selecting words for ReturnBT from library by key.
+            string[] separators = { "," };//Defining separators for array assigning
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+            string returnWord = wordArr[lanId];//Selecting ReturnBT word by index.
             WordLB.Text = $"{fiWord} = {word}"; // label in "message box"
+            ReturnBT.Text = $"{returnWord}";
             return this.ShowDialog();
         }
     }

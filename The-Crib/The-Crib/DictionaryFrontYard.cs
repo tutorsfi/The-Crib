@@ -38,7 +38,7 @@ namespace The_Crib
                 string word = wordArr[lanId];//Selecting right word for picture by index.
                 string fiWord = wordArr[1];// variable for finnish word
                 CustomMessageBoxForm cuMeFo = new CustomMessageBoxForm();// variable for custom message box
-                DialogResult result = cuMeFo.ShowDialog(word, fiWord); // calling "message box"
+                DialogResult result = cuMeFo.ShowDialog(word, fiWord,lanId); // calling "message box"
                 if (result == DialogResult.OK)// clicked button in message box
                 {
                     cuMeFo.Close(); // closing form
