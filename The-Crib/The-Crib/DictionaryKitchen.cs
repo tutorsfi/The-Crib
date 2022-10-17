@@ -36,7 +36,7 @@ namespace The_Crib
                 string[] separators = { "," };
                 string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
                 string word = wordArr[lanId];
-                string fiWord = wordArr[0];
+                string fiWord = wordArr[1];
 
                 CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm();
                 DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord,lanId);

@@ -79,12 +79,37 @@ namespace The_Crib
 
         private void ToKitchenPB_Click(object sender, EventArgs e)
         {
-            KitchenForm kitchenForm = new KitchenForm();
-            kitchenForm.FormClosing += CloseForm;
-            kitchenForm.LanguageId = lanId;
-            kitchenForm.Show();
-            this.Hide();
 
+            bool show = false;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>() // words to show when the sauna door is clicked
+            {
+                {"ToKitchenPB","a kitchen,keittiö,word,word"},
+                {"room","room,room,room,room"}
+            };
+
+            string selectedWord = doorLibrary["ToKitchenPB"]; // selecting the words from the library 
+            string roomWord = doorLibrary["room"];
+            string[] separators = { "," }; // defining separators for array assigning
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries); // words to array
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId]; // selecting the right word for the label
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox(); // custom messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId); // selecting the words for the custom messagebox
+            if (result == DialogResult.OK) // if OK is clicked, the messagebox closes
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes) // if YES is clicked, the messagebox closes and opens a new form
+            {
+                KitchenForm kitchenForm = new KitchenForm();
+                kitchenForm.FormClosing += CloseForm;
+                kitchenForm.LanguageId = lanId;
+                kitchenForm.Show();
+                this.Hide();
+            }
         }
     }
 }

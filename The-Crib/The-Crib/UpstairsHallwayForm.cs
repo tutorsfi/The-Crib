@@ -224,10 +224,10 @@ namespace The_Crib
             }
             else if (result == DialogResult.Yes)
             {
-                StudyForm study = new StudyForm(); // FIX THIS
-                study.FormClosing += CloseForm;
-                study.LanguageId = lanId;
-                study.Show();
+                KitchenForm kitchen = new KitchenForm();
+                kitchen.FormClosing += CloseForm;
+                kitchen.LanguageId = lanId;
+                kitchen.Show();
                 this.Hide();
             }
 
