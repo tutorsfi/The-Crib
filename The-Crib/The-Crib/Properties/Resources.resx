@@ -376,4 +376,88 @@
   <data name="Suit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Suit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Cucumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cucumber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawerBoxFromAbove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrawerBoxFromAbove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DryingCabinet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DryingCabinet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eggs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eggs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreezerOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FreezerOpen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FridgeOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FridgeOpen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrozenBerries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrozenBerries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrozenPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrozenPizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrozenVegetables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrozenVegetables.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryingPan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FryingPan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IceCream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IceCream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LowerCabinet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LowerCabinet2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LowerCabinetOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LowerCabinetOpen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Margarine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Margarine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MilkCarton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MilkCarton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeJuiceCarton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OrangeJuiceCarton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scissors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scissors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToiletPaper_Bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToiletPaper_Bathroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToiletPaper_WC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToiletPaper_WC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tomatoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tomatoes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrashBin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TrashBin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CabinetDoors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CabinetDoors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dryingCabinetBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dryingCabinetBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freezerBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freezerBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fridgebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fridgebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LowerCabinetBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LowerCabinetBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drawer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
