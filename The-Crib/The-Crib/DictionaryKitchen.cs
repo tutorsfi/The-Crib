@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace The_Crib
 {
@@ -12,16 +16,15 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {
             // order ENG-FI-UA-RUS
-            {"FridgeKPB", "a fridge,jääkaappi,холодильник,холодильник"},
-            {"FreezerKPB", "a freezer,pakastin,морозильна камера,морозильна камера"},
             {"OvenKPB", "an oven,uuni,піч,духовка"},
             {"StoveKPB", "a stove,hella,плита,плита"},
             {"CoffeeMakerKPB", "a coffee maker,kahvinkeitin,кавоварка,кофеварка"},
-            {"MicrowaveKPB", "a microwave,mikro,мікрохвильова піч,микроволновая печь"},
+            {"MicrowaveOvenKPB", "a microwave,mikro,мікрохвильова піч,микроволновая печь"},
             {"DryingCabinetKPB", "a drying cabinet,kuivauskaappi,сушильна шафа,шкаф для сушки"},
             {"SinkKPB", "a sink,lavuaari,раковина,раковина"},
             {"TapKPB", "a tap,hana,кран,кран"},
-            {"DrawerKPB", "a drawer,vetolaatikko,шухляда,выдвижной ящик"}
+            {"WindowPB", "a window,ikkuna,вікно,окно"},
+            {"TrashPB","a trash bin,roskakori,word,word"}
         };
 
         public void Show(string pic, int lanId)
@@ -33,13 +36,10 @@ namespace The_Crib
                 string[] separators = { "," };
                 string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
                 string word = wordArr[lanId];
-                string enWord = wordArr[0];
-                string fiWord = wordArr[1];
-                string uaWord = wordArr[2];
-                string ruWord = wordArr[3];
+                string fiWord = wordArr[0];
 
                 CustomMessageBoxForm customMessageBoxForm = new CustomMessageBoxForm();
-                DialogResult result = customMessageBoxForm.ShowDialog(uaWord, fiWord);
+                DialogResult result = customMessageBoxForm.ShowDialog(word, fiWord,lanId);
                 if (result == DialogResult.OK)
                 {
                     customMessageBoxForm.Close();

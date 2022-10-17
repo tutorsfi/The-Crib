@@ -79,6 +79,11 @@ namespace The_Crib
 
         private void ToKitchenPB_Click(object sender, EventArgs e)
         {
+            KitchenForm kitchenForm = new KitchenForm();
+            kitchenForm.FormClosing += CloseForm;
+            kitchenForm.LanguageId = lanId;
+            kitchenForm.Show();
+            this.Hide();
 
         }
     }

@@ -58,6 +58,12 @@
     <Compile Include="BathroomForm.Designer.cs">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CabinetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CabinetForm.Designer.cs">
+      <DependentUpon>CabinetForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreditsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,8 +84,15 @@
     </Compile>
     <Compile Include="DictionaryBackyard.cs" />
     <Compile Include="DictionaryBathroom.cs" />
+    <Compile Include="DictionaryCabinet.cs" />
+    <Compile Include="DictionaryDiningRoom.cs" />
+    <Compile Include="DictionaryDrawer.cs" />
+    <Compile Include="DictionaryFreezer.cs" />
+    <Compile Include="DictionaryFridge.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
+    <Compile Include="DictionaryKitchen.cs" />
+    <Compile Include="DictionaryLowerCabinet.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
     <Compile Include="DictionaryMirrorCabinet.cs" />
     <Compile Include="DictionarySauna.cs" />
@@ -91,6 +104,30 @@
     </Compile>
     <Compile Include="DiningRoomForm.Designer.cs">
       <DependentUpon>DiningRoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrawerForm.Designer.cs">
+      <DependentUpon>DrawerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DryingCabinetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DryingCabinetForm.Designer.cs">
+      <DependentUpon>DryingCabinetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FreezerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreezerForm.Designer.cs">
+      <DependentUpon>FreezerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FridgeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FridgeForm.Designer.cs">
+      <DependentUpon>FridgeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FrontYardForm.cs">
       <SubType>Form</SubType>
@@ -116,11 +153,23 @@
     <Compile Include="KidsWardrobeForm.Designer.cs">
       <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KitchenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitchenForm.Designer.cs">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LivingRoomForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LivingRoomForm.Designer.cs">
       <DependentUpon>LivingRoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LowerCabinetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LowerCabinetForm.Designer.cs">
+      <DependentUpon>LowerCabinetForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterBedroomForm.cs">
       <SubType>Form</SubType>
@@ -178,6 +227,9 @@
     <EmbeddedResource Include="BathroomForm.resx">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CabinetForm.resx">
+      <DependentUpon>CabinetForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreditsForm.resx">
       <DependentUpon>CreditsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +241,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DiningRoomForm.resx">
       <DependentUpon>DiningRoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrawerForm.resx">
+      <DependentUpon>DrawerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DryingCabinetForm.resx">
+      <DependentUpon>DryingCabinetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreezerForm.resx">
+      <DependentUpon>FreezerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FridgeForm.resx">
+      <DependentUpon>FridgeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrontYardForm.resx">
       <DependentUpon>FrontYardForm.cs</DependentUpon>
@@ -202,8 +266,14 @@
     <EmbeddedResource Include="KidsWardrobeForm.resx">
       <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KitchenForm.resx">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LivingRoomForm.resx">
       <DependentUpon>LivingRoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LowerCabinetForm.resx">
+      <DependentUpon>LowerCabinetForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBedroomForm.resx">
       <DependentUpon>MasterBedroomForm.cs</DependentUpon>
@@ -479,6 +549,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Suit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrozenBerries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrozenPizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrozenVegetables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FryingPan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IceCream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinet2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinetOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Margarine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MilkCarton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrangeJuiceCarton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scissors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToiletPaper_Bathroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToiletPaper_WC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomatoes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrashBin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cucumber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrawerBoxFromAbove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DryingCabinet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eggs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreezerOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FridgeOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CabinetDoors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinetBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fridgebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freezerBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dryingCabinetBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drawer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

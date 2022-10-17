@@ -40,6 +40,7 @@
             this.WindowBathroomPB = new System.Windows.Forms.PictureBox();
             this.FencePB = new System.Windows.Forms.PictureBox();
             this.ArrowToBackyardPB = new System.Windows.Forms.PictureBox();
+            this.LanguageSelectionBT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.HousePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoofPB)).BeginInit();
@@ -183,6 +184,17 @@
             this.ArrowToBackyardPB.TabStop = false;
             this.ArrowToBackyardPB.Click += new System.EventHandler(this.ArrowToBackyardPB_Click);
             // 
+            // LanguageSelectionBT
+            // 
+            this.LanguageSelectionBT.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LanguageSelectionBT.BackgroundImage")));
+            this.LanguageSelectionBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LanguageSelectionBT.Location = new System.Drawing.Point(12, 12);
+            this.LanguageSelectionBT.Name = "LanguageSelectionBT";
+            this.LanguageSelectionBT.Size = new System.Drawing.Size(90, 44);
+            this.LanguageSelectionBT.TabIndex = 11;
+            this.LanguageSelectionBT.UseVisualStyleBackColor = true;
+            this.LanguageSelectionBT.Click += new System.EventHandler(this.LanguageSelectionBT_Click);
+            // 
             // FrontYardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -190,6 +202,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.LanguageSelectionBT);
             this.Controls.Add(this.ArrowToBackyardPB);
             this.Controls.Add(this.FencePB);
             this.Controls.Add(this.WindowBathroomPB);
@@ -235,5 +248,6 @@
         private System.Windows.Forms.PictureBox WindowBathroomPB;
         private System.Windows.Forms.PictureBox FencePB;
         private System.Windows.Forms.PictureBox ArrowToBackyardPB;
+        private System.Windows.Forms.Button LanguageSelectionBT;
     }
 }

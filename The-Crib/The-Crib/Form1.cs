@@ -92,5 +92,23 @@ namespace The_Crib
             }
             */
         }
+
+        private void EnglishLaBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                laId = 0; // language id number for english language
+                //laSe = true;
+                MainMenuForm MaMeFo = new MainMenuForm(); // MainMenuForm 
+                MaMeFo.FormClosing += CloseForm; //
+                MaMeFo.LanguageId = laId; // passing id to another form
+                MaMeFo.Show(); // opening next form
+                this.Hide(); // hiding this one
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
