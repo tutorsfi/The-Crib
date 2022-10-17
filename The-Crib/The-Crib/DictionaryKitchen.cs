@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace The_Crib
 {
     class DictionaryKitchen
@@ -17,7 +18,7 @@ namespace The_Crib
             {"OvenKPB", "an oven,uuni,піч,духовка"},
             {"StoveKPB", "a stove,hella,плита,плита"},
             {"CoffeeMakerKPB", "a coffee maker,kahvinkeitin,кавоварка,кофеварка"},
-            {"MicrowaveKPB", "a microwave,mikro,мікрохвильова піч,микроволновая печь"},
+            {"MicrowaveOvenKPB", "a microwave,mikro,мікрохвильова піч,микроволновая печь"},
             {"DryingCabinetKPB", "a drying cabinet,kuivauskaappi,сушильна шафа,шкаф для сушки"},
             {"SinkKPB", "a sink,lavuaari,раковина,раковина"},
             {"TapKPB", "a tap,hana,кран,кран"},

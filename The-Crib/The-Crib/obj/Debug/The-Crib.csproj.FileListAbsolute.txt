@@ -75,9 +75,7 @@ C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KidsWa
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MirrorCabinetForm.resources
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.KidsWardrobeForm.resources
 C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.MirrorCabinetForm.resources
-C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.CabinetForm.resources
-C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.DiningRoomForm.resources
-C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.LivingRoomForm.resources
-C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.CabinetForm.resources
-C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.DiningRoomForm.resources
-C:\Users\asus\tutors_projects\repos\The-Crib\The-Crib\obj\Debug\The_Crib.LivingRoomForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.DiningRoomForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.LivingRoomForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MirrorCabinetForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.MasterBedroomWardrobeForm.resources

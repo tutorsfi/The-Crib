@@ -147,7 +147,7 @@ namespace The_Crib
             string room = roomArr[lanId];
             string fiRoom = roomArr[0];
             string word = wordArr[lanId];   //Selecting right word by lang index
-            string fiWord = wordArr[0];
+            string fiWord = wordArr[1];
             CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
             DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show,lanId);
             if (result == DialogResult.OK)  //return to current form 
@@ -157,12 +157,18 @@ namespace The_Crib
             else if (result == DialogResult.Yes)    // move to next rooom
             {
                 KidsWardrobeForm wardrobe = new KidsWardrobeForm();    //room the door leads to
-                wardrobe.FormClosing += CloseForm;   // call CloseForm method
                 wardrobe.LanguageId = laId;  // passing lang id to other form
                 wardrobe.Show();
-                //this.Hide();
 
             }
+        }
+
+        private void langBtnMB_Click(object sender, EventArgs e)
+        {
+            Form1 langMenu = new Form1();    //room the door leads to
+            langMenu.FormClosing += CloseForm;   // call CloseForm method
+            langMenu.Show();
+            this.Hide();
         }
     }
 }

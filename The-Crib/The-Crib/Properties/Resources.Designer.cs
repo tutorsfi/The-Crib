@@ -293,6 +293,26 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Dress_Kid_sRoom {
+            get {
+                object obj = ResourceManager.GetObject("Dress_Kid\'sRoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dress_MasterBedroom {
+            get {
+                object obj = ResourceManager.GetObject("Dress_MasterBedroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Duvet {
             get {
                 object obj = ResourceManager.GetObject("Duvet", resourceCulture);
@@ -426,6 +446,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap Mug {
             get {
                 object obj = ResourceManager.GetObject("Mug", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nightstand {
+            get {
+                object obj = ResourceManager.GetObject("Nightstand", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -653,6 +683,16 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Shirt_Kid_sRoom {
+            get {
+                object obj = ResourceManager.GetObject("Shirt_Kid\'sRoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Shower {
             get {
                 object obj = ResourceManager.GetObject("Shower", resourceCulture);
@@ -726,6 +766,26 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap StudyRoom {
             get {
                 object obj = ResourceManager.GetObject("StudyRoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Suit {
+            get {
+                object obj = ResourceManager.GetObject("Suit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Suit1 {
+            get {
+                object obj = ResourceManager.GetObject("Suit1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -816,6 +876,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap WardrobeOpen_Kid_sRoom_clothes {
             get {
                 object obj = ResourceManager.GetObject("WardrobeOpen_Kid\'sRoom_clothes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WardrobeOpen_MasterBedroom {
+            get {
+                object obj = ResourceManager.GetObject("WardrobeOpen_MasterBedroom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
