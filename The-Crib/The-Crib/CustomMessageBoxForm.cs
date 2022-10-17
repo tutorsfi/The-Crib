@@ -7,7 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// author@ Antti Kuusisto
+/// version 17.10.2022
+/// <summary>
+/// Form that behaves like messagebox and is used to show word and button to return current room.
+///</summary>
 namespace The_Crib
 {
     public partial class CustomMessageBoxForm : Form
@@ -19,7 +23,7 @@ namespace The_Crib
 
         Dictionary<string, string> buttonLibrary = new Dictionary<string, string>()
             {
-                {"ReturnBT","return,palaa,UA-r,RUS-r" }
+                {"ReturnBT","return,palaa,повернення,возвращаться" }, // need to verify
             };
         public DialogResult ShowDialog(string word, string fiWord, int lanId)
         {

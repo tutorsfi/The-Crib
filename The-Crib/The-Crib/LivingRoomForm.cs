@@ -7,7 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// author@ Antti Kuusisto
+/// version 17.10.2022
+/// <summary>
+/// Living room view. Door to hallway and backyard, uses own messagebox because messagebox styling requirements and code to assiqn words to messagebox is writen here because it need to operate
+/// form change and it was easier to write code here than dictionary class which operates pictures translation viewing method.
+///</summary>
 namespace The_Crib
 {
     public partial class LivingRoomForm : Form
@@ -172,7 +177,7 @@ namespace The_Crib
             }
         }
 
-        private void LanguageSelectionBT_Click(object sender, EventArgs e)
+        private void LanguageSelectionBT_Click(object sender, EventArgs e) // redirecting to language selection Form1
         {
             Form1 laSe = new Form1();
             laSe.FormClosing += CloseForm;

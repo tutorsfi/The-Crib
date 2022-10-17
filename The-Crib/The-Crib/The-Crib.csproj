@@ -92,6 +92,7 @@
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
     <Compile Include="DictionaryKitchen.cs" />
+    <Compile Include="DictionaryLivingRoom.cs" />
     <Compile Include="DictionaryLowerCabinet.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
     <Compile Include="DictionaryMirrorCabinet.cs" />
@@ -140,6 +141,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallwayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallwayForm.Designer.cs">
+      <DependentUpon>HallwayForm.cs</DependentUpon>
     </Compile>
     <Compile Include="KidsRoomForm.cs">
       <SubType>Form</SubType>
@@ -259,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallwayForm.resx">
+      <DependentUpon>HallwayForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KidsRoomForm.resx">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>

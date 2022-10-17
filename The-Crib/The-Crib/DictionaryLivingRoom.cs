@@ -4,22 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// author@ Antti Kuusisto
+/// version 17.10.2022
+/// <summary>
+/// Backyard Dictionary. Class contains code to show custom MessageBox which shows pictures name in FI - selected language.
+///</summary>
 namespace The_Crib
 {
     public class DictionaryLivingRoom
     {
-        Dictionary<string, string> wordLibrary = new Dictionary<string, string>() 
-        {
-            {"CouchPB","a couch,sohva,диван,диван" },
-            {"CoffeeTablePB","a coffee table,sohvapöytä,стіл для кави,кофейный столик" },
-            {"TelevisionPB","a television,televisio,телевізор,телевизор" },
-            {"TvStandPB","a tv table,tv-taso,тумба під телевізор,тумба под телевизор" },
-            {"WindowPB","a window,ikkuna,вікно,окно" },
-            {"RemoteControlPB","a remote control,kaukosäädin,пульт,пульт" },
-            {"GameConsolPB","a game console,pelikonsoli,ігрова консоль,игровая консоль" },
-            {"GameControllerPB","a game controller,ohjain,джойстик,джойстик" },
-            {"CurtainsPB","curtains,verhot,штори,шторы" }
+        Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
+        {   // PictureBox name is key. value order ENG-FI-UA-RUS
+            {"CouchPB","a couch,sohva,диван,диван" }, // Words for couch
+            {"CoffeeTablePB","a coffee table,sohvapöytä,стіл для кави,кофейный столик" }, // Words for coffee table
+            {"TelevisionPB","a television,televisio,телевізор,телевизор" }, // Words for television
+            {"TvStandPB","a tv table,tv-taso,тумба під телевізор,тумба под телевизор" }, // Words for tv table
+            {"WindowPB","a window,ikkuna,вікно,окно" }, // Words for Window
+            {"RemoteControlPB","a remote control,kaukosäädin,пульт,пульт" }, // Words for remote control
+            {"GameConsolPB","a game console,pelikonsoli,ігрова консоль,игровая консоль" }, // Words for game console
+            {"GameControllerPB","a game controller,ohjain,джойстик,джойстик" }, // Words for game controller
+            {"CurtainsPB","curtains,verhot,штори,шторы" } // Words for curtains
+            /*{"","decorative pillow,koristetyyny,декоративна подушка,декоративная подушка" },
+            {"","a blanket,viltti,ковдра,плед одеяло" },
+            {"","flowers,kukkia,квіти,цветы" },
+            {"","a magazine,aikakausilehti,журнал,журнал" },
+            {"","a newspaper,sanomalehti,газета,газета" }*/
         };
 
         public void Show(string pic, int lanId)
