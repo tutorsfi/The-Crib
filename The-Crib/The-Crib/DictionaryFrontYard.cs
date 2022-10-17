@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// author@ Antti Kuusisto
-/// version 6.10.2022
+/// version 13.10.2022
 /// <summary>
 /// Front yard Dictionary. Class contains code to show custom MessageBox which shows pictures name in FI - selected language.
 ///</summary>

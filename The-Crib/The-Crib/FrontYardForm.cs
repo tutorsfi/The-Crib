@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// author@ Antti Kuusisto
-/// version 5.10.2022
+/// version 17.10.2022
 /// <summary>
-/// Front yard view. Unfinished. New messagebox attached to door. Quick tests in demo doesn't work if code is in class so
-/// now code is in DoorPB_click - method.
+/// Front yard view. Door to house and arrow to backyard uses own messagebox because messagebox styling requirements and code to assiqn words to messagebox is writen here because it need to operate
+/// form change and it was easier to write code here than dictionary class which operates pictures translation viewing method.
 ///</summary>
 
 namespace The_Crib
@@ -172,7 +172,7 @@ namespace The_Crib
             }
         }
 
-        private void LanguageSelectionBT_Click(object sender, EventArgs e)
+        private void LanguageSelectionBT_Click(object sender, EventArgs e) // redirecting to language selection Form1
         {
             Form1 laSe = new Form1();
             laSe.FormClosing += CloseForm;

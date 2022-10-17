@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// author@ Antti Kuusisto
-/// version 5.10.2022
+/// version 17.10.2022
 /// <summary>
 /// UA-FI home game startpage where player selects language used while palying game. Id numbers are decided by order of languages in game document
-/// Excel file ENG-FI-UA-RUS and numbered according C# index policy. MessageBox which ask's to select language needs UA and RUS translation.
+/// Excel file ENG-FI-UA-RUS and numbered according C# index policy.
 /// </summary>
 
 namespace The_Crib
@@ -35,7 +35,6 @@ namespace The_Crib
             try 
             {
                 laId = 2; // language id number for ukrainian language
-                //laSe = true;
                 MainMenuForm MaMeFo = new MainMenuForm(); // MainMenuForm 
                 MaMeFo.FormClosing += CloseForm; //
                 MaMeFo.LanguageId = laId; // passing id to another form
@@ -46,8 +45,6 @@ namespace The_Crib
             {
                 MessageBox.Show(ex.Message);
             }
-            //laId = 2; // language id number for ukrainian language
-            //laSe = true;
         }
 
         private void RussianLaBT_Click(object sender, EventArgs e)
@@ -55,7 +52,6 @@ namespace The_Crib
             try
             {
                 laId = 3; // language id number for russian language
-                //laSe = true;
                 MainMenuForm MaMeFo = new MainMenuForm(); // MainMenuForm 
                 MaMeFo.FormClosing += CloseForm; //
                 MaMeFo.LanguageId = laId; // passing id to another form
@@ -70,27 +66,7 @@ namespace The_Crib
 
         private void NextFormBT_Click(object sender, EventArgs e)
         {
-            /*try
-            {
-                if(laSe == true)// Checking if language selected
-                {
-                    MainMenuForm MaMeFo = new MainMenuForm(); // MainMenuForm 
-                    MaMeFo.FormClosing += CloseForm; //
-                    MaMeFo.LanguageId = laId; // passing id to another form
-                    MaMeFo.Show(); // opening next form
-                    this.Hide(); // hiding this one
-                }
-                else
-                {
-                    MessageBox.Show($"Select Language");//Message to select language
-                }
-                
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            */
+
         }
 
         private void EnglishLaBT_Click(object sender, EventArgs e)
@@ -98,7 +74,6 @@ namespace The_Crib
             try
             {
                 laId = 0; // language id number for english language
-                //laSe = true;
                 MainMenuForm MaMeFo = new MainMenuForm(); // MainMenuForm 
                 MaMeFo.FormClosing += CloseForm; //
                 MaMeFo.LanguageId = laId; // passing id to another form
