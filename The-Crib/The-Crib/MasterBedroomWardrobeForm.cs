@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// author@ Jenna Koskelo
+/// version 17.10.2022
+/// <summary>
+/// Master bedroom wardrobe view.
+///</summary>
+
 namespace The_Crib
 {
     public partial class MasterBedroomWardrobeForm : Form

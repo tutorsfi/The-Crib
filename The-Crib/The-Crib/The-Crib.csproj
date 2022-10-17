@@ -90,6 +90,7 @@
     <Compile Include="DictionaryFreezer.cs" />
     <Compile Include="DictionaryFridge.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
+    <Compile Include="DictionaryHallway.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
     <Compile Include="DictionaryKitchen.cs" />
     <Compile Include="DictionaryLowerCabinet.cs" />
