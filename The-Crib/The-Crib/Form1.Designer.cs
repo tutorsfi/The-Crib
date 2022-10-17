@@ -31,6 +31,7 @@
             this.UkrainianLaBT = new System.Windows.Forms.Button();
             this.RussianLaBT = new System.Windows.Forms.Button();
             this.NextFormBT = new System.Windows.Forms.Button();
+            this.EnglishLaBT = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UkrainianLaBT
@@ -73,12 +74,24 @@
             this.NextFormBT.Visible = false;
             this.NextFormBT.Click += new System.EventHandler(this.NextFormBT_Click);
             // 
+            // EnglishLaBT
+            // 
+            this.EnglishLaBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EnglishLaBT.Location = new System.Drawing.Point(1156, 301);
+            this.EnglishLaBT.Name = "EnglishLaBT";
+            this.EnglishLaBT.Size = new System.Drawing.Size(200, 120);
+            this.EnglishLaBT.TabIndex = 0;
+            this.EnglishLaBT.Text = "ENG";
+            this.EnglishLaBT.UseVisualStyleBackColor = true;
+            this.EnglishLaBT.Click += new System.EventHandler(this.EnglishLaBT_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.Frontyard;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.EnglishLaBT);
             this.Controls.Add(this.NextFormBT);
             this.Controls.Add(this.RussianLaBT);
             this.Controls.Add(this.UkrainianLaBT);
@@ -95,6 +108,7 @@
         private System.Windows.Forms.Button UkrainianLaBT;
         private System.Windows.Forms.Button RussianLaBT;
         private System.Windows.Forms.Button NextFormBT;
+        private System.Windows.Forms.Button EnglishLaBT;
     }
 }
 

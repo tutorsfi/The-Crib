@@ -43,6 +43,7 @@
             this.OutdoorChairPB = new System.Windows.Forms.PictureBox();
             this.ToyShovelPB = new System.Windows.Forms.PictureBox();
             this.ToyBucketPB = new System.Windows.Forms.PictureBox();
+            this.LanguageSelectionBT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.HousePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoofPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorPB)).BeginInit();
@@ -151,11 +152,10 @@
             // TerracePB
             // 
             this.TerracePB.BackColor = System.Drawing.Color.Transparent;
-            this.TerracePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TerracePB.BackgroundImage")));
             this.TerracePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TerracePB.Location = new System.Drawing.Point(192, 637);
+            this.TerracePB.Location = new System.Drawing.Point(160, 637);
             this.TerracePB.Name = "TerracePB";
-            this.TerracePB.Size = new System.Drawing.Size(741, 130);
+            this.TerracePB.Size = new System.Drawing.Size(599, 130);
             this.TerracePB.TabIndex = 7;
             this.TerracePB.TabStop = false;
             this.TerracePB.Click += new System.EventHandler(this.TerracePB_Click);
@@ -165,7 +165,7 @@
             this.RakePB.BackColor = System.Drawing.Color.Transparent;
             this.RakePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RakePB.BackgroundImage")));
             this.RakePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.RakePB.Location = new System.Drawing.Point(923, 558);
+            this.RakePB.Location = new System.Drawing.Point(1307, 570);
             this.RakePB.Name = "RakePB";
             this.RakePB.Size = new System.Drawing.Size(55, 114);
             this.RakePB.TabIndex = 8;
@@ -177,7 +177,7 @@
             this.BroomPB.BackColor = System.Drawing.Color.Transparent;
             this.BroomPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BroomPB.BackgroundImage")));
             this.BroomPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BroomPB.Location = new System.Drawing.Point(984, 558);
+            this.BroomPB.Location = new System.Drawing.Point(1355, 570);
             this.BroomPB.Name = "BroomPB";
             this.BroomPB.Size = new System.Drawing.Size(58, 114);
             this.BroomPB.TabIndex = 9;
@@ -187,11 +187,10 @@
             // OutdoorTablePB
             // 
             this.OutdoorTablePB.BackColor = System.Drawing.Color.Transparent;
-            this.OutdoorTablePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("OutdoorTablePB.BackgroundImage")));
             this.OutdoorTablePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.OutdoorTablePB.Location = new System.Drawing.Point(704, 558);
+            this.OutdoorTablePB.Location = new System.Drawing.Point(860, 593);
             this.OutdoorTablePB.Name = "OutdoorTablePB";
-            this.OutdoorTablePB.Size = new System.Drawing.Size(140, 116);
+            this.OutdoorTablePB.Size = new System.Drawing.Size(182, 104);
             this.OutdoorTablePB.TabIndex = 10;
             this.OutdoorTablePB.TabStop = false;
             this.OutdoorTablePB.Click += new System.EventHandler(this.OutdoorTablePB_Click);
@@ -199,9 +198,8 @@
             // OutdoorChairPB
             // 
             this.OutdoorChairPB.BackColor = System.Drawing.Color.Transparent;
-            this.OutdoorChairPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("OutdoorChairPB.BackgroundImage")));
             this.OutdoorChairPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.OutdoorChairPB.Location = new System.Drawing.Point(598, 545);
+            this.OutdoorChairPB.Location = new System.Drawing.Point(754, 582);
             this.OutdoorChairPB.Name = "OutdoorChairPB";
             this.OutdoorChairPB.Size = new System.Drawing.Size(100, 129);
             this.OutdoorChairPB.TabIndex = 11;
@@ -213,7 +211,7 @@
             this.ToyShovelPB.BackColor = System.Drawing.Color.Transparent;
             this.ToyShovelPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ToyShovelPB.BackgroundImage")));
             this.ToyShovelPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ToyShovelPB.Location = new System.Drawing.Point(1136, 637);
+            this.ToyShovelPB.Location = new System.Drawing.Point(1121, 653);
             this.ToyShovelPB.Name = "ToyShovelPB";
             this.ToyShovelPB.Size = new System.Drawing.Size(41, 44);
             this.ToyShovelPB.TabIndex = 12;
@@ -225,12 +223,23 @@
             this.ToyBucketPB.BackColor = System.Drawing.Color.Transparent;
             this.ToyBucketPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ToyBucketPB.BackgroundImage")));
             this.ToyBucketPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ToyBucketPB.Location = new System.Drawing.Point(1196, 627);
+            this.ToyBucketPB.Location = new System.Drawing.Point(1182, 640);
             this.ToyBucketPB.Name = "ToyBucketPB";
             this.ToyBucketPB.Size = new System.Drawing.Size(85, 71);
             this.ToyBucketPB.TabIndex = 13;
             this.ToyBucketPB.TabStop = false;
             this.ToyBucketPB.Click += new System.EventHandler(this.ToyBucketPB_Click);
+            // 
+            // LanguageSelectionBT
+            // 
+            this.LanguageSelectionBT.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LanguageSelectionBT.BackgroundImage")));
+            this.LanguageSelectionBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LanguageSelectionBT.Location = new System.Drawing.Point(12, 12);
+            this.LanguageSelectionBT.Name = "LanguageSelectionBT";
+            this.LanguageSelectionBT.Size = new System.Drawing.Size(89, 38);
+            this.LanguageSelectionBT.TabIndex = 14;
+            this.LanguageSelectionBT.UseVisualStyleBackColor = true;
+            this.LanguageSelectionBT.Click += new System.EventHandler(this.LanguageSelectionBT_Click);
             // 
             // BackYardForm
             // 
@@ -239,6 +248,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.LanguageSelectionBT);
             this.Controls.Add(this.ToyBucketPB);
             this.Controls.Add(this.ToyShovelPB);
             this.Controls.Add(this.OutdoorChairPB);
@@ -293,5 +303,6 @@
         private System.Windows.Forms.PictureBox OutdoorChairPB;
         private System.Windows.Forms.PictureBox ToyShovelPB;
         private System.Windows.Forms.PictureBox ToyBucketPB;
+        private System.Windows.Forms.Button LanguageSelectionBT;
     }
 }

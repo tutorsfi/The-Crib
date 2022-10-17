@@ -117,10 +117,10 @@ namespace The_Crib
                 }
                 else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
                 {
-                    BackYardForm baYaFo = new BackYardForm();//room where door leads
-                    baYaFo.FormClosing += CloseForm;// call CloseForm method
-                    baYaFo.LanguageId = laId; // passing id to another form
-                    baYaFo.Show();
+                    HallwayForm haWaFo = new HallwayForm();//room where door leads
+                    haWaFo.FormClosing += CloseForm;// call CloseForm method
+                    //haWaFo.LanguageId = laId; // passing id to another form
+                    haWaFo.Show();
                     this.Hide();
 
                 }
@@ -139,7 +139,7 @@ namespace The_Crib
                 Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
                 {
                         {"DoorPB", "a door,ovi,двері,дверь" },// Words for door
-                        {"room", "a hallway,käytävä,коридор,прихожая" }// need to verify.
+                        {"room", "a a backyard,takapiha,задній двір,задний двор" }// need to verify.
                 };
                 string selectedWord = doorLibrary["DoorPB"];//Selecting words for picture from library by key.
                 string roomWord = doorLibrary["room"];//Selecting words for room
@@ -170,6 +170,14 @@ namespace The_Crib
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void LanguageSelectionBT_Click(object sender, EventArgs e)
+        {
+            Form1 laSe = new Form1();
+            laSe.FormClosing += CloseForm;
+            laSe.Show();
+            this.Hide();
         }
     }
 }

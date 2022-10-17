@@ -151,5 +151,13 @@ namespace The_Crib
             PictureBox image = sender as PictureBox;
             diBaYa.Show(image.Name, lanId);
         }
+
+        private void LanguageSelectionBT_Click(object sender, EventArgs e)
+        {
+            Form1 laSe = new Form1();
+            laSe.FormClosing += CloseForm;
+            laSe.Show();
+            this.Hide();
+        }
     }
 }

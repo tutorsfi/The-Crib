@@ -58,6 +58,12 @@
     <Compile Include="BathroomForm.Designer.cs">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CabinetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CabinetForm.Designer.cs">
+      <DependentUpon>CabinetForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreditsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,8 +84,12 @@
     </Compile>
     <Compile Include="DictionaryBackyard.cs" />
     <Compile Include="DictionaryBathroom.cs" />
+    <Compile Include="DictionaryCabinet.cs" />
+    <Compile Include="DictionaryDiningRoom.cs" />
     <Compile Include="DictionaryFrontYard.cs" />
     <Compile Include="DictionaryKidsRoom.cs" />
+    <Compile Include="DictionaryKitchen.cs" />
+    <Compile Include="DictionaryLivingRoom.cs" />
     <Compile Include="DictionaryMasterBedroom.cs" />
     <Compile Include="DictionaryMirrorCabinet.cs" />
     <Compile Include="DictionarySauna.cs" />
@@ -104,6 +114,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HallwayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallwayForm.Designer.cs">
+      <DependentUpon>HallwayForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="KidsRoomForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +131,12 @@
     </Compile>
     <Compile Include="KidsWardrobeForm.Designer.cs">
       <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitchenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitchenForm.Designer.cs">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LivingRoomForm.cs">
       <SubType>Form</SubType>
@@ -178,6 +200,9 @@
     <EmbeddedResource Include="BathroomForm.resx">
       <DependentUpon>BathroomForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CabinetForm.resx">
+      <DependentUpon>CabinetForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreditsForm.resx">
       <DependentUpon>CreditsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,11 +221,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HallwayForm.resx">
+      <DependentUpon>HallwayForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KidsRoomForm.resx">
       <DependentUpon>KidsRoomForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KidsWardrobeForm.resx">
       <DependentUpon>KidsWardrobeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitchenForm.resx">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LivingRoomForm.resx">
       <DependentUpon>LivingRoomForm.cs</DependentUpon>
