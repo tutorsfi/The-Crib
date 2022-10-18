@@ -99,11 +99,11 @@ namespace The_Crib
         {
             try
             {
-                bool show = true; // boolean for outdoors to show label where is translation for door
+                bool show = false; // boolean for outdoors to show label where is translation for door
                 Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
                 {
-                        {"DoorPB", "a door,ovi,двері,дверь" },// Words for door
-                        {"room", "a hallway,käytävä,коридор,прихожая" }// need to verify.
+                        {"DoorPB", "a hallway,käytävä,коридор,прихожая" },// Words for door
+                        {"room", "a door,ovi,двері,дверь" }// need to verify.
                 };
                 string selectedWord = doorLibrary["DoorPB"];//Selecting words for picture from library by key.
                 string roomWord = doorLibrary["room"];//Selecting words for room
