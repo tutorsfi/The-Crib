@@ -80,35 +80,36 @@ namespace The_Crib
         private void ToKitchenPB_Click(object sender, EventArgs e)
         {
 
-            bool show = false;
-            Dictionary<string, string> doorLibrary = new Dictionary<string, string>() // words to show when the sauna door is clicked
+            try
             {
-                {"ToKitchenPB","a kitchen,keittiö,word,word"},
-                {"room","room,room,room,room"}
-            };
+                Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
+                {
+                        {"ToKitchenPB", "a kitchen,keittiö,word,word"}
+                };
+                string selectedWord = arrowLibrary["ToKitchenPB"];//Selecting words for picture from library by key.
+                string[] separators = { "," };//Defining separators for array assigning
+                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+                string word = wordArr[lanId];//Selecting right word for picture by index.
+                string fiWord = wordArr[1];// variable for finnish word
+                CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
+                DialogResult result = CustMessageBox.ShowDialog1(word, fiWord, lanId); // calling "message box"
+                if (result == DialogResult.OK)// clicked button in message box for returning to current page
+                {
+                    CustMessageBox.Close(); // closing messagebox
+                }
+                else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
+                {
+                    KitchenForm kitchen = new KitchenForm(); //room where door leads
+                    kitchen.FormClosing += CloseForm;// call CloseForm method
+                    kitchen.LanguageId = laId; // passing id to another form
+                    kitchen.Show();
+                    this.Hide();
 
-            string selectedWord = doorLibrary["ToKitchenPB"]; // selecting the words from the library 
-            string roomWord = doorLibrary["room"];
-            string[] separators = { "," }; // defining separators for array assigning
-            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries); // words to array
-            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            string room = roomArr[lanId]; // selecting the right word for the label
-            string fiRoom = roomArr[1];
-            string word = wordArr[lanId];
-            string fiWord = wordArr[1];
-            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox(); // custom messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId); // selecting the words for the custom messagebox
-            if (result == DialogResult.OK) // if OK is clicked, the messagebox closes
-            {
-                CustMessageBox.Close();
+                }
             }
-            else if (result == DialogResult.Yes) // if YES is clicked, the messagebox closes and opens a new form
+            catch (Exception ex)
             {
-                KitchenForm kitchenForm = new KitchenForm();
-                kitchenForm.FormClosing += CloseForm;
-                kitchenForm.LanguageId = lanId;
-                kitchenForm.Show();
-                this.Hide();
+                MessageBox.Show(ex.Message);
             }
         }
     }

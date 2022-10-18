@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// author@ Jenna Koskelo
+/// version 18.10.2022
+/// <summary>
+/// Downstairs hallway closet view. Finished.
+///</summary>
+
 namespace The_Crib
 {
     public partial class HallwayClosetForm : Form

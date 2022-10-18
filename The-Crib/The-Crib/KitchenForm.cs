@@ -53,10 +53,10 @@ namespace The_Crib
 
         private void LeaveKitchenPB_Click(object sender, EventArgs e)
         {
-            bool show = true;
+            bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>() // words to show when the wc door is clicked
             {
-                {"LeaveKitchenPB","a door,ovi,двері,дверь"},
+                {"LeaveKitchenPB","a hallway,eteinen,word,word"},
                 {"room","a hallway,eteinen,word,word"}
             };
             string selectedWord = doorLibrary["LeaveKitchenPB"]; // selecting the words from the library 
@@ -252,36 +252,36 @@ namespace The_Crib
 
         private void EnterDiningRoomPB_Click(object sender, EventArgs e)
         {
-            bool show = false;
-            Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
+            try
             {
-                {"EnterDiningRoomPB","a dining room,ruokailutila,word,word"},
-                {"room","a dining room,ruokailutila,word,word"}
-            };
+                Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
+                {
+                        {"EnterDiningRoomPB", "a dining room,ruokailutila,word,word"}
+                };
+                string selectedWord = arrowLibrary["EnterDiningRoomPB"];//Selecting words for picture from library by key.
+                string[] separators = { "," };//Defining separators for array assigning
+                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+                string word = wordArr[lanId];//Selecting right word for picture by index.
+                string fiWord = wordArr[1];// variable for finnish word
+                CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
+                DialogResult result = CustMessageBox.ShowDialog1(word, fiWord, lanId); // calling "message box"
+                if (result == DialogResult.OK)// clicked button in message box for returning to current page
+                {
+                    CustMessageBox.Close(); // closing messagebox
+                }
+                else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
+                {
+                    DiningRoomForm diningRoom = new DiningRoomForm(); //room where door leads
+                    diningRoom.FormClosing += CloseForm;// call CloseForm method
+                    diningRoom.LanguageId = laId; // passing id to another form
+                    diningRoom.Show();
+                    this.Hide();
 
-            string selectedWord = doorlibrary["EnterDiningRoomPB"];
-            string roomWord = doorlibrary["room"];
-            string[] separators = { "," };
-            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            string room = roomArr[lanId];
-            string fiRoom = roomArr[1];
-            string word = wordArr[lanId];
-            string fiWord = wordArr[1];
-            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId);
-
-            if (result == DialogResult.OK)
-            {
-                CustMessageBox.Close();
+                }
             }
-            else if (result == DialogResult.Yes)
+            catch (Exception ex)
             {
-                DiningRoomForm diningRoom = new DiningRoomForm();
-                diningRoom.FormClosing += CloseForm;
-                diningRoom.LanguageId = lanId;
-                diningRoom.Show();
-                this.Hide();
+                MessageBox.Show(ex.Message);
             }
         }
     }

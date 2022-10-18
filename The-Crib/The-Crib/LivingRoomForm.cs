@@ -144,7 +144,7 @@ namespace The_Crib
                 Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
                 {
                         {"DoorPB", "a door,ovi,двері,дверь" },// Words for door
-                        {"room", "a a backyard,takapiha,задній двір,задний двор" }// need to verify.
+                        {"room", "a backyard,takapiha,задній двір,задний двор" }// need to verify.
                 };
                 string selectedWord = doorLibrary["DoorPB"];//Selecting words for picture from library by key.
                 string roomWord = doorLibrary["room"];//Selecting words for room

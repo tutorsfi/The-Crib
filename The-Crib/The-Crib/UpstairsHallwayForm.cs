@@ -54,10 +54,10 @@ namespace The_Crib
 
         private void BathroomDoorPB_Click(object sender, EventArgs e)
         {
-            bool show = true;
+            bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"BathroomDoorPB","a door,ovi,двері,дверь"},
+                {"BathroomDoorPB","a bathroom, kylpyhuone,word,word"},
                 {"room","a bathroom, kylpyhuone,word,word"}
             };
 
@@ -90,10 +90,10 @@ namespace The_Crib
 
         private void KidsRoomDoorPB_Click(object sender, EventArgs e)
         {
-            bool show = true;
+            bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"KidsRoomDoorPB","a door,ovi,двері,дверь"},
+                {"KidsRoomDoorPB","a kid's room,lastenhuone,word,word"},
                 {"room","a kid's room,lastenhuone,word,word"}
             };
 
@@ -126,10 +126,10 @@ namespace The_Crib
 
         private void BedroomDoorPB_Click(object sender, EventArgs e)
         {
-            bool show = true;
+            bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"BedroomDoorPB","a door,ovi,двері,дверь"},
+                {"BedroomDoorPB","a bedroom, makuuhuone,word,word"},
                 {"room","a bedroom, makuuhuone,word,word"}
             };
 
@@ -161,10 +161,10 @@ namespace The_Crib
 
         private void StudyDoorPB_Click(object sender, EventArgs e)
         {
-            bool show = true;
+            bool show = false;
             Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
             {
-                {"StudyDoorPB","a door,ovi,двері,дверь"},
+                {"StudyDoorPB","a study, työhuone,word,word"},
                 {"room","a study, työhuone,word,word"}
             };
 
@@ -199,36 +199,36 @@ namespace The_Crib
         private void ToDownStairsPB_Click(object sender, EventArgs e)
         {
 
-            bool show = true;
-            Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
+            try
             {
-                {"ToDownStairsPB","a door,ovi,двері,дверь"},
-                {"room","a hallway, eteinen,word,word"}
-            };
+                Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
+                {
+                    {"ToDownStairsPB","downstairs,alakerta,word,word" }
+                };
+                string selectedWord = arrowLibrary["ToDownStairsPB"];//Selecting words for picture from library by key.
+                string[] separators = { "," };//Defining separators for array assigning
+                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+                string word = wordArr[lanId];//Selecting right word for picture by index.
+                string fiWord = wordArr[1];// variable for finnish word
+                CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
+                DialogResult result = CustMessageBox.ShowDialog1(word, fiWord, lanId); // calling "message box"
+                if (result == DialogResult.OK)// clicked button in message box for returning to current page
+                {
+                    CustMessageBox.Close(); // closing messagebox
+                }
+                else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
+                {
+                    HallwayForm hallway = new HallwayForm(); //room where door leads
+                    hallway.FormClosing += CloseForm;// call CloseForm method
+                    hallway.LanguageId = laId; // passing id to another form
+                    hallway.Show();
+                    this.Hide();
 
-            string selectedWord = doorlibrary["ToDownStairsPB"];
-            string roomWord = doorlibrary["room"];
-            string[] separators = { "," };
-            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            string room = roomArr[lanId];
-            string fiRoom = roomArr[1];
-            string word = wordArr[lanId];
-            string fiWord = wordArr[1];
-            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId);
-
-            if (result == DialogResult.OK)
-            {
-                CustMessageBox.Close();
+                }
             }
-            else if (result == DialogResult.Yes)
+            catch (Exception ex)
             {
-                HallwayForm hallway = new HallwayForm();
-                hallway.FormClosing += CloseForm;
-                hallway.LanguageId = lanId;
-                hallway.Show();
-                this.Hide();
+                MessageBox.Show(ex.Message);
             }
 
         }

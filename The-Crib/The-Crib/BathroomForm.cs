@@ -58,10 +58,10 @@ namespace The_Crib
 
         private void SaunaDoorPB_Click(object sender, EventArgs e)
         {
-            bool show = true;
+            bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>() // words to show when the sauna door is clicked
             {
-                {"SaunaDoorPB","a door,ovi,двері,дверь"},
+                {"SaunaDoorPB","a sauna,sauna,word,word"},
                 {"room","a sauna,sauna,word,word"}
             };
 
@@ -92,35 +92,36 @@ namespace The_Crib
 
         private void BathroomLeavePB_Click(object sender, EventArgs e)
         {
-            bool show = true;
-            Dictionary<string, string> leave = new Dictionary<string, string>() // words to show when the arrow is clicked
+            try
             {
-                {"BathroomLeavePB","a door,ovi,двері,дверь"},
-                {"room","upstairs hallway, yläkerran käytävä,word,word"}
-            };
+                Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
+                {
+                        {"BathroomLeavePB", "a hallway,käytävä,word,word"}
+                };
+                string selectedWord = arrowLibrary["BathroomLeavePB"];//Selecting words for picture from library by key.
+                string[] separators = { "," };//Defining separators for array assigning
+                string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+                string word = wordArr[lanId];//Selecting right word for picture by index.
+                string fiWord = wordArr[1];// variable for finnish word
+                CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();// variable for custom message box
+                DialogResult result = CustMessageBox.ShowDialog1(word, fiWord, lanId); // calling "message box"
+                if (result == DialogResult.OK)// clicked button in message box for returning to current page
+                {
+                    CustMessageBox.Close(); // closing messagebox
+                }
+                else if (result == DialogResult.Yes)// clicked button in messagebox for change of room
+                {
+                    UpstairsHallwayForm hallway = new UpstairsHallwayForm(); //room where door leads
+                    hallway.FormClosing += CloseForm;// call CloseForm method
+                    hallway.LanguageId = laId; // passing id to another form
+                    hallway.Show();
+                    this.Hide();
 
-            string selectedWord = leave["BathroomLeavePB"]; // selecting words from the library
-            string roomWord = leave["room"];
-            string[] separators = { "," }; // defining separators for array assigning
-            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries); // words to array
-            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            string room = roomArr[lanId];// selecting the right word for the label
-            string fiRoom = roomArr[1];
-            string word = wordArr[lanId];
-            string fiWord = wordArr[1];
-            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox(); // custom messagebox
-            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId); // selecting the words for the custom messagebox
-            if (result == DialogResult.OK)// if OK is clicked, the messagebox closes
-            {
-                CustMessageBox.Close();
+                }
             }
-            else if (result == DialogResult.Yes) // if YES is clicked, the messagebox closes and opens a new form
+            catch (Exception ex)
             {
-                UpstairsHallwayForm upstairs = new UpstairsHallwayForm();
-                upstairs.FormClosing += CloseForm;
-                upstairs.LanguageId = laId;
-                upstairs.Show();
-                this.Hide();
+                MessageBox.Show(ex.Message);
             }
 
         }
