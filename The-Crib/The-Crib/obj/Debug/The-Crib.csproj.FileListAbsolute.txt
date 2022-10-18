@@ -126,3 +126,11 @@ C:\Users\asus\clone_test\repos\The-Crib\The-Crib\bin\Debug\The-Crib.exe.config
 C:\Users\asus\clone_test\repos\The-Crib\The-Crib\bin\Debug\The-Crib.exe
 C:\Users\asus\clone_test\repos\The-Crib\The-Crib\bin\Debug\The-Crib.pdb
 C:\Users\asus\clone_test\repos\The-Crib\The-Crib\obj\Debug\The_Crib.HallwayForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.CabinetForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.DrawerForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.DryingCabinetForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.FreezerForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.FridgeForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.HallwayForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KitchenForm.resources
+C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.LowerCabinetForm.resources
