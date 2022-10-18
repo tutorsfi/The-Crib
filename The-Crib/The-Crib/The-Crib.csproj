@@ -651,5 +651,59 @@
   <ItemGroup>
     <None Include="Resources\APottedPlant.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toaster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kettle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breadbasket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bowl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FruitBasket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candelabra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GroundMeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KetchupBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MustardTube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sausages.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WaterBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beer.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

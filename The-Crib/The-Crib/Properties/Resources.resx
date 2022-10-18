@@ -217,9 +217,6 @@
   <data name="DiningTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DiningTable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Eggs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Eggs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Nightstand" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nightstand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -466,17 +463,35 @@
   <data name="APottedPlant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\APottedPlant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="APottedPlant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\APottedPlant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Beer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Beer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Bowl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bowl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Knife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Knife.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tablecloth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tablecloth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Breadbasket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Breadbasket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eggs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eggs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kettle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kettle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toaster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Candelabra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Candelabra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -487,9 +502,6 @@
   <data name="Cheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cheese.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fork" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FruitBasket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FruitBasket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -498,12 +510,6 @@
   </data>
   <data name="KetchupBottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KetchupBottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kettle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kettle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Knife" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Knife.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MustardTube" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MustardTube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -514,19 +520,7 @@
   <data name="Sausages" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sausages.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Spoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Spoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tablecloth" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tablecloth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Toaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Toaster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="WaterBottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WaterBottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bathroom_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bathroom_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
