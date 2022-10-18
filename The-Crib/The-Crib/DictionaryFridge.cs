@@ -23,7 +23,11 @@ namespace The_Crib
         {
             // order ENG-FI-UA-RUS
             {"CucumberPB","a cucumber,kurkku"},
-            {"",""}
+            {"MilkPB","a milk,maito,word,word"},
+            {"OrangejuicePB","an orange juice,appelsiinimehu,word,word"},
+            {"MargarinePB","a margarine,margariini,word,word"},
+            {"TomatoesPB","a tomato,tomaatti,word,word"},
+            {"EggsPB","eggs,munia,word,word" }
         };
 
         // Method to show the custom messagebox with the original and translated word
