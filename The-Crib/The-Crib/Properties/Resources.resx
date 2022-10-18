@@ -565,13 +565,12 @@
   <data name="OfficeChair1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OfficeChair1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-<<<<<<< HEAD
   <data name="CabinetOpen_DiningRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CabinetOpen_DiningRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sweatpants" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sweatpants.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
+	<data name="Sweatpants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Sweatpants.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
   <data name="Rug" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -964,6 +963,5 @@
   </data>
   <data name="Bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bathroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> 12e79e1f905950b4590d522913986e359309dacb
   </data>
 </root>

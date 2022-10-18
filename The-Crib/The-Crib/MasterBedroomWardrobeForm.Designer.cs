@@ -49,7 +49,6 @@
             // dressMBPB
             // 
             this.dressMBPB.BackColor = System.Drawing.Color.Transparent;
-            this.dressMBPB.BackgroundImage = global::The_Crib.Properties.Resources.Dress_MasterBedroom;
             this.dressMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.dressMBPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dressMBPB.Location = new System.Drawing.Point(434, 59);
@@ -63,7 +62,6 @@
             // suitMBPB
             // 
             this.suitMBPB.BackColor = System.Drawing.Color.Transparent;
-            this.suitMBPB.BackgroundImage = global::The_Crib.Properties.Resources.Suit1;
             this.suitMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.suitMBPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.suitMBPB.Location = new System.Drawing.Point(525, 59);
@@ -77,7 +75,6 @@
             // hangerMBPB
             // 
             this.hangerMBPB.BackColor = System.Drawing.Color.Transparent;
-            this.hangerMBPB.BackgroundImage = global::The_Crib.Properties.Resources.PlainHangers;
             this.hangerMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.hangerMBPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.hangerMBPB.Location = new System.Drawing.Point(349, 59);
@@ -90,7 +87,6 @@
             // sweaterMBPB
             // 
             this.sweaterMBPB.BackColor = System.Drawing.Color.Transparent;
-            this.sweaterMBPB.BackgroundImage = global::The_Crib.Properties.Resources.Sweater;
             this.sweaterMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sweaterMBPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sweaterMBPB.Location = new System.Drawing.Point(363, 59);
@@ -103,7 +99,6 @@
             // woollenSocksMBPB
             // 
             this.woollenSocksMBPB.BackColor = System.Drawing.Color.Transparent;
-            this.woollenSocksMBPB.BackgroundImage = global::The_Crib.Properties.Resources.WoollenSocks;
             this.woollenSocksMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.woollenSocksMBPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.woollenSocksMBPB.Location = new System.Drawing.Point(752, 553);
@@ -116,7 +111,6 @@
             // shortsMBPB
             // 
             this.shortsMBPB.BackColor = System.Drawing.Color.Transparent;
-            this.shortsMBPB.BackgroundImage = global::The_Crib.Properties.Resources.Shorts;
             this.shortsMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.shortsMBPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.shortsMBPB.Location = new System.Drawing.Point(728, 452);
@@ -129,7 +123,6 @@
             // sweatpantsMBPB
             // 
             this.sweatpantsMBPB.BackColor = System.Drawing.Color.Transparent;
-            this.sweatpantsMBPB.BackgroundImage = global::The_Crib.Properties.Resources.Sweatpants;
             this.sweatpantsMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.sweatpantsMBPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sweatpantsMBPB.Location = new System.Drawing.Point(702, 323);
@@ -155,7 +148,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
-            this.BackgroundImage = global::The_Crib.Properties.Resources.wardrobe_assembled;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1075, 679);
             this.Controls.Add(this.underwearMBPB);
