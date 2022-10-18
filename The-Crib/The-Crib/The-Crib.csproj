@@ -352,9 +352,6 @@
     <None Include="Resources\WC.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Bathroom.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\LowerCabinet1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -682,6 +679,7 @@
     <None Include="Resources\Scarf.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\PlainHangers.png" />
   </ItemGroup>
   <ItemGroup>
@@ -698,6 +696,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sweatpants.png" />
+=======
+    <None Include="Resources\Breadbasket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sausages.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KetchupBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MustardTube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WaterBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GroundMeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bowl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FruitBasket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candelabra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drawer_filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bathroom.png" />
+>>>>>>> 12e79e1f905950b4590d522913986e359309dacb
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

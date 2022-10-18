@@ -133,9 +133,15 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap Bathroom_bg {
             get {
                 object obj = ResourceManager.GetObject("Bathroom_bg", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap Bathroom {
+            get {
+                object obj = ResourceManager.GetObject("Bathroom", resourceCulture);
+>>>>>>> 12e79e1f905950b4590d522913986e359309dacb
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -436,6 +442,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap drawer {
             get {
                 object obj = ResourceManager.GetObject("drawer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drawer_filled {
+            get {
+                object obj = ResourceManager.GetObject("drawer_filled", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1333,6 +1349,7 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap Sweater {
             get {
                 object obj = ResourceManager.GetObject("Sweater", resourceCulture);
@@ -1353,6 +1370,8 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> 12e79e1f905950b4590d522913986e359309dacb
         internal static System.Drawing.Bitmap Tablecloth {
             get {
                 object obj = ResourceManager.GetObject("Tablecloth", resourceCulture);

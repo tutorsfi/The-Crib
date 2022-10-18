@@ -228,10 +228,10 @@ namespace The_Crib
             // ToasterPB
             // 
             this.ToasterPB.BackColor = System.Drawing.Color.Transparent;
-            this.ToasterPB.Image = global::The_Crib.Properties.Resources.Toaster;
-            this.ToasterPB.Location = new System.Drawing.Point(827, 399);
+            this.ToasterPB.Image = ((System.Drawing.Image)(resources.GetObject("ToasterPB.Image")));
+            this.ToasterPB.Location = new System.Drawing.Point(827, 409);
             this.ToasterPB.Name = "ToasterPB";
-            this.ToasterPB.Size = new System.Drawing.Size(53, 72);
+            this.ToasterPB.Size = new System.Drawing.Size(53, 71);
             this.ToasterPB.TabIndex = 15;
             this.ToasterPB.TabStop = false;
             this.ToasterPB.Click += new System.EventHandler(this.KitchenImgPB);
@@ -239,10 +239,10 @@ namespace The_Crib
             // KettlePB
             // 
             this.KettlePB.BackColor = System.Drawing.Color.Transparent;
-            this.KettlePB.Image = global::The_Crib.Properties.Resources.Kettle;
-            this.KettlePB.Location = new System.Drawing.Point(1392, 414);
+            this.KettlePB.Image = ((System.Drawing.Image)(resources.GetObject("KettlePB.Image")));
+            this.KettlePB.Location = new System.Drawing.Point(1383, 409);
             this.KettlePB.Name = "KettlePB";
-            this.KettlePB.Size = new System.Drawing.Size(100, 99);
+            this.KettlePB.Size = new System.Drawing.Size(86, 98);
             this.KettlePB.TabIndex = 16;
             this.KettlePB.TabStop = false;
             this.KettlePB.Click += new System.EventHandler(this.KitchenImgPB);
@@ -251,9 +251,9 @@ namespace The_Crib
             // 
             this.BreadbasketPB.BackColor = System.Drawing.Color.Transparent;
             this.BreadbasketPB.Image = global::The_Crib.Properties.Resources.Breadbasket;
-            this.BreadbasketPB.Location = new System.Drawing.Point(1497, 513);
+            this.BreadbasketPB.Location = new System.Drawing.Point(1496, 512);
             this.BreadbasketPB.Name = "BreadbasketPB";
-            this.BreadbasketPB.Size = new System.Drawing.Size(125, 62);
+            this.BreadbasketPB.Size = new System.Drawing.Size(126, 63);
             this.BreadbasketPB.TabIndex = 17;
             this.BreadbasketPB.TabStop = false;
             this.BreadbasketPB.Click += new System.EventHandler(this.KitchenImgPB);
