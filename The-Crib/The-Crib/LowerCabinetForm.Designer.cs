@@ -52,6 +52,7 @@
             this.ClientSize = new System.Drawing.Size(341, 336);
             this.Controls.Add(this.PotPB);
             this.Name = "LowerCabinetForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LowerCabinetForm";
             this.Load += new System.EventHandler(this.LowerCabinetForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PotPB)).EndInit();
