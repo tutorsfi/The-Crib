@@ -18,6 +18,7 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {   // PictureBox name is key. lang order ENG-FI-UA-RUS
             {"stairsHWPB", "stairs,portaat,сходи,лестница" },
+            {"plantHWPB", "a potted plant,ruukkukasvi,рослина у горщику,растение в горшке" },
             {"closetHWPB", "a closet,kaappi,шафа,шкаф"},
             {"jacketHWPB", "a jacket,takki,куртка,куртка" },
             {"shoesHWPB", "shoes,kengät,взуття,обувь" },

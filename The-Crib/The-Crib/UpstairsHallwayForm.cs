@@ -224,10 +224,10 @@ namespace The_Crib
             }
             else if (result == DialogResult.Yes)
             {
-                KitchenForm kitchen = new KitchenForm();
-                kitchen.FormClosing += CloseForm;
-                kitchen.LanguageId = lanId;
-                kitchen.Show();
+                HallwayForm hallway = new HallwayForm();
+                hallway.FormClosing += CloseForm;
+                hallway.LanguageId = lanId;
+                hallway.Show();
                 this.Hide();
             }
 

@@ -631,19 +631,25 @@
     <None Include="Resources\CabinetDoors.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LowerCabinetBg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fridgebg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\freezerBg.png" />
+    <None Include="Resources\drawer.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dryingCabinetBg.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\drawer.png" />
+    <None Include="Resources\freezerBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fridgebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowerCabinetBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClosetClosed_Hallway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APottedPlant.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

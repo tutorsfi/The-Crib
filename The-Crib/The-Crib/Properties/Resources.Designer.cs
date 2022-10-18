@@ -63,6 +63,16 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap APottedPlant {
+            get {
+                object obj = ResourceManager.GetObject("APottedPlant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap arrow {
             get {
                 object obj = ResourceManager.GetObject("arrow", resourceCulture);
@@ -216,6 +226,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap ChairFromTheSide {
             get {
                 object obj = ResourceManager.GetObject("ChairFromTheSide", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ClosetClosed_Hallway {
+            get {
+                object obj = ResourceManager.GetObject("ClosetClosed_Hallway", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
