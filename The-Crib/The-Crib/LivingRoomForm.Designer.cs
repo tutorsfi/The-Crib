@@ -44,6 +44,9 @@
             this.FlowerTablePB = new System.Windows.Forms.PictureBox();
             this.MagazinePB = new System.Windows.Forms.PictureBox();
             this.NewspaperPB = new System.Windows.Forms.PictureBox();
+            this.FlowersPB = new System.Windows.Forms.PictureBox();
+            this.BlanketPB = new System.Windows.Forms.PictureBox();
+            this.DecorativePillowPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.CouchPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoffeeTablePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TelevisionPB)).BeginInit();
@@ -58,6 +61,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.FlowerTablePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MagazinePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NewspaperPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlowersPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BlanketPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DecorativePillowPB)).BeginInit();
             this.SuspendLayout();
             // 
             // CouchPB
@@ -223,12 +229,49 @@
             this.NewspaperPB.TabStop = false;
             this.NewspaperPB.Click += new System.EventHandler(this.NewspaperPB_Click);
             // 
+            // FlowersPB
+            // 
+            this.FlowersPB.BackColor = System.Drawing.Color.Transparent;
+            this.FlowersPB.Location = new System.Drawing.Point(547, 569);
+            this.FlowersPB.Name = "FlowersPB";
+            this.FlowersPB.Size = new System.Drawing.Size(67, 50);
+            this.FlowersPB.TabIndex = 15;
+            this.FlowersPB.TabStop = false;
+            this.FlowersPB.Click += new System.EventHandler(this.FlowersPB_Click);
+            // 
+            // BlanketPB
+            // 
+            this.BlanketPB.BackColor = System.Drawing.Color.Transparent;
+            this.BlanketPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BlanketPB.BackgroundImage")));
+            this.BlanketPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BlanketPB.Location = new System.Drawing.Point(1212, 584);
+            this.BlanketPB.Name = "BlanketPB";
+            this.BlanketPB.Size = new System.Drawing.Size(100, 50);
+            this.BlanketPB.TabIndex = 16;
+            this.BlanketPB.TabStop = false;
+            this.BlanketPB.Click += new System.EventHandler(this.BlanketPB_Click);
+            // 
+            // DecorativePillowPB
+            // 
+            this.DecorativePillowPB.BackColor = System.Drawing.Color.Transparent;
+            this.DecorativePillowPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DecorativePillowPB.BackgroundImage")));
+            this.DecorativePillowPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DecorativePillowPB.Location = new System.Drawing.Point(1347, 584);
+            this.DecorativePillowPB.Name = "DecorativePillowPB";
+            this.DecorativePillowPB.Size = new System.Drawing.Size(100, 50);
+            this.DecorativePillowPB.TabIndex = 17;
+            this.DecorativePillowPB.TabStop = false;
+            this.DecorativePillowPB.Click += new System.EventHandler(this.DecorativePillowPB_Click);
+            // 
             // LivingRoomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.DecorativePillowPB);
+            this.Controls.Add(this.BlanketPB);
+            this.Controls.Add(this.FlowersPB);
             this.Controls.Add(this.NewspaperPB);
             this.Controls.Add(this.MagazinePB);
             this.Controls.Add(this.FlowerTablePB);
@@ -262,6 +305,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.FlowerTablePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MagazinePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NewspaperPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlowersPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BlanketPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DecorativePillowPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -283,5 +329,8 @@
         private System.Windows.Forms.PictureBox FlowerTablePB;
         private System.Windows.Forms.PictureBox MagazinePB;
         private System.Windows.Forms.PictureBox NewspaperPB;
+        private System.Windows.Forms.PictureBox FlowersPB;
+        private System.Windows.Forms.PictureBox BlanketPB;
+        private System.Windows.Forms.PictureBox DecorativePillowPB;
     }
 }

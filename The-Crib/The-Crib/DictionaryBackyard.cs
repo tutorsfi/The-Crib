@@ -27,12 +27,12 @@ namespace The_Crib
             {"ToyBucketPB","a bucket,ämpäri,відро,ведро" },// Words for bucket
             {"TerracePB","terrace,terassi,тераса,терраса" },//Words for terrace
             {"RakePB","a rake,harava,граблі,грабли" },// Words for rake
+            {"GrillPB","a grill,grilli,гриль,гриль" },// Words for grill
+            {"SunShadePB","a sunshade,auringonvarjo,парасолька для сонця,зонт от солнца" },// Words for sunshade
             {"BroomPB","a broom,harja,мітла,метла" }// Words for broom
             /*{"","a sandbox,hiekkalaatikko,пісочниця,песочница" },// Words for sandbox           
-            //{"","a sunshade,auringonvarjo,парасолька для сонця,зонт от солнца" },// Words for sunshade
-            //{"","a grill,grilli,гриль,гриль" },// Words for grill
-            //{"","a playhouse,leikkimökki,ігровий дім,игровой домик" },// Words for playhouse
-            //{"","a ball,pallo,м'яч,мяч" },// Words for ball*/
+            {"","a playhouse,leikkimökki,ігровий дім,игровой домик" },// Words for playhouse
+            {"","a ball,pallo,м'яч,мяч" },// Words for ball*/
         };
 
 

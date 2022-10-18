@@ -44,6 +44,8 @@
             this.ToyShovelPB = new System.Windows.Forms.PictureBox();
             this.ToyBucketPB = new System.Windows.Forms.PictureBox();
             this.LanguageSelectionBT = new System.Windows.Forms.Button();
+            this.GrillPB = new System.Windows.Forms.PictureBox();
+            this.SunShadePB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.HousePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoofPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorPB)).BeginInit();
@@ -58,6 +60,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.OutdoorChairPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToyShovelPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToyBucketPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrillPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SunShadePB)).BeginInit();
             this.SuspendLayout();
             // 
             // HousePB
@@ -241,6 +245,30 @@
             this.LanguageSelectionBT.UseVisualStyleBackColor = true;
             this.LanguageSelectionBT.Click += new System.EventHandler(this.LanguageSelectionBT_Click);
             // 
+            // GrillPB
+            // 
+            this.GrillPB.BackColor = System.Drawing.Color.Transparent;
+            this.GrillPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("GrillPB.BackgroundImage")));
+            this.GrillPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.GrillPB.Location = new System.Drawing.Point(587, 547);
+            this.GrillPB.Name = "GrillPB";
+            this.GrillPB.Size = new System.Drawing.Size(93, 111);
+            this.GrillPB.TabIndex = 15;
+            this.GrillPB.TabStop = false;
+            this.GrillPB.Click += new System.EventHandler(this.GrillPB_Click);
+            // 
+            // SunShadePB
+            // 
+            this.SunShadePB.BackColor = System.Drawing.Color.Transparent;
+            this.SunShadePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SunShadePB.BackgroundImage")));
+            this.SunShadePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SunShadePB.Location = new System.Drawing.Point(834, 421);
+            this.SunShadePB.Name = "SunShadePB";
+            this.SunShadePB.Size = new System.Drawing.Size(190, 182);
+            this.SunShadePB.TabIndex = 16;
+            this.SunShadePB.TabStop = false;
+            this.SunShadePB.Click += new System.EventHandler(this.SunShadePB_Click);
+            // 
             // BackYardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,6 +276,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.SunShadePB);
+            this.Controls.Add(this.GrillPB);
             this.Controls.Add(this.LanguageSelectionBT);
             this.Controls.Add(this.ToyBucketPB);
             this.Controls.Add(this.ToyShovelPB);
@@ -283,6 +313,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.OutdoorChairPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToyShovelPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToyBucketPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrillPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SunShadePB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -304,5 +336,7 @@
         private System.Windows.Forms.PictureBox ToyShovelPB;
         private System.Windows.Forms.PictureBox ToyBucketPB;
         private System.Windows.Forms.Button LanguageSelectionBT;
+        private System.Windows.Forms.PictureBox GrillPB;
+        private System.Windows.Forms.PictureBox SunShadePB;
     }
 }
