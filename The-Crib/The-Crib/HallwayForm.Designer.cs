@@ -36,12 +36,16 @@ namespace The_Crib
             this.stairsHWPB = new System.Windows.Forms.PictureBox();
             this.closetHWPB = new System.Windows.Forms.PictureBox();
             this.plantHWPB = new System.Windows.Forms.PictureBox();
+            this.rugHWPB = new System.Windows.Forms.PictureBox();
+            this.arrowHWPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.KitchenDoorHWPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LivingRoomDoorHWPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wcDoorHWPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stairsHWPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.closetHWPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plantHWPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rugHWPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arrowHWPB)).BeginInit();
             this.SuspendLayout();
             // 
             // KitchenDoorHWPB
@@ -50,7 +54,7 @@ namespace The_Crib
             this.KitchenDoorHWPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.KitchenDoorHWPB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.KitchenDoorHWPB.Image = ((System.Drawing.Image)(resources.GetObject("KitchenDoorHWPB.Image")));
-            this.KitchenDoorHWPB.Location = new System.Drawing.Point(93, 277);
+            this.KitchenDoorHWPB.Location = new System.Drawing.Point(37, 315);
             this.KitchenDoorHWPB.Name = "KitchenDoorHWPB";
             this.KitchenDoorHWPB.Size = new System.Drawing.Size(211, 587);
             this.KitchenDoorHWPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -126,12 +130,40 @@ namespace The_Crib
             this.plantHWPB.TabStop = false;
             this.plantHWPB.Click += new System.EventHandler(this.plantHWPB_Click);
             // 
+            // rugHWPB
+            // 
+            this.rugHWPB.BackColor = System.Drawing.Color.Transparent;
+            this.rugHWPB.BackgroundImage = global::The_Crib.Properties.Resources.Rug;
+            this.rugHWPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.rugHWPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rugHWPB.Location = new System.Drawing.Point(492, 566);
+            this.rugHWPB.Name = "rugHWPB";
+            this.rugHWPB.Size = new System.Drawing.Size(775, 263);
+            this.rugHWPB.TabIndex = 6;
+            this.rugHWPB.TabStop = false;
+            this.rugHWPB.Click += new System.EventHandler(this.rugHWPB_Click);
+            // 
+            // arrowHWPB
+            // 
+            this.arrowHWPB.BackColor = System.Drawing.Color.Transparent;
+            this.arrowHWPB.BackgroundImage = global::The_Crib.Properties.Resources.arrow_down;
+            this.arrowHWPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.arrowHWPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.arrowHWPB.Location = new System.Drawing.Point(727, 799);
+            this.arrowHWPB.Name = "arrowHWPB";
+            this.arrowHWPB.Size = new System.Drawing.Size(287, 80);
+            this.arrowHWPB.TabIndex = 7;
+            this.arrowHWPB.TabStop = false;
+            this.arrowHWPB.Click += new System.EventHandler(this.arrowHWPB_Click);
+            // 
             // HallwayForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.arrowHWPB);
+            this.Controls.Add(this.rugHWPB);
             this.Controls.Add(this.plantHWPB);
             this.Controls.Add(this.closetHWPB);
             this.Controls.Add(this.stairsHWPB);
@@ -148,6 +180,8 @@ namespace The_Crib
             ((System.ComponentModel.ISupportInitialize)(this.stairsHWPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closetHWPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.plantHWPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rugHWPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arrowHWPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -160,5 +194,7 @@ namespace The_Crib
         private System.Windows.Forms.PictureBox stairsHWPB;
         private System.Windows.Forms.PictureBox closetHWPB;
         private System.Windows.Forms.PictureBox plantHWPB;
+        private System.Windows.Forms.PictureBox rugHWPB;
+        private System.Windows.Forms.PictureBox arrowHWPB;
     }
 }

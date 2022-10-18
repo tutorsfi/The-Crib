@@ -51,8 +51,6 @@ namespace The_Crib
 
         private void WardrobeMBPB_Click(object sender, EventArgs e)
         {
-            //PictureBox image = sender as PictureBox;
-            //dimaBr.Show(image.Name, lanId);
             bool show = false;
             Dictionary<string, string> doorDic = new Dictionary<string, string>()
         {

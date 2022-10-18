@@ -38,10 +38,11 @@
             // 
             this.dressMBPB.BackColor = System.Drawing.Color.Transparent;
             this.dressMBPB.BackgroundImage = global::The_Crib.Properties.Resources.Dress_MasterBedroom;
-            this.dressMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dressMBPB.Location = new System.Drawing.Point(279, 85);
+            this.dressMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.dressMBPB.Location = new System.Drawing.Point(87, 59);
+            this.dressMBPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dressMBPB.Name = "dressMBPB";
-            this.dressMBPB.Size = new System.Drawing.Size(114, 278);
+            this.dressMBPB.Size = new System.Drawing.Size(168, 352);
             this.dressMBPB.TabIndex = 0;
             this.dressMBPB.TabStop = false;
             this.dressMBPB.Click += new System.EventHandler(this.dressMBPB_Click);
@@ -50,26 +51,28 @@
             // 
             this.suitMBPB.BackColor = System.Drawing.Color.Transparent;
             this.suitMBPB.BackgroundImage = global::The_Crib.Properties.Resources.Suit1;
-            this.suitMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.suitMBPB.Location = new System.Drawing.Point(383, 75);
+            this.suitMBPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.suitMBPB.Location = new System.Drawing.Point(259, 11);
+            this.suitMBPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.suitMBPB.Name = "suitMBPB";
-            this.suitMBPB.Size = new System.Drawing.Size(100, 288);
+            this.suitMBPB.Size = new System.Drawing.Size(131, 489);
             this.suitMBPB.TabIndex = 1;
             this.suitMBPB.TabStop = false;
             this.suitMBPB.Click += new System.EventHandler(this.suitMBPB_Click);
             // 
             // MasterBedroomWardrobeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.BackgroundImage = global::The_Crib.Properties.Resources.WardrobeOpen_MasterBedroom;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(844, 745);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(610, 690);
             this.Controls.Add(this.suitMBPB);
             this.Controls.Add(this.dressMBPB);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MasterBedroomWardrobeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterBedroomWardrobeForm";
