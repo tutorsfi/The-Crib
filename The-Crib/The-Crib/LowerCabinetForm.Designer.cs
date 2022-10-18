@@ -63,7 +63,7 @@
             // BowlPB
             // 
             this.BowlPB.BackColor = System.Drawing.Color.Transparent;
-            this.BowlPB.Image = global::The_Crib.Properties.Resources.Bowl;
+      
             this.BowlPB.Location = new System.Drawing.Point(440, 426);
             this.BowlPB.Name = "BowlPB";
             this.BowlPB.Size = new System.Drawing.Size(163, 112);
