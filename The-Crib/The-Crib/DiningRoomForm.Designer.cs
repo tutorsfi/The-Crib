@@ -84,9 +84,9 @@
             // 
             this.CabinetPB.BackColor = System.Drawing.Color.Transparent;
             this.CabinetPB.Image = global::The_Crib.Properties.Resources.Cabinet_DiningRoom;
-            this.CabinetPB.Location = new System.Drawing.Point(365, 156);
+            this.CabinetPB.Location = new System.Drawing.Point(365, 234);
             this.CabinetPB.Name = "CabinetPB";
-            this.CabinetPB.Size = new System.Drawing.Size(338, 538);
+            this.CabinetPB.Size = new System.Drawing.Size(362, 441);
             this.CabinetPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CabinetPB.TabIndex = 3;
             this.CabinetPB.TabStop = false;

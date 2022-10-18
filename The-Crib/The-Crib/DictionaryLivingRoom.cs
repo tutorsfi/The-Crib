@@ -23,12 +23,13 @@ namespace The_Crib
             {"RemoteControlPB","a remote control,kaukosäädin,пульт,пульт" }, // Words for remote control
             {"GameConsolPB","a game console,pelikonsoli,ігрова консоль,игровая консоль" }, // Words for game console
             {"GameControllerPB","a game controller,ohjain,джойстик,джойстик" }, // Words for game controller
-            {"CurtainsPB","curtains,verhot,штори,шторы" } // Words for curtains
+            {"CurtainsPB","curtains,verhot,штори,шторы" }, // Words for curtains
+            {"MagazinePB","a magazine,aikakausilehti,журнал,журнал" },
+            {"NewspaperPB","a newspaper,sanomalehti,газета,газета" }
             /*{"","decorative pillow,koristetyyny,декоративна подушка,декоративная подушка" },
             {"","a blanket,viltti,ковдра,плед одеяло" },
             {"","flowers,kukkia,квіти,цветы" },
-            {"","a magazine,aikakausilehti,журнал,журнал" },
-            {"","a newspaper,sanomalehti,газета,газета" }*/
+            */
         };
 
         public void Show(string pic, int lanId)

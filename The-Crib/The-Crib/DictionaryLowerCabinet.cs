@@ -22,7 +22,8 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all lower cabinet -words
         {
             // order ENG-FI-UA-RUS
-            {"PotPB","a pot,kattila,word,word"}
+            {"PotPB","a pot,kattila,word,word"},
+            {"PanPB","a frying pan,paistinpannu,word,word"}
         };
 
         // Method to show the custom messagebox with the original and translated word

@@ -21,7 +21,10 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all freezer -words
         {
             // order ENG-FI-UA-RUS
-            {"PizzaPB","a frozen pizza,pakastepizza,word,word"}
+            {"PizzaPB","a frozen pizza,pakastepizza,word,word"},
+            {"BerriesPB","frozen berries,pakastemarjat,word,word"},
+            {"VeggiesPB","frozen vegetables,pakastevihannekset,word,word"},
+            {"IcecreamPB","an ice cream,jäätelö,word,word"}
         };
 
         // Method to show the custom messagebox with the original and translated word
