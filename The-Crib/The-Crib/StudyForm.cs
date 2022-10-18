@@ -11,7 +11,7 @@ using System.Windows.Forms;
 /// author@ Jenna Koskelo
 /// version 7.10.2022
 /// <summary>
-/// Study room view. Unfinished. There are no graphics for this room´s objects yet.
+/// Study room view. Finished.
 ///</summary>
 
 namespace The_Crib
