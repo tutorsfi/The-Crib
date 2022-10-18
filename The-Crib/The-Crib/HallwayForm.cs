@@ -176,13 +176,78 @@ namespace The_Crib
 
         private void closetHWPB_Click(object sender, EventArgs e)
         {
+            bool show = false;
+            Dictionary<string, string> doorDic = new Dictionary<string, string>()
+        {
+               {"closetHWPB", "a closet,kaappi,шафа,шкаф"},  // EN - FI - UA - RU
+               {"room","hallway,käytävä,коридор,прихожая" } //not used in this form
+        };
+            string selectedWord = doorDic["closetHWPB"];
+            string roomWord = doorDic["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];   //Selecting right word by lang index
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show, lanId);
+            if (result == DialogResult.OK)  //return to current form 
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)    // move to next rooom
+            {
+                HallwayClosetForm closet = new HallwayClosetForm();    //room the door leads to
+                closet.LanguageId = laId;  // passing lang id to other form
+                closet.Show();
 
+            }
         }
 
         private void plantHWPB_Click(object sender, EventArgs e)
         {
             PictureBox image = sender as PictureBox;
             hallway.Show(image.Name, lanId);
+        }
+
+        private void rugHWPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            hallway.Show(image.Name, lanId);
+        }
+
+        private void arrowHWPB_Click(object sender, EventArgs e)
+        {
+            bool show = false;
+            Dictionary<string, string> doorDic = new Dictionary<string, string>()
+        {
+               {"arrowHWPB", "front yard,etupiha,Передній двір,передний двор"},  // EN - FI - UA - RU
+               {"room","hallway,käytävä,коридор,прихожая" } //not used in this form
+        };
+            string selectedWord = doorDic["arrowHWPB"];
+            string roomWord = doorDic["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];   //Selecting right word by lang index
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show, lanId);
+            if (result == DialogResult.OK)  //return to current form 
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)    // move to next rooom
+            {
+                FrontYardForm yard = new FrontYardForm();    //room the door leads to
+                yard.LanguageId = laId;  // passing lang id to other form
+                yard.Show();
+
+            }
         }
     }
 }

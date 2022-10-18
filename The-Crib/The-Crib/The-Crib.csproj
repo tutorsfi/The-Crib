@@ -143,6 +143,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HallwayClosetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallwayClosetForm.Designer.cs">
+      <DependentUpon>HallwayClosetForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="HallwayForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallwayClosetForm.resx">
+      <DependentUpon>HallwayClosetForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HallwayForm.resx">
       <DependentUpon>HallwayForm.cs</DependentUpon>
@@ -650,6 +659,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\APottedPlant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnitCap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mittens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scarf.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

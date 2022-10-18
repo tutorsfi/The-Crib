@@ -16,7 +16,7 @@ namespace The_Crib
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
             //Application.Run(new BathroomForm());
             //Application.Run(new BackYardForm());
             //Application.Run(new MasterBedroomForm());
@@ -26,7 +26,7 @@ namespace The_Crib
             //Application.Run(new SaunaForm());
             //Application.Run(new WcForm());
             //Application.Run(new KitchenForm());
-            //Application.Run(new HallwayForm());
+            Application.Run(new HallwayForm());
         }
     }
     
