@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="KitchenDoorHWPB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPEAAAKcCAYAAAA5PlykAAAABGdBTUEAALGPC/xhBQAAtUxJREFUeF7t
         /Wuodlm234f1cSyDYwixEgLKBX+LY+IEDIkdBEnIB3+IjQkOCRjyySgE6xzJ0rl1n76dvt/v1VXVXV3d
@@ -897,7 +897,7 @@
         t91222233Xbbbbfddtttt912e2T7wAf+/8bdZKjj1ikpAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="LivingRoomDoorHWPB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL8AAAKACAYAAADNWalXAAAABGdBTUEAALGPC/xhBQAAtlFJREFUeF7t
         /WvIdmmW34eVHMvgGIKthIBywN/imDjBtjRyohApTjKxZeMkzgEc8skoBM1JUs/0efp8Ph+quqq6urq6
@@ -1681,7 +1681,7 @@
         TkSuQmCC
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="wcDoorHWPB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL8AAAKACAYAAADNWalXAAAABGdBTUEAALGPC/xhBQAAtlFJREFUeF7t
         /WvIdmmW34eVHMvgGIKthIBywN/imDjBtjRyohApTjKxZeMkzgEc8skoBM1JUs/0efp8Ph+quqq6urq6
@@ -2465,7 +2465,7 @@
         TkSuQmCC
 </value>
   </data>
-  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="stairsHWPB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA4AAAAKiCAYAAACHJ7LeAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         3Qu4bVdd3v8NRkUjQryUojWWGqsGkpxczi0nOSfnlnBOQkK4SEGttVUrKiJeuAVIBAIkIYeQkEASciEb

@@ -26,9 +26,7 @@ namespace The_Crib
             //Application.Run(new SaunaForm());
             //Application.Run(new WcForm());
             //Application.Run(new KitchenForm());
-            //Application.Run(new FridgeForm());
-            //Application.Run(new FreezerForm());
-            //Application.Run(new DiningRoomForm());
+            //Application.Run(new HallwayForm());
         }
     }
     
