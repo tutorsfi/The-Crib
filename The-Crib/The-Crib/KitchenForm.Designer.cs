@@ -44,6 +44,7 @@ namespace The_Crib
             this.WindowPB = new System.Windows.Forms.PictureBox();
             this.CabinetDoorsPB = new System.Windows.Forms.PictureBox();
             this.TrashPB = new System.Windows.Forms.PictureBox();
+            this.EnterDiningRoomPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.FridgeKPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FreezerKPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DryingCabinetKPB)).BeginInit();
@@ -58,6 +59,7 @@ namespace The_Crib
             ((System.ComponentModel.ISupportInitialize)(this.WindowPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CabinetDoorsPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrashPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnterDiningRoomPB)).BeginInit();
             this.SuspendLayout();
             // 
             // FridgeKPB
@@ -88,6 +90,7 @@ namespace The_Crib
             this.DryingCabinetKPB.Size = new System.Drawing.Size(243, 268);
             this.DryingCabinetKPB.TabIndex = 2;
             this.DryingCabinetKPB.TabStop = false;
+            this.DryingCabinetKPB.Click += new System.EventHandler(this.DryingCabinetKPB_Click);
             // 
             // SinkKPB
             // 
@@ -163,9 +166,9 @@ namespace The_Crib
             // 
             this.LeaveKitchenPB.BackColor = System.Drawing.Color.Transparent;
             this.LeaveKitchenPB.Image = global::The_Crib.Properties.Resources.DoorToLeft;
-            this.LeaveKitchenPB.Location = new System.Drawing.Point(53, 228);
+            this.LeaveKitchenPB.Location = new System.Drawing.Point(102, 196);
             this.LeaveKitchenPB.Name = "LeaveKitchenPB";
-            this.LeaveKitchenPB.Size = new System.Drawing.Size(159, 656);
+            this.LeaveKitchenPB.Size = new System.Drawing.Size(144, 656);
             this.LeaveKitchenPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LeaveKitchenPB.TabIndex = 10;
             this.LeaveKitchenPB.TabStop = false;
@@ -186,9 +189,9 @@ namespace The_Crib
             // CabinetDoorsPB
             // 
             this.CabinetDoorsPB.Image = global::The_Crib.Properties.Resources.CabinetDoors;
-            this.CabinetDoorsPB.Location = new System.Drawing.Point(252, 497);
+            this.CabinetDoorsPB.Location = new System.Drawing.Point(252, 495);
             this.CabinetDoorsPB.Name = "CabinetDoorsPB";
-            this.CabinetDoorsPB.Size = new System.Drawing.Size(222, 243);
+            this.CabinetDoorsPB.Size = new System.Drawing.Size(230, 238);
             this.CabinetDoorsPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CabinetDoorsPB.TabIndex = 12;
             this.CabinetDoorsPB.TabStop = false;
@@ -205,12 +208,24 @@ namespace The_Crib
             this.TrashPB.TabStop = false;
             this.TrashPB.Click += new System.EventHandler(this.KitchenImgPB);
             // 
+            // EnterDiningRoomPB
+            // 
+            this.EnterDiningRoomPB.BackColor = System.Drawing.Color.Transparent;
+            this.EnterDiningRoomPB.Image = global::The_Crib.Properties.Resources.arrow_left;
+            this.EnterDiningRoomPB.Location = new System.Drawing.Point(12, 808);
+            this.EnterDiningRoomPB.Name = "EnterDiningRoomPB";
+            this.EnterDiningRoomPB.Size = new System.Drawing.Size(83, 71);
+            this.EnterDiningRoomPB.TabIndex = 14;
+            this.EnterDiningRoomPB.TabStop = false;
+            this.EnterDiningRoomPB.Click += new System.EventHandler(this.EnterDiningRoomPB_Click);
+            // 
             // KitchenForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.EnterDiningRoomPB);
             this.Controls.Add(this.TrashPB);
             this.Controls.Add(this.CabinetDoorsPB);
             this.Controls.Add(this.MicrowaveOvenKPB);
@@ -242,6 +257,7 @@ namespace The_Crib
             ((System.ComponentModel.ISupportInitialize)(this.WindowPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CabinetDoorsPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrashPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnterDiningRoomPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -262,5 +278,6 @@ namespace The_Crib
         private System.Windows.Forms.PictureBox WindowPB;
         private System.Windows.Forms.PictureBox CabinetDoorsPB;
         private System.Windows.Forms.PictureBox TrashPB;
+        private System.Windows.Forms.PictureBox EnterDiningRoomPB;
     }
 }

@@ -38,6 +38,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(340, 314);
             this.Name = "DryingCabinetForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DryingCabinetForm";
             this.Load += new System.EventHandler(this.DryingCabinetForm_Load);
             this.ResumeLayout(false);

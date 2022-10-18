@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// Author@ Karoliina Salo
+/// Version 17.10.2022
+/// <summary>
+/// Code for the kitchen. Graphics placed by Tuomas Lahdensuu.
+/// </summary>
+
 namespace The_Crib
 {
     public partial class KitchenForm : Form
@@ -84,7 +90,7 @@ namespace The_Crib
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
                 {"DrawerKPB", "a drawer,vetolaatikko,шухляда,выдвижной ящик"},
-                {"",""}
+                {"room","word,word,word,word"}
             };
             string selectedWord = doorLibrary["DrawerKPB"];
             string roomWord = doorLibrary["room"];
@@ -117,7 +123,7 @@ namespace The_Crib
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
                 {"FridgeKPB", "a fridge,jääkaappi,холодильник,холодильник"},
-                {"",""}
+                {"room","word,word,word,word"}
             };
             string selectedWord = doorLibrary["FridgeKPB"];
             string roomWord = doorLibrary["room"];
@@ -150,7 +156,7 @@ namespace The_Crib
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
                 {"FreezerKPB", "a freezer,pakastin,морозильна камера,морозильна камера"},
-                {"",""}
+                {"room","word,word,word,word"}
             };
             string selectedWord = doorLibrary["FreezerKPB"];
             string roomWord = doorLibrary["room"];
@@ -169,9 +175,9 @@ namespace The_Crib
             }
             else if (result == DialogResult.Yes)    // open freezer
             {
-                FridgeForm fridge = new FridgeForm();  // form that opens
-                fridge.LanguageId = laId;  // passing lang id to other form
-                fridge.Show();
+                FreezerForm freezer = new FreezerForm(); // form that opens
+                freezer.LanguageId = laId;  // passing lang id to other form
+                freezer.Show();
 
 
             }
@@ -184,7 +190,7 @@ namespace The_Crib
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
                 {"CabinetDoorsPB", "a cabinet,kaappi,word,word"},
-                {"",""}
+                {"room","word,word,word,word"}
             };
             string selectedWord = doorLibrary["CabinetDoorsPB"];
             string roomWord = doorLibrary["room"];
@@ -203,11 +209,79 @@ namespace The_Crib
             }
             else if (result == DialogResult.Yes)    // open the cabinet
             {
-                FridgeForm fridge = new FridgeForm();  // form that opens
-                fridge.LanguageId = laId;  // passing lang id to other form
-                fridge.Show();
+                LowerCabinetForm lowerCabinet = new LowerCabinetForm();  // form that opens
+                lowerCabinet.LanguageId = laId;  // passing lang id to other form
+                lowerCabinet.Show();
 
 
+            }
+        }
+
+        private void DryingCabinetKPB_Click(object sender, EventArgs e)
+        {
+            bool show = false;
+            Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
+            {
+                {"DryingCabinetKPB", "a drying cabinet,kuivauskaappi,word,word"},
+                {"room","word,word,word,word"}
+            };
+            string selectedWord = doorLibrary["DryingCabinetKPB"];
+            string roomWord = doorLibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];   //Selecting right word by lang index
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();   //new door messagebox
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, roomWord, fiRoom, show, lanId);
+            if (result == DialogResult.OK)  //return to current form 
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)    // open the cabinet
+            {
+                DryingCabinetForm dryingCabinet = new DryingCabinetForm();  // form that opens
+                dryingCabinet.LanguageId = laId;  // passing lang id to other form
+                dryingCabinet.Show();
+
+
+            }
+        }
+
+        private void EnterDiningRoomPB_Click(object sender, EventArgs e)
+        {
+            bool show = false;
+            Dictionary<string, string> doorlibrary = new Dictionary<string, string>()
+            {
+                {"EnterDiningRoomPB","a dining room,ruokailutila,word,word"},
+                {"room","a dining room,ruokailutila,word,word"}
+            };
+
+            string selectedWord = doorlibrary["EnterDiningRoomPB"];
+            string roomWord = doorlibrary["room"];
+            string[] separators = { "," };
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] roomArr = roomWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string room = roomArr[lanId];
+            string fiRoom = roomArr[1];
+            string word = wordArr[lanId];
+            string fiWord = wordArr[1];
+            CustomDoorMessageBox CustMessageBox = new CustomDoorMessageBox();
+            DialogResult result = CustMessageBox.ShowDialog(word, fiWord, room, fiRoom, show, lanId);
+
+            if (result == DialogResult.OK)
+            {
+                CustMessageBox.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                DiningRoomForm diningRoom = new DiningRoomForm();
+                diningRoom.FormClosing += CloseForm;
+                diningRoom.LanguageId = lanId;
+                diningRoom.Show();
+                this.Hide();
             }
         }
     }
