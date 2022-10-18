@@ -43,5 +43,41 @@ namespace The_Crib
             PictureBox image = sender as PictureBox;
             bedroom.Show(image.Name, lanId);
         }
+
+        private void sweaterMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
+
+        private void woollenSocksMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
+
+        private void shortsMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
+
+        private void sweatpantsMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
+
+        private void underwearMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
+
+        private void hangerMBPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            bedroom.Show(image.Name, lanId);
+        }
     }
 }
