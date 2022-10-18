@@ -249,5 +249,10 @@ namespace The_Crib
 
             }
         }
+
+        private void HallwayForm_Load(object sender, EventArgs e)
+        {
+            lanId = lanId;
+        }
     }
 }

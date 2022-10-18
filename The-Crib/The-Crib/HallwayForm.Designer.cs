@@ -174,6 +174,7 @@ namespace The_Crib
             this.Name = "HallwayForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HallwayForm";
+            this.Load += new System.EventHandler(this.HallwayForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.KitchenDoorHWPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LivingRoomDoorHWPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wcDoorHWPB)).EndInit();
