@@ -352,9 +352,6 @@
     <None Include="Resources\WC.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Bathroom.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\LowerCabinet1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -719,6 +716,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Candles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drawer_filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bathroom.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

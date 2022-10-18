@@ -133,6 +133,16 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bathroom {
+            get {
+                object obj = ResourceManager.GetObject("Bathroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BathroomFinal {
             get {
                 object obj = ResourceManager.GetObject("BathroomFinal", resourceCulture);
@@ -426,6 +436,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap drawer {
             get {
                 object obj = ResourceManager.GetObject("drawer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drawer_filled {
+            get {
+                object obj = ResourceManager.GetObject("drawer_filled", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

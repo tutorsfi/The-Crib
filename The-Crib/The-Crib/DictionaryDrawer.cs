@@ -21,7 +21,10 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {
             // order ENG-FI-UA-RUS
-            {"ScissorsPB","scissors,sakset,word,word"}
+            {"ScissorsPB","scissors,sakset,word,word"},
+            {"SpoonPB","a spoon,lusikka,word,word"},
+            {"ForkPB","a fork,haarukka,word,word"},
+            {"KnifePB","a knife,veitsi,word,word"}
         };
 
         public void Show(string pic, int lanId)
