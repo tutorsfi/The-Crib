@@ -59,5 +59,10 @@ namespace The_Crib
         {
             
         }
+
+        private void KidsWardrobeForm_Load(object sender, EventArgs e)
+        {
+            lanId = laId;
+        }
     }
 }

@@ -79,5 +79,10 @@ namespace The_Crib
             PictureBox image = sender as PictureBox;
             bedroom.Show(image.Name, lanId);
         }
+
+        private void MasterBedroomWardrobeForm_Load(object sender, EventArgs e)
+        {
+            lanId = laId;
+        }
     }
 }

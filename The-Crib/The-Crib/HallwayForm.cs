@@ -254,5 +254,13 @@ namespace The_Crib
         {
             lanId = laId;
         }
+
+        private void langBtnMB_Click(object sender, EventArgs e)
+        {
+            Form1 langMenu = new Form1();    //room the door leads to
+            langMenu.FormClosing += CloseForm;   // call CloseForm method
+            langMenu.Show();
+            this.Hide();
+        }
     }
 }

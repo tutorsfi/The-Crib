@@ -739,5 +739,17 @@
   <ItemGroup>
     <None Include="Resources\Bathroom.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wardrobe assembled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\languageSelectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\languageSelectIcon-sml.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\languageSelectIcon1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

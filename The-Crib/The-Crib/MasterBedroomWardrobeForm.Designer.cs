@@ -148,6 +148,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
+            this.BackgroundImage = global::The_Crib.Properties.Resources.wardrobe_assembled1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1075, 679);
             this.Controls.Add(this.underwearMBPB);
@@ -164,6 +165,7 @@
             this.Name = "MasterBedroomWardrobeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterBedroomWardrobeForm";
+            this.Load += new System.EventHandler(this.MasterBedroomWardrobeForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dressMBPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.suitMBPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hangerMBPB)).EndInit();

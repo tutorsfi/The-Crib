@@ -139,5 +139,10 @@ namespace The_Crib
             langMenu.Show();
             this.Hide();
         }
+
+        private void StudyForm_Load(object sender, EventArgs e)
+        {
+            lanId = laId;
+        }
     }
 }

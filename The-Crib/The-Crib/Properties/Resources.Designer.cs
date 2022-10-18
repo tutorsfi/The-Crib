@@ -773,6 +773,36 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap languageSelectIcon {
+            get {
+                object obj = ResourceManager.GetObject("languageSelectIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap languageSelectIcon_sml {
+            get {
+                object obj = ResourceManager.GetObject("languageSelectIcon-sml", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap languageSelectIcon1 {
+            get {
+                object obj = ResourceManager.GetObject("languageSelectIcon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Laptop {
             get {
                 object obj = ResourceManager.GetObject("Laptop", resourceCulture);
@@ -1496,6 +1526,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap wardrobe_assembled {
             get {
                 object obj = ResourceManager.GetObject("wardrobe assembled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wardrobe_assembled1 {
+            get {
+                object obj = ResourceManager.GetObject("wardrobe assembled1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

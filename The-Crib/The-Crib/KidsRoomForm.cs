@@ -170,5 +170,10 @@ namespace The_Crib
             langMenu.Show();
             this.Hide();
         }
+
+        private void KidsRoomForm_Load(object sender, EventArgs e)
+        {
+            lanId = laId;
+        }
     }
 }
