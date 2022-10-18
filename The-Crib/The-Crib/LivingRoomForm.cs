@@ -202,5 +202,23 @@ namespace The_Crib
             PictureBox image = sender as PictureBox;
             diLIRo.Show(image.Name, lanId);
         }
+
+        private void FlowersPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diLIRo.Show(image.Name, lanId);
+        }
+
+        private void BlanketPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diLIRo.Show(image.Name, lanId);
+        }
+
+        private void DecorativePillowPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diLIRo.Show(image.Name, lanId);
+        }
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// author@ Antti Kuusisto
-/// version 5.10.2022
+/// version 18.10.2022
 /// <summary>
 /// Backyard view. Door to house, that uses own messagebox because messagebox styling requirements and code to assiqn words to messagebox is writen here because it need to operate
 /// form change and it was easier to write code here than dictionary class which operates pictures translation viewing method.
@@ -158,6 +158,18 @@ namespace The_Crib
             laSe.FormClosing += CloseForm;
             laSe.Show();
             this.Hide();
+        }
+
+        private void GrillPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
+        }
+
+        private void SunShadePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diBaYa.Show(image.Name, lanId);
         }
     }
 }

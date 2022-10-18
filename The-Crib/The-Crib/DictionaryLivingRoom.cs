@@ -7,7 +7,7 @@ using System.Windows.Forms;
 /// author@ Antti Kuusisto
 /// version 17.10.2022
 /// <summary>
-/// Backyard Dictionary. Class contains code to show custom MessageBox which shows pictures name in FI - selected language.
+/// Living room Dictionary. Class contains code to show custom MessageBox which shows pictures name in FI - selected language.
 ///</summary>
 namespace The_Crib
 {
@@ -24,12 +24,12 @@ namespace The_Crib
             {"GameConsolPB","a game console,pelikonsoli,ігрова консоль,игровая консоль" }, // Words for game console
             {"GameControllerPB","a game controller,ohjain,джойстик,джойстик" }, // Words for game controller
             {"CurtainsPB","curtains,verhot,штори,шторы" }, // Words for curtains
-            {"MagazinePB","a magazine,aikakausilehti,журнал,журнал" },
-            {"NewspaperPB","a newspaper,sanomalehti,газета,газета" }
-            /*{"","decorative pillow,koristetyyny,декоративна подушка,декоративная подушка" },
-            {"","a blanket,viltti,ковдра,плед одеяло" },
-            {"","flowers,kukkia,квіти,цветы" },
-            */
+            {"FlowersPB","flowers,kukkia,квіти,цветы" }, // Words for flowers
+            {"MagazinePB","a magazine,aikakausilehti,журнал,журнал" }, // Words for magazine
+            {"NewspaperPB","a newspaper,sanomalehti,газета,газета" }, // Words for newspaper
+            {"DecorativePillowPB","decorative pillow,koristetyyny,декоративна подушка,декоративная подушка" }, // Words for pillow
+            {"FlowerTablePB","a flower table,kukkapöytä,квітковий стіл,цветочный стол" }, // need to verify
+            {"BlanketPB","a blanket,viltti,ковдра,плед одеяло" } // Words for blanket
         };
 
         public void Show(string pic, int lanId)
