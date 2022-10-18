@@ -135,7 +135,7 @@
             // GroundmeatPB
             // 
             this.GroundmeatPB.BackColor = System.Drawing.Color.Transparent;
-      
+            this.GroundmeatPB.Image = global::The_Crib.Properties.Resources.GroundMeat;
             this.GroundmeatPB.Location = new System.Drawing.Point(59, 424);
             this.GroundmeatPB.Name = "GroundmeatPB";
             this.GroundmeatPB.Size = new System.Drawing.Size(100, 50);
@@ -147,7 +147,7 @@
             // MustardPB
             // 
             this.MustardPB.BackColor = System.Drawing.Color.Transparent;
-   
+            this.MustardPB.Image = global::The_Crib.Properties.Resources.MustardTube;
             this.MustardPB.Location = new System.Drawing.Point(59, 149);
             this.MustardPB.Name = "MustardPB";
             this.MustardPB.Size = new System.Drawing.Size(78, 18);
@@ -158,7 +158,7 @@
             // KetchupPB
             // 
             this.KetchupPB.BackColor = System.Drawing.Color.Transparent;
-
+            this.KetchupPB.Image = global::The_Crib.Properties.Resources.KetchupBottle;
             this.KetchupPB.Location = new System.Drawing.Point(524, 325);
             this.KetchupPB.Name = "KetchupPB";
             this.KetchupPB.Size = new System.Drawing.Size(37, 79);
@@ -170,7 +170,7 @@
             // SaladPB
             // 
             this.SaladPB.BackColor = System.Drawing.Color.Transparent;
-   
+            this.SaladPB.Image = global::The_Crib.Properties.Resources.Salad;
             this.SaladPB.Location = new System.Drawing.Point(410, 140);
             this.SaladPB.Name = "SaladPB";
             this.SaladPB.Size = new System.Drawing.Size(54, 93);
@@ -182,7 +182,7 @@
             // SausagesPB
             // 
             this.SausagesPB.BackColor = System.Drawing.Color.Transparent;
-   
+            this.SausagesPB.Image = global::The_Crib.Properties.Resources.Sausages;
             this.SausagesPB.Location = new System.Drawing.Point(226, 277);
             this.SausagesPB.Name = "SausagesPB";
             this.SausagesPB.Size = new System.Drawing.Size(113, 35);
@@ -194,7 +194,7 @@
             // BeerPB
             // 
             this.BeerPB.BackColor = System.Drawing.Color.Transparent;
-         
+            this.BeerPB.Image = global::The_Crib.Properties.Resources.Beer;
             this.BeerPB.Location = new System.Drawing.Point(489, 184);
             this.BeerPB.Name = "BeerPB";
             this.BeerPB.Size = new System.Drawing.Size(29, 49);
@@ -205,7 +205,7 @@
             // BeerTwoPB
             // 
             this.BeerTwoPB.BackColor = System.Drawing.Color.Transparent;
-          
+            this.BeerTwoPB.Image = global::The_Crib.Properties.Resources.Beer;
             this.BeerTwoPB.Location = new System.Drawing.Point(524, 187);
             this.BeerTwoPB.Name = "BeerTwoPB";
             this.BeerTwoPB.Size = new System.Drawing.Size(29, 49);
@@ -216,7 +216,7 @@
             // CheesePB
             // 
             this.CheesePB.BackColor = System.Drawing.Color.Transparent;
-    
+            this.CheesePB.Image = global::The_Crib.Properties.Resources.Cheese;
             this.CheesePB.Location = new System.Drawing.Point(165, 438);
             this.CheesePB.Name = "CheesePB";
             this.CheesePB.Size = new System.Drawing.Size(64, 36);
@@ -228,7 +228,7 @@
             // WaterbottlePB
             // 
             this.WaterbottlePB.BackColor = System.Drawing.Color.Transparent;
-      
+            this.WaterbottlePB.Image = global::The_Crib.Properties.Resources.WaterBottle;
             this.WaterbottlePB.Location = new System.Drawing.Point(178, 382);
             this.WaterbottlePB.Name = "WaterbottlePB";
             this.WaterbottlePB.Size = new System.Drawing.Size(35, 63);

@@ -250,7 +250,7 @@ namespace The_Crib
             // BreadbasketPB
             // 
             this.BreadbasketPB.BackColor = System.Drawing.Color.Transparent;
-      
+            this.BreadbasketPB.Image = global::The_Crib.Properties.Resources.Breadbasket;
             this.BreadbasketPB.Location = new System.Drawing.Point(1496, 512);
             this.BreadbasketPB.Name = "BreadbasketPB";
             this.BreadbasketPB.Size = new System.Drawing.Size(126, 63);

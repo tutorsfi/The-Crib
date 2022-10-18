@@ -76,7 +76,7 @@ namespace The_Crib
             }
             else if (result == DialogResult.Yes) // if YES is clicked, the messagebox closes and opens a new form
             {
-                UpstairsHallwayForm hallway = new UpstairsHallwayForm(); // EDIT when hallwayform is available
+                HallwayForm hallway = new HallwayForm();
                 hallway.FormClosing += CloseForm;
                 hallway.LanguageId = lanId;
                 hallway.Show();

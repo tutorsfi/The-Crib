@@ -681,5 +681,32 @@
   <ItemGroup>
     <None Include="Resources\Scarf.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breadbasket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sausages.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KetchupBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MustardTube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WaterBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GroundMeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheese.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
