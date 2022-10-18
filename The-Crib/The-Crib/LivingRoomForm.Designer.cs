@@ -41,6 +41,9 @@
             this.DoorToHallwayPB = new System.Windows.Forms.PictureBox();
             this.DoorToBackyard = new System.Windows.Forms.PictureBox();
             this.LanguageSelectionBT = new System.Windows.Forms.Button();
+            this.FlowerTablePB = new System.Windows.Forms.PictureBox();
+            this.MagazinePB = new System.Windows.Forms.PictureBox();
+            this.NewspaperPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.CouchPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoffeeTablePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TelevisionPB)).BeginInit();
@@ -52,6 +55,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.CurtainsPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorToHallwayPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorToBackyard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlowerTablePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MagazinePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewspaperPB)).BeginInit();
             this.SuspendLayout();
             // 
             // CouchPB
@@ -109,7 +115,7 @@
             this.RemoteControlPB.BackColor = System.Drawing.Color.Transparent;
             this.RemoteControlPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RemoteControlPB.BackgroundImage")));
             this.RemoteControlPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.RemoteControlPB.Location = new System.Drawing.Point(1021, 677);
+            this.RemoteControlPB.Location = new System.Drawing.Point(1045, 677);
             this.RemoteControlPB.Name = "RemoteControlPB";
             this.RemoteControlPB.Size = new System.Drawing.Size(59, 37);
             this.RemoteControlPB.TabIndex = 5;
@@ -133,7 +139,7 @@
             this.GameControllerPB.BackColor = System.Drawing.Color.Transparent;
             this.GameControllerPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("GameControllerPB.BackgroundImage")));
             this.GameControllerPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.GameControllerPB.Location = new System.Drawing.Point(1056, 720);
+            this.GameControllerPB.Location = new System.Drawing.Point(1076, 739);
             this.GameControllerPB.Name = "GameControllerPB";
             this.GameControllerPB.Size = new System.Drawing.Size(48, 32);
             this.GameControllerPB.TabIndex = 7;
@@ -183,12 +189,49 @@
             this.LanguageSelectionBT.UseVisualStyleBackColor = true;
             this.LanguageSelectionBT.Click += new System.EventHandler(this.LanguageSelectionBT_Click);
             // 
+            // FlowerTablePB
+            // 
+            this.FlowerTablePB.BackColor = System.Drawing.Color.Transparent;
+            this.FlowerTablePB.Location = new System.Drawing.Point(542, 625);
+            this.FlowerTablePB.Name = "FlowerTablePB";
+            this.FlowerTablePB.Size = new System.Drawing.Size(72, 70);
+            this.FlowerTablePB.TabIndex = 12;
+            this.FlowerTablePB.TabStop = false;
+            this.FlowerTablePB.Click += new System.EventHandler(this.FlowerTablePB_Click);
+            // 
+            // MagazinePB
+            // 
+            this.MagazinePB.BackColor = System.Drawing.Color.Transparent;
+            this.MagazinePB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("MagazinePB.BackgroundImage")));
+            this.MagazinePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.MagazinePB.Location = new System.Drawing.Point(945, 677);
+            this.MagazinePB.Name = "MagazinePB";
+            this.MagazinePB.Size = new System.Drawing.Size(83, 34);
+            this.MagazinePB.TabIndex = 13;
+            this.MagazinePB.TabStop = false;
+            this.MagazinePB.Click += new System.EventHandler(this.MagazinePB_Click);
+            // 
+            // NewspaperPB
+            // 
+            this.NewspaperPB.BackColor = System.Drawing.Color.Transparent;
+            this.NewspaperPB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("NewspaperPB.BackgroundImage")));
+            this.NewspaperPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.NewspaperPB.Location = new System.Drawing.Point(945, 721);
+            this.NewspaperPB.Name = "NewspaperPB";
+            this.NewspaperPB.Size = new System.Drawing.Size(100, 50);
+            this.NewspaperPB.TabIndex = 14;
+            this.NewspaperPB.TabStop = false;
+            this.NewspaperPB.Click += new System.EventHandler(this.NewspaperPB_Click);
+            // 
             // LivingRoomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.NewspaperPB);
+            this.Controls.Add(this.MagazinePB);
+            this.Controls.Add(this.FlowerTablePB);
             this.Controls.Add(this.LanguageSelectionBT);
             this.Controls.Add(this.DoorToBackyard);
             this.Controls.Add(this.DoorToHallwayPB);
@@ -216,6 +259,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.CurtainsPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorToHallwayPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DoorToBackyard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlowerTablePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MagazinePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewspaperPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -234,5 +280,8 @@
         private System.Windows.Forms.PictureBox DoorToHallwayPB;
         private System.Windows.Forms.PictureBox DoorToBackyard;
         private System.Windows.Forms.Button LanguageSelectionBT;
+        private System.Windows.Forms.PictureBox FlowerTablePB;
+        private System.Windows.Forms.PictureBox MagazinePB;
+        private System.Windows.Forms.PictureBox NewspaperPB;
     }
 }
