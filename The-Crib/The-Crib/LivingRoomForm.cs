@@ -124,7 +124,7 @@ namespace The_Crib
                 {
                     HallwayForm haWaFo = new HallwayForm();//room where door leads
                     haWaFo.FormClosing += CloseForm;// call CloseForm method
-                    //haWaFo.LanguageId = laId; // passing id to another form
+                    haWaFo.LanguageId = laId; // passing id to another form
                     haWaFo.Show();
                     this.Hide();
 
