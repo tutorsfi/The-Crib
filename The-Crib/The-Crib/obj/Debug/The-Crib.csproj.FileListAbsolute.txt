@@ -139,3 +139,4 @@ C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.Hallwa
 =======
 C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.HallwayForm.resources
 >>>>>>> f785883720cc67d2deb7f5205c7ba8e6afa79776
+C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.HallwayClosetForm.resources
