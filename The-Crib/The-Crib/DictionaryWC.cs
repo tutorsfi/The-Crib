@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// Author@ Karoliina Salo
-/// Version 12.10.2022
+/// Version 18.10.2022
 /// <summary>
 /// Dictionary-class for wc. Finished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
@@ -22,14 +22,14 @@ namespace The_Crib
         {
             // order ENG-FI-UA-RUS
             {"ToiletPB", "a toilet bowl,pönttö,унітаз,унитаз"},
-            {"ToiletPaperPB", "a toilet paper,vessapaperi,туалетний папір,туалетная бумага"},
+            {"ToiletpaperPB", "a toilet paper,vessapaperi,туалетний папір,туалетная бумага"},
             {"SinkPB", "a sink,lavuaari,раковина,раковина"},
-            {"TapPB", "a  tap,hana,кран,кран"},
             {"LampPB","a ceiling lamp,kattolamppu,люстра,люстра"},
             {"SoapPB", "a handsoap,käsisaippua,мило для рук,мыло для рук"},
             {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,йоржик для унітазу"},
             {"BidetPB", "a bidet shower,käsisuihku,біде,гигиенический душ"},
-            {"HandTowelPB", "a hand towel,käsipyyhe,рушник для рук,полотенце для рук"}
+            {"HandtowelPB", "a hand towel,käsipyyhe,рушник для рук,полотенце для рук"},
+            {"PlantPB","a plant,kasvi,word,word"}
         };
 
         public void Show(string pic, int lanId)

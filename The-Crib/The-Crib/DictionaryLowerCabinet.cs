@@ -23,7 +23,8 @@ namespace The_Crib
         {
             // order ENG-FI-UA-RUS
             {"PotPB","a pot,kattila,word,word"},
-            {"PanPB","a frying pan,paistinpannu,word,word"}
+            {"PanPB","a frying pan,paistinpannu,word,word"},
+            {"BowlPB","a bowl,kulho,word,word"}
         };
 
         // Method to show the custom messagebox with the original and translated word

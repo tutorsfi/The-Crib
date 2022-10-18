@@ -134,4 +134,8 @@ C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.Fridge
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.HallwayForm.resources
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.KitchenForm.resources
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.LowerCabinetForm.resources
+<<<<<<< HEAD
 C:\Users\jenna\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.HallwayClosetForm.resources
+=======
+C:\Users\salok\source\repos\The-Crib\The-Crib\The-Crib\obj\Debug\The_Crib.HallwayForm.resources
+>>>>>>> f785883720cc67d2deb7f5205c7ba8e6afa79776

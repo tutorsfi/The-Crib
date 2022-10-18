@@ -34,11 +34,17 @@
             this.ToiletPB = new System.Windows.Forms.PictureBox();
             this.LampPB = new System.Windows.Forms.PictureBox();
             this.MirrorCabinetPB = new System.Windows.Forms.PictureBox();
+            this.ToiletpaperPB = new System.Windows.Forms.PictureBox();
+            this.PlantPB = new System.Windows.Forms.PictureBox();
+            this.HandtowelPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.WcDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LampPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToiletpaperPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlantPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HandtowelPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -67,7 +73,7 @@
             // 
             this.SinkPB.BackColor = System.Drawing.Color.Transparent;
             this.SinkPB.Image = global::The_Crib.Properties.Resources.Sink_Bathroom;
-            this.SinkPB.Location = new System.Drawing.Point(846, 534);
+            this.SinkPB.Location = new System.Drawing.Point(590, 536);
             this.SinkPB.Name = "SinkPB";
             this.SinkPB.Size = new System.Drawing.Size(192, 298);
             this.SinkPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -79,7 +85,7 @@
             // 
             this.ToiletPB.BackColor = System.Drawing.Color.Transparent;
             this.ToiletPB.Image = global::The_Crib.Properties.Resources.ToiletBowl;
-            this.ToiletPB.Location = new System.Drawing.Point(1072, 513);
+            this.ToiletPB.Location = new System.Drawing.Point(850, 502);
             this.ToiletPB.Name = "ToiletPB";
             this.ToiletPB.Size = new System.Drawing.Size(187, 332);
             this.ToiletPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -102,7 +108,7 @@
             // MirrorCabinetPB
             // 
             this.MirrorCabinetPB.Image = global::The_Crib.Properties.Resources.MirrorCabinet;
-            this.MirrorCabinetPB.Location = new System.Drawing.Point(846, 235);
+            this.MirrorCabinetPB.Location = new System.Drawing.Point(590, 273);
             this.MirrorCabinetPB.Name = "MirrorCabinetPB";
             this.MirrorCabinetPB.Size = new System.Drawing.Size(181, 221);
             this.MirrorCabinetPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,12 +116,48 @@
             this.MirrorCabinetPB.TabStop = false;
             this.MirrorCabinetPB.Click += new System.EventHandler(this.MirrorCabinetPB_Click);
             // 
+            // ToiletpaperPB
+            // 
+            this.ToiletpaperPB.BackColor = System.Drawing.Color.Transparent;
+            this.ToiletpaperPB.Image = global::The_Crib.Properties.Resources.ToiletPaper_WC;
+            this.ToiletpaperPB.Location = new System.Drawing.Point(1064, 597);
+            this.ToiletpaperPB.Name = "ToiletpaperPB";
+            this.ToiletpaperPB.Size = new System.Drawing.Size(88, 67);
+            this.ToiletpaperPB.TabIndex = 11;
+            this.ToiletpaperPB.TabStop = false;
+            this.ToiletpaperPB.Click += new System.EventHandler(this.ToiletImgPB);
+            // 
+            // PlantPB
+            // 
+            this.PlantPB.BackColor = System.Drawing.Color.Transparent;
+            this.PlantPB.Image = global::The_Crib.Properties.Resources.APottedPlant;
+            this.PlantPB.Location = new System.Drawing.Point(1347, 576);
+            this.PlantPB.Name = "PlantPB";
+            this.PlantPB.Size = new System.Drawing.Size(149, 258);
+            this.PlantPB.TabIndex = 12;
+            this.PlantPB.TabStop = false;
+            this.PlantPB.Click += new System.EventHandler(this.ToiletImgPB);
+            // 
+            // HandtowelPB
+            // 
+            this.HandtowelPB.BackColor = System.Drawing.Color.Transparent;
+            this.HandtowelPB.Image = global::The_Crib.Properties.Resources.HandTowel;
+            this.HandtowelPB.Location = new System.Drawing.Point(437, 452);
+            this.HandtowelPB.Name = "HandtowelPB";
+            this.HandtowelPB.Size = new System.Drawing.Size(82, 134);
+            this.HandtowelPB.TabIndex = 13;
+            this.HandtowelPB.TabStop = false;
+            this.HandtowelPB.Click += new System.EventHandler(this.ToiletImgPB);
+            // 
             // WcForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.WC;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.HandtowelPB);
+            this.Controls.Add(this.PlantPB);
+            this.Controls.Add(this.ToiletpaperPB);
             this.Controls.Add(this.MirrorCabinetPB);
             this.Controls.Add(this.LampPB);
             this.Controls.Add(this.ToiletPB);
@@ -131,6 +173,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LampPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToiletpaperPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlantPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HandtowelPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -143,5 +188,8 @@
         private System.Windows.Forms.PictureBox ToiletPB;
         private System.Windows.Forms.PictureBox LampPB;
         private System.Windows.Forms.PictureBox MirrorCabinetPB;
+        private System.Windows.Forms.PictureBox ToiletpaperPB;
+        private System.Windows.Forms.PictureBox PlantPB;
+        private System.Windows.Forms.PictureBox HandtowelPB;
     }
 }

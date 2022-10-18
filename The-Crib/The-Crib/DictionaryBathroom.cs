@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /// Author@ Karoliina Salo
-/// Version 12.10.2022
+/// Version 18.10.2022
 /// <summary>
 /// Dictionary-class for bathroom. Finished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
@@ -34,7 +34,8 @@ namespace The_Crib
             {"WashingMachinePB","a washing machine,pyykinpesukone,пральна машина,стиральная машина"},
             {"ToothPastePB","a toothpaste,hammastahna,зубна паста,зубная паста"},
             {"ShampooPB","a shampoo,shampoo,шампунь,шампунь"},
-            {"DetergentPB","a laundry detergent,pyykinpesuaine,пральний порошок,стиральный порошок"}
+            {"DetergentPB","a laundry detergent,pyykinpesuaine,пральний порошок,стиральный порошок"},
+            {"ToiletpaperPB","a toilet paper,vessapaperi,word,word"}
         };
 
         // Method to show the custom messagebox with the original and translated word

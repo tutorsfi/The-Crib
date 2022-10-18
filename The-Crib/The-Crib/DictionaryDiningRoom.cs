@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// Author@ Karoliina Salo
-/// Version 12.10.2022
+/// Version 18.10.2022
 /// <summary>
 /// Dictionary-class for dining room. Unfinished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
@@ -25,7 +25,10 @@ namespace The_Crib
             {"ChairPB", "a chair, tuoli,стілець,word"},
             {"TablePB", "a table,pöytä,стіл,стол"},
             {"WindowPB", "a window,ikkuna,вікно,окно"},
-            {"LampPB", "a ceiling lamp,kattolamppu,люстра,люстра"}
+            {"LampPB", "a ceiling lamp,kattolamppu,люстра,люстра"},
+            {"FruitbasketPB","a fruit basket,hedelmäkori"},
+            {"CandlelabraPB","a candlelabra,kynttiläjalka"},
+            {"CandlesPB","candles,kynttilät"}
         };
 
         public void Show(string pic, int lanId)
