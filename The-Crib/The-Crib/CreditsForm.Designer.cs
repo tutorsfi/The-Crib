@@ -52,15 +52,14 @@
             // 
             // ProgrammingLB
             // 
-            this.ProgrammingLB.AutoSize = true;
             this.ProgrammingLB.BackColor = System.Drawing.Color.Transparent;
             this.ProgrammingLB.Font = new System.Drawing.Font("Cooper Black", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProgrammingLB.ForeColor = System.Drawing.Color.White;
             this.ProgrammingLB.Location = new System.Drawing.Point(403, 188);
             this.ProgrammingLB.Name = "ProgrammingLB";
-            this.ProgrammingLB.Size = new System.Drawing.Size(263, 40);
+            this.ProgrammingLB.Size = new System.Drawing.Size(349, 82);
             this.ProgrammingLB.TabIndex = 1;
-            this.ProgrammingLB.Text = "Programming";
+            this.ProgrammingLB.Text = "Programming and Planning";
             // 
             // GraphicsLB
             // 
@@ -80,11 +79,11 @@
             this.ProgrammerNamesLB.BackColor = System.Drawing.Color.Transparent;
             this.ProgrammerNamesLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProgrammerNamesLB.ForeColor = System.Drawing.Color.White;
-            this.ProgrammerNamesLB.Location = new System.Drawing.Point(491, 237);
+            this.ProgrammerNamesLB.Location = new System.Drawing.Point(404, 281);
             this.ProgrammerNamesLB.Name = "ProgrammerNamesLB";
-            this.ProgrammerNamesLB.Size = new System.Drawing.Size(86, 155);
+            this.ProgrammerNamesLB.Size = new System.Drawing.Size(253, 155);
             this.ProgrammerNamesLB.TabIndex = 5;
-            this.ProgrammerNamesLB.Text = "Name\r\nName\r\nName\r\nName\r\n\r\n";
+            this.ProgrammerNamesLB.Text = "Antti Kuusisto\r\nJenna Koskelo\r\nKaroliina Salo\r\nTuomas Lahdensuu\r\n\r\n";
             // 
             // GraphicsNamesLB
             // 
@@ -92,11 +91,11 @@
             this.GraphicsNamesLB.BackColor = System.Drawing.Color.Transparent;
             this.GraphicsNamesLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GraphicsNamesLB.ForeColor = System.Drawing.Color.White;
-            this.GraphicsNamesLB.Location = new System.Drawing.Point(1099, 237);
+            this.GraphicsNamesLB.Location = new System.Drawing.Point(1043, 281);
             this.GraphicsNamesLB.Name = "GraphicsNamesLB";
-            this.GraphicsNamesLB.Size = new System.Drawing.Size(86, 124);
+            this.GraphicsNamesLB.Size = new System.Drawing.Size(234, 124);
             this.GraphicsNamesLB.TabIndex = 6;
-            this.GraphicsNamesLB.Text = "Name\r\nName\r\nName\r\nName\r\n";
+            this.GraphicsNamesLB.Text = "Adelina Strapchuk\r\nHugo Koukka\r\nName\r\nName\r\n";
             // 
             // TutorsLogoPB
             // 
@@ -111,12 +110,16 @@
             // 
             // MainMenuBtn
             // 
+            this.MainMenuBtn.BackColor = System.Drawing.Color.CadetBlue;
+            this.MainMenuBtn.FlatAppearance.BorderSize = 0;
+            this.MainMenuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MainMenuBtn.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.MainMenuBtn.Location = new System.Drawing.Point(12, 9);
             this.MainMenuBtn.Name = "MainMenuBtn";
-            this.MainMenuBtn.Size = new System.Drawing.Size(91, 43);
+            this.MainMenuBtn.Size = new System.Drawing.Size(102, 58);
             this.MainMenuBtn.TabIndex = 9;
             this.MainMenuBtn.Text = "Main menu";
-            this.MainMenuBtn.UseVisualStyleBackColor = true;
+            this.MainMenuBtn.UseVisualStyleBackColor = false;
             this.MainMenuBtn.Click += new System.EventHandler(this.MainMenuBtn_Click);
             // 
             // CreditsForm
