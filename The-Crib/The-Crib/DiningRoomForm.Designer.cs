@@ -35,6 +35,9 @@
             this.LampPB = new System.Windows.Forms.PictureBox();
             this.WindowPB = new System.Windows.Forms.PictureBox();
             this.ToKitchenPB = new System.Windows.Forms.PictureBox();
+            this.CandlelabraPB = new System.Windows.Forms.PictureBox();
+            this.CandlesPB = new System.Windows.Forms.PictureBox();
+            this.FruitbasketPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.SideTablePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TablePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChairPB)).BeginInit();
@@ -42,6 +45,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.LampPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WindowPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToKitchenPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandlelabraPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandlesPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FruitbasketPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SideTablePB
@@ -126,12 +132,47 @@
             this.ToKitchenPB.TabStop = false;
             this.ToKitchenPB.Click += new System.EventHandler(this.ToKitchenPB_Click);
             // 
+            // CandlelabraPB
+            // 
+            this.CandlelabraPB.BackColor = System.Drawing.Color.Transparent;
+            this.CandlelabraPB.Image = global::The_Crib.Properties.Resources.Candelabra;
+            this.CandlelabraPB.Location = new System.Drawing.Point(188, 442);
+            this.CandlelabraPB.Name = "CandlelabraPB";
+            this.CandlelabraPB.Size = new System.Drawing.Size(112, 219);
+            this.CandlelabraPB.TabIndex = 7;
+            this.CandlelabraPB.TabStop = false;
+            this.CandlelabraPB.Click += new System.EventHandler(this.DiningRoomImgPB);
+            // 
+            // CandlesPB
+            // 
+            this.CandlesPB.BackColor = System.Drawing.Color.Transparent;
+            this.CandlesPB.Image = global::The_Crib.Properties.Resources.Candles;
+            this.CandlesPB.Location = new System.Drawing.Point(199, 439);
+            this.CandlesPB.Name = "CandlesPB";
+            this.CandlesPB.Size = new System.Drawing.Size(100, 43);
+            this.CandlesPB.TabIndex = 8;
+            this.CandlesPB.TabStop = false;
+            this.CandlesPB.Click += new System.EventHandler(this.DiningRoomImgPB);
+            // 
+            // FruitbasketPB
+            // 
+            this.FruitbasketPB.Image = global::The_Crib.Properties.Resources.FruitBasket;
+            this.FruitbasketPB.Location = new System.Drawing.Point(902, 501);
+            this.FruitbasketPB.Name = "FruitbasketPB";
+            this.FruitbasketPB.Size = new System.Drawing.Size(123, 94);
+            this.FruitbasketPB.TabIndex = 9;
+            this.FruitbasketPB.TabStop = false;
+            this.FruitbasketPB.Click += new System.EventHandler(this.DiningRoomImgPB);
+            // 
             // DiningRoomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.DiningRoom;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.FruitbasketPB);
+            this.Controls.Add(this.CandlesPB);
+            this.Controls.Add(this.CandlelabraPB);
             this.Controls.Add(this.ToKitchenPB);
             this.Controls.Add(this.WindowPB);
             this.Controls.Add(this.LampPB);
@@ -150,6 +191,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.LampPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.WindowPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToKitchenPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandlelabraPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandlesPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FruitbasketPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -163,5 +207,8 @@
         private System.Windows.Forms.PictureBox LampPB;
         private System.Windows.Forms.PictureBox WindowPB;
         private System.Windows.Forms.PictureBox ToKitchenPB;
+        private System.Windows.Forms.PictureBox CandlelabraPB;
+        private System.Windows.Forms.PictureBox CandlesPB;
+        private System.Windows.Forms.PictureBox FruitbasketPB;
     }
 }

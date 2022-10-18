@@ -37,6 +37,7 @@
             this.LeaveLB = new System.Windows.Forms.Label();
             this.BathroomLeavePB = new System.Windows.Forms.PictureBox();
             this.MirrorCabinetPB = new System.Windows.Forms.PictureBox();
+            this.ToiletpaperPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.WashingMachinePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowerPB)).BeginInit();
@@ -44,6 +45,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SaunaDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BathroomLeavePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToiletpaperPB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectLanguageBt
@@ -60,9 +62,9 @@
             // 
             this.WashingMachinePB.BackColor = System.Drawing.Color.Transparent;
             this.WashingMachinePB.Image = global::The_Crib.Properties.Resources.WashingMachine;
-            this.WashingMachinePB.Location = new System.Drawing.Point(277, 387);
+            this.WashingMachinePB.Location = new System.Drawing.Point(235, 401);
             this.WashingMachinePB.Name = "WashingMachinePB";
-            this.WashingMachinePB.Size = new System.Drawing.Size(300, 366);
+            this.WashingMachinePB.Size = new System.Drawing.Size(315, 366);
             this.WashingMachinePB.TabIndex = 3;
             this.WashingMachinePB.TabStop = false;
             this.WashingMachinePB.Click += new System.EventHandler(this.BathroomImgPB);
@@ -143,13 +145,26 @@
             this.MirrorCabinetPB.TabStop = false;
             this.MirrorCabinetPB.Click += new System.EventHandler(this.BathroomImgPB);
             // 
+            // ToiletpaperPB
+            // 
+            this.ToiletpaperPB.BackColor = System.Drawing.Color.Transparent;
+            this.ToiletpaperPB.Image = global::The_Crib.Properties.Resources.ToiletPaper_Bathroom;
+            this.ToiletpaperPB.Location = new System.Drawing.Point(447, 348);
+            this.ToiletpaperPB.Name = "ToiletpaperPB";
+            this.ToiletpaperPB.Size = new System.Drawing.Size(58, 71);
+            this.ToiletpaperPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ToiletpaperPB.TabIndex = 10;
+            this.ToiletpaperPB.TabStop = false;
+            this.ToiletpaperPB.Click += new System.EventHandler(this.BathroomImgPB);
+            // 
             // BathroomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::The_Crib.Properties.Resources.BathroomFinal;
+            this.BackgroundImage = global::The_Crib.Properties.Resources.Bathroom_bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.ToiletpaperPB);
             this.Controls.Add(this.MirrorCabinetPB);
             this.Controls.Add(this.BathroomLeavePB);
             this.Controls.Add(this.SaunaDoorPB);
@@ -169,6 +184,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SaunaDoorPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BathroomLeavePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToiletpaperPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -183,5 +199,6 @@
         private System.Windows.Forms.Label LeaveLB;
         private System.Windows.Forms.PictureBox BathroomLeavePB;
         private System.Windows.Forms.PictureBox MirrorCabinetPB;
+        private System.Windows.Forms.PictureBox ToiletpaperPB;
     }
 }

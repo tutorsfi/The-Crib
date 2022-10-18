@@ -24,7 +24,10 @@ namespace The_Crib
             {"SinkKPB", "a sink,lavuaari,раковина,раковина"},
             {"TapKPB", "a tap,hana,кран,кран"},
             {"WindowPB", "a window,ikkuna,вікно,окно"},
-            {"TrashPB","a trash bin,roskakori,word,word"}
+            {"TrashPB","a trash bin,roskakori,word,word"},
+            {"KettlePB","a kettle,vedenkeitin,word,word"},
+            {"ToasterPB","a toaster,leivänpaahdin,word,word"},
+            {"BreadbasketPB","a bread basket,leipäkori,word,word"}
         };
 
         public void Show(string pic, int lanId)

@@ -45,6 +45,9 @@ namespace The_Crib
             this.CabinetDoorsPB = new System.Windows.Forms.PictureBox();
             this.TrashPB = new System.Windows.Forms.PictureBox();
             this.EnterDiningRoomPB = new System.Windows.Forms.PictureBox();
+            this.ToasterPB = new System.Windows.Forms.PictureBox();
+            this.KettlePB = new System.Windows.Forms.PictureBox();
+            this.BreadbasketPB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.FridgeKPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FreezerKPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DryingCabinetKPB)).BeginInit();
@@ -60,6 +63,9 @@ namespace The_Crib
             ((System.ComponentModel.ISupportInitialize)(this.CabinetDoorsPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrashPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnterDiningRoomPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToasterPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KettlePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BreadbasketPB)).BeginInit();
             this.SuspendLayout();
             // 
             // FridgeKPB
@@ -219,12 +225,48 @@ namespace The_Crib
             this.EnterDiningRoomPB.TabStop = false;
             this.EnterDiningRoomPB.Click += new System.EventHandler(this.EnterDiningRoomPB_Click);
             // 
+            // ToasterPB
+            // 
+            this.ToasterPB.BackColor = System.Drawing.Color.Transparent;
+            this.ToasterPB.Image = global::The_Crib.Properties.Resources.Toaster;
+            this.ToasterPB.Location = new System.Drawing.Point(827, 399);
+            this.ToasterPB.Name = "ToasterPB";
+            this.ToasterPB.Size = new System.Drawing.Size(53, 72);
+            this.ToasterPB.TabIndex = 15;
+            this.ToasterPB.TabStop = false;
+            this.ToasterPB.Click += new System.EventHandler(this.KitchenImgPB);
+            // 
+            // KettlePB
+            // 
+            this.KettlePB.BackColor = System.Drawing.Color.Transparent;
+            this.KettlePB.Image = global::The_Crib.Properties.Resources.Kettle;
+            this.KettlePB.Location = new System.Drawing.Point(1392, 414);
+            this.KettlePB.Name = "KettlePB";
+            this.KettlePB.Size = new System.Drawing.Size(100, 99);
+            this.KettlePB.TabIndex = 16;
+            this.KettlePB.TabStop = false;
+            this.KettlePB.Click += new System.EventHandler(this.KitchenImgPB);
+            // 
+            // BreadbasketPB
+            // 
+            this.BreadbasketPB.BackColor = System.Drawing.Color.Transparent;
+            this.BreadbasketPB.Image = global::The_Crib.Properties.Resources.Breadbasket;
+            this.BreadbasketPB.Location = new System.Drawing.Point(1497, 513);
+            this.BreadbasketPB.Name = "BreadbasketPB";
+            this.BreadbasketPB.Size = new System.Drawing.Size(125, 62);
+            this.BreadbasketPB.TabIndex = 17;
+            this.BreadbasketPB.TabStop = false;
+            this.BreadbasketPB.Click += new System.EventHandler(this.KitchenImgPB);
+            // 
             // KitchenForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.BreadbasketPB);
+            this.Controls.Add(this.KettlePB);
+            this.Controls.Add(this.ToasterPB);
             this.Controls.Add(this.EnterDiningRoomPB);
             this.Controls.Add(this.TrashPB);
             this.Controls.Add(this.CabinetDoorsPB);
@@ -258,6 +300,9 @@ namespace The_Crib
             ((System.ComponentModel.ISupportInitialize)(this.CabinetDoorsPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrashPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnterDiningRoomPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ToasterPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KettlePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BreadbasketPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -279,5 +324,8 @@ namespace The_Crib
         private System.Windows.Forms.PictureBox CabinetDoorsPB;
         private System.Windows.Forms.PictureBox TrashPB;
         private System.Windows.Forms.PictureBox EnterDiningRoomPB;
+        private System.Windows.Forms.PictureBox ToasterPB;
+        private System.Windows.Forms.PictureBox KettlePB;
+        private System.Windows.Forms.PictureBox BreadbasketPB;
     }
 }
