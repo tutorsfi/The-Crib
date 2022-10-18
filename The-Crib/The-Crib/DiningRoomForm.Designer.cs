@@ -135,7 +135,7 @@
             // CandlelabraPB
             // 
             this.CandlelabraPB.BackColor = System.Drawing.Color.Transparent;
-    
+            this.CandlelabraPB.Image = global::The_Crib.Properties.Resources.Candelabra;
             this.CandlelabraPB.Location = new System.Drawing.Point(188, 442);
             this.CandlelabraPB.Name = "CandlelabraPB";
             this.CandlelabraPB.Size = new System.Drawing.Size(112, 219);
@@ -146,7 +146,7 @@
             // CandlesPB
             // 
             this.CandlesPB.BackColor = System.Drawing.Color.Transparent;
-          
+            this.CandlesPB.Image = global::The_Crib.Properties.Resources.Candles;
             this.CandlesPB.Location = new System.Drawing.Point(199, 439);
             this.CandlesPB.Name = "CandlesPB";
             this.CandlesPB.Size = new System.Drawing.Size(100, 43);
@@ -156,7 +156,7 @@
             // 
             // FruitbasketPB
             // 
-
+            this.FruitbasketPB.Image = global::The_Crib.Properties.Resources.FruitBasket;
             this.FruitbasketPB.Location = new System.Drawing.Point(902, 501);
             this.FruitbasketPB.Name = "FruitbasketPB";
             this.FruitbasketPB.Size = new System.Drawing.Size(123, 94);

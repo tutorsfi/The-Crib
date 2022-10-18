@@ -253,6 +253,26 @@ namespace The_Crib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Candelabra {
+            get {
+                object obj = ResourceManager.GetObject("Candelabra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Candles {
+            get {
+                object obj = ResourceManager.GetObject("Candles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cap {
             get {
                 object obj = ResourceManager.GetObject("Cap", resourceCulture);
@@ -586,6 +606,16 @@ namespace The_Crib.Properties {
         internal static System.Drawing.Bitmap FrozenVegetables {
             get {
                 object obj = ResourceManager.GetObject("FrozenVegetables", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FruitBasket {
+            get {
+                object obj = ResourceManager.GetObject("FruitBasket", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -520,8 +520,17 @@
   <data name="Breadbasket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Breadbasket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Candelabra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Candelabra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Candles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Candles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cheese.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FruitBasket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FruitBasket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GroundMeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GroundMeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
