@@ -29,9 +29,15 @@ namespace The_Crib
                 {"ChangeFormBT","open,avaa,ВІДЧИНЕНО,открыть" } // need to verify
             };
 
+        Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
+            {
+                {"ReturnBT","return,palaa,повернення,возвращаться" }, // need to verify
+                {"ChangeFormBT","go,mene,go-UA,go-RUS" } // need to verify
+            };
+
         //Method for doors
         public DialogResult ShowDialog(string word, string fiWord, string roomWord, string fiRoom, bool show, int lanId)
-        {
+        { 
             WordLB.Text = $"{fiWord} = {word}"; // label in "message box"
             OnlyInYardDoorsLB.Text = $"{fiRoom} = {roomWord}";
             OnlyInYardDoorsLB.Visible = show;
@@ -43,7 +49,7 @@ namespace The_Crib
         public DialogResult ShowDialog1(string word, string fiWord, int lanId)
         {
             WordLB.Text = $"{fiWord} = {word}"; // label in "message box"
-            MessageBoxButtonTexts(lanId);
+            MessageBoxButtonTexts1(lanId);
             return this.ShowDialog();
         }
 
@@ -61,6 +67,17 @@ namespace The_Crib
             ChangeFormBT.Text = $"{changeWord}";
         }
 
-        
+        private void MessageBoxButtonTexts1(int lanId)
+        {
+            string selectedWord = arrowLibrary["ReturnBT"];//Selecting words for ReturnBT from library by key.
+            string selectedWord1 = arrowLibrary["ChangeFormBT"];//Selecting words for room ChangeFormBT
+            string[] separators = { "," };//Defining separators for array assigning
+            string[] wordArr = selectedWord.Split(separators, StringSplitOptions.RemoveEmptyEntries);//Words to array
+            string[] wordArr1 = selectedWord1.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string returnWord = wordArr[lanId];//Selecting ReturnBT word by index.
+            string changeWord = wordArr1[lanId];// selecting ChangeFormBT word
+            ReturnBT.Text = $"{returnWord}";
+            ChangeFormBT.Text = $"{changeWord}";
+        }
     }
 }

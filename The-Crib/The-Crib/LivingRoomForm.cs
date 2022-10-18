@@ -184,5 +184,23 @@ namespace The_Crib
             laSe.Show();
             this.Hide();
         }
+
+        private void MagazinePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diLIRo.Show(image.Name, lanId);
+        }
+
+        private void NewspaperPB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diLIRo.Show(image.Name, lanId);
+        }
+
+        private void FlowerTablePB_Click(object sender, EventArgs e)
+        {
+            PictureBox image = sender as PictureBox;
+            diLIRo.Show(image.Name, lanId);
+        }
     }
 }
