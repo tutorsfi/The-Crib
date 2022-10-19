@@ -28,8 +28,8 @@ namespace The_Crib
         private int laId;
         public int LanguageId
         {
-            get { return lanId; }
-            set { lanId = value; }
+            get { return laId; }
+            set { laId = value; }
         }
 
 
