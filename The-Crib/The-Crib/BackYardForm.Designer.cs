@@ -237,7 +237,9 @@
             // LanguageSelectionBT
             // 
             this.LanguageSelectionBT.BackColor = System.Drawing.Color.CadetBlue;
+            this.LanguageSelectionBT.FlatAppearance.BorderSize = 0;
             this.LanguageSelectionBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LanguageSelectionBT.ForeColor = System.Drawing.Color.White;
             this.LanguageSelectionBT.Image = ((System.Drawing.Image)(resources.GetObject("LanguageSelectionBT.Image")));
             this.LanguageSelectionBT.Location = new System.Drawing.Point(12, 12);
             this.LanguageSelectionBT.Name = "LanguageSelectionBT";

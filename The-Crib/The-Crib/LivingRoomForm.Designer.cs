@@ -187,12 +187,15 @@
             // LanguageSelectionBT
             // 
             this.LanguageSelectionBT.BackColor = System.Drawing.Color.CadetBlue;
+            this.LanguageSelectionBT.FlatAppearance.BorderSize = 0;
             this.LanguageSelectionBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LanguageSelectionBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.LanguageSelectionBT.ForeColor = System.Drawing.Color.White;
             this.LanguageSelectionBT.Image = ((System.Drawing.Image)(resources.GetObject("LanguageSelectionBT.Image")));
             this.LanguageSelectionBT.Location = new System.Drawing.Point(12, 12);
             this.LanguageSelectionBT.Name = "LanguageSelectionBT";
             this.LanguageSelectionBT.Size = new System.Drawing.Size(78, 48);
-            this.LanguageSelectionBT.TabIndex = 11;
+            this.LanguageSelectionBT.TabIndex = 8;
             this.LanguageSelectionBT.UseVisualStyleBackColor = false;
             this.LanguageSelectionBT.Click += new System.EventHandler(this.LanguageSelectionBT_Click);
             // 
