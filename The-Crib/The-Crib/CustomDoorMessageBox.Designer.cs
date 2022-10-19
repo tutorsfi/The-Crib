@@ -44,7 +44,7 @@
             // 
             this.WordLB.AutoSize = true;
             this.WordLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WordLB.Location = new System.Drawing.Point(116, 28);
+            this.WordLB.Location = new System.Drawing.Point(69, 22);
             this.WordLB.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WordLB.Name = "WordLB";
             this.WordLB.Size = new System.Drawing.Size(277, 31);
@@ -59,14 +59,13 @@
             this.ReturnBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ReturnBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReturnBT.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ReturnBT.Location = new System.Drawing.Point(75, 130);
+            this.ReturnBT.Location = new System.Drawing.Point(11, 130);
             this.ReturnBT.Margin = new System.Windows.Forms.Padding(2);
             this.ReturnBT.Name = "ReturnBT";
-            this.ReturnBT.Size = new System.Drawing.Size(100, 37);
+            this.ReturnBT.Size = new System.Drawing.Size(203, 37);
             this.ReturnBT.TabIndex = 1;
             this.ReturnBT.Text = "Ok";
             this.ReturnBT.UseVisualStyleBackColor = false;
-      
             // 
             // ChangeFormBT
             // 
@@ -75,10 +74,10 @@
             this.ChangeFormBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ChangeFormBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChangeFormBT.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.ChangeFormBT.Location = new System.Drawing.Point(302, 130);
+            this.ChangeFormBT.Location = new System.Drawing.Point(287, 130);
             this.ChangeFormBT.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeFormBT.Name = "ChangeFormBT";
-            this.ChangeFormBT.Size = new System.Drawing.Size(100, 37);
+            this.ChangeFormBT.Size = new System.Drawing.Size(203, 37);
             this.ChangeFormBT.TabIndex = 1;
             this.ChangeFormBT.Text = "Enter";
             this.ChangeFormBT.UseVisualStyleBackColor = false;
@@ -134,7 +133,7 @@
             // 
             this.OnlyInYardDoorsLB.AutoSize = true;
             this.OnlyInYardDoorsLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OnlyInYardDoorsLB.Location = new System.Drawing.Point(116, 82);
+            this.OnlyInYardDoorsLB.Location = new System.Drawing.Point(69, 73);
             this.OnlyInYardDoorsLB.Name = "OnlyInYardDoorsLB";
             this.OnlyInYardDoorsLB.Size = new System.Drawing.Size(185, 31);
             this.OnlyInYardDoorsLB.TabIndex = 0;

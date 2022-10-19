@@ -43,13 +43,7 @@ namespace The_Crib
             this.Close();
         }
 
-        private void SelectLanguageBt_Click(object sender, EventArgs e)
-        {
-            Form1 seLa = new Form1();
-            seLa.FormClosing += CloseForm;
-            seLa.Show();
-            this.Hide();
-        }
+    
 
         private void SaunaImgPB(object sender, EventArgs e)
         {
@@ -90,6 +84,14 @@ namespace The_Crib
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void langBtnMB_Click(object sender, EventArgs e)
+        {
+            Form1 seLa = new Form1();
+            seLa.FormClosing += CloseForm;
+            seLa.Show();
+            this.Hide();
         }
     }
 }

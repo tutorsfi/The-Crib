@@ -48,6 +48,7 @@ namespace The_Crib
             this.ToasterPB = new System.Windows.Forms.PictureBox();
             this.KettlePB = new System.Windows.Forms.PictureBox();
             this.BreadbasketPB = new System.Windows.Forms.PictureBox();
+            this.langBtnMB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.FridgeKPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FreezerKPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DryingCabinetKPB)).BeginInit();
@@ -258,12 +259,29 @@ namespace The_Crib
             this.BreadbasketPB.TabStop = false;
             this.BreadbasketPB.Click += new System.EventHandler(this.KitchenImgPB);
             // 
+            // langBtnMB
+            // 
+            this.langBtnMB.BackColor = System.Drawing.Color.CadetBlue;
+            this.langBtnMB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.langBtnMB.FlatAppearance.BorderSize = 0;
+            this.langBtnMB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.langBtnMB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langBtnMB.ForeColor = System.Drawing.Color.White;
+            this.langBtnMB.Image = global::The_Crib.Properties.Resources.languageSelectIcon1;
+            this.langBtnMB.Location = new System.Drawing.Point(12, 12);
+            this.langBtnMB.Name = "langBtnMB";
+            this.langBtnMB.Size = new System.Drawing.Size(74, 48);
+            this.langBtnMB.TabIndex = 18;
+            this.langBtnMB.UseVisualStyleBackColor = false;
+            this.langBtnMB.Click += new System.EventHandler(this.langBtnMB_Click);
+            // 
             // KitchenForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.langBtnMB);
             this.Controls.Add(this.BreadbasketPB);
             this.Controls.Add(this.KettlePB);
             this.Controls.Add(this.ToasterPB);
@@ -328,5 +346,6 @@ namespace The_Crib
         private System.Windows.Forms.PictureBox ToasterPB;
         private System.Windows.Forms.PictureBox KettlePB;
         private System.Windows.Forms.PictureBox BreadbasketPB;
+        private System.Windows.Forms.Button langBtnMB;
     }
 }

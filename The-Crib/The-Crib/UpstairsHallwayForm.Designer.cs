@@ -29,28 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpstairsHallwayForm));
-            this.SelectLanguageBt = new System.Windows.Forms.Button();
             this.BathroomDoorPB = new System.Windows.Forms.PictureBox();
             this.KidsRoomDoorPB = new System.Windows.Forms.PictureBox();
             this.BedroomDoorPB = new System.Windows.Forms.PictureBox();
             this.StudyDoorPB = new System.Windows.Forms.PictureBox();
             this.ToDownStairsPB = new System.Windows.Forms.PictureBox();
+            this.langBtnMB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.BathroomDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.KidsRoomDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BedroomDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StudyDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToDownStairsPB)).BeginInit();
             this.SuspendLayout();
-            // 
-            // SelectLanguageBt
-            // 
-            this.SelectLanguageBt.Location = new System.Drawing.Point(12, 12);
-            this.SelectLanguageBt.Name = "SelectLanguageBt";
-            this.SelectLanguageBt.Size = new System.Drawing.Size(109, 28);
-            this.SelectLanguageBt.TabIndex = 4;
-            this.SelectLanguageBt.Text = "Select language";
-            this.SelectLanguageBt.UseVisualStyleBackColor = true;
-            this.SelectLanguageBt.Click += new System.EventHandler(this.SelectLanguageBt_Click);
             // 
             // BathroomDoorPB
             // 
@@ -110,18 +100,34 @@
             this.ToDownStairsPB.TabStop = false;
             this.ToDownStairsPB.Click += new System.EventHandler(this.ToDownStairsPB_Click);
             // 
+            // langBtnMB
+            // 
+            this.langBtnMB.BackColor = System.Drawing.Color.CadetBlue;
+            this.langBtnMB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.langBtnMB.FlatAppearance.BorderSize = 0;
+            this.langBtnMB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.langBtnMB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langBtnMB.ForeColor = System.Drawing.Color.White;
+            this.langBtnMB.Image = global::The_Crib.Properties.Resources.languageSelectIcon1;
+            this.langBtnMB.Location = new System.Drawing.Point(12, 12);
+            this.langBtnMB.Name = "langBtnMB";
+            this.langBtnMB.Size = new System.Drawing.Size(74, 48);
+            this.langBtnMB.TabIndex = 10;
+            this.langBtnMB.UseVisualStyleBackColor = false;
+            this.langBtnMB.Click += new System.EventHandler(this.langBtnMB_Click);
+            // 
             // UpstairsHallwayForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.UpstairsHallway;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.langBtnMB);
             this.Controls.Add(this.ToDownStairsPB);
             this.Controls.Add(this.StudyDoorPB);
             this.Controls.Add(this.BedroomDoorPB);
             this.Controls.Add(this.KidsRoomDoorPB);
             this.Controls.Add(this.BathroomDoorPB);
-            this.Controls.Add(this.SelectLanguageBt);
             this.Name = "UpstairsHallwayForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UpstairsHallwayForm";
@@ -136,12 +142,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button SelectLanguageBt;
         private System.Windows.Forms.PictureBox BathroomDoorPB;
         private System.Windows.Forms.PictureBox KidsRoomDoorPB;
         private System.Windows.Forms.PictureBox BedroomDoorPB;
         private System.Windows.Forms.PictureBox StudyDoorPB;
         private System.Windows.Forms.PictureBox ToDownStairsPB;
+        private System.Windows.Forms.Button langBtnMB;
     }
 }

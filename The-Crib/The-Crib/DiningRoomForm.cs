@@ -112,5 +112,14 @@ namespace The_Crib
                 MessageBox.Show(ex.Message);
             }
         }
+
+
+        private void langBtnMB_Click(object sender, EventArgs e)
+        {
+            Form1 seLa = new Form1();
+            seLa.FormClosing += CloseForm;
+            seLa.Show();
+            this.Hide();
+        }
     }
 }

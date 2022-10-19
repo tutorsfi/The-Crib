@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SelectLanguageBt = new System.Windows.Forms.Button();
             this.WcDoorPB = new System.Windows.Forms.PictureBox();
             this.SinkPB = new System.Windows.Forms.PictureBox();
             this.ToiletPB = new System.Windows.Forms.PictureBox();
@@ -37,6 +36,7 @@
             this.ToiletpaperPB = new System.Windows.Forms.PictureBox();
             this.PlantPB = new System.Windows.Forms.PictureBox();
             this.HandtowelPB = new System.Windows.Forms.PictureBox();
+            this.langBtnMB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.WcDoorPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SinkPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).BeginInit();
@@ -46,16 +46,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.PlantPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HandtowelPB)).BeginInit();
             this.SuspendLayout();
-            // 
-            // SelectLanguageBt
-            // 
-            this.SelectLanguageBt.Location = new System.Drawing.Point(12, 12);
-            this.SelectLanguageBt.Name = "SelectLanguageBt";
-            this.SelectLanguageBt.Size = new System.Drawing.Size(109, 28);
-            this.SelectLanguageBt.TabIndex = 5;
-            this.SelectLanguageBt.Text = "Select language";
-            this.SelectLanguageBt.UseVisualStyleBackColor = true;
-            this.SelectLanguageBt.Click += new System.EventHandler(this.SelectLanguageBt_Click);
             // 
             // WcDoorPB
             // 
@@ -149,12 +139,29 @@
             this.HandtowelPB.TabStop = false;
             this.HandtowelPB.Click += new System.EventHandler(this.ToiletImgPB);
             // 
+            // langBtnMB
+            // 
+            this.langBtnMB.BackColor = System.Drawing.Color.CadetBlue;
+            this.langBtnMB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.langBtnMB.FlatAppearance.BorderSize = 0;
+            this.langBtnMB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.langBtnMB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langBtnMB.ForeColor = System.Drawing.Color.White;
+            this.langBtnMB.Image = global::The_Crib.Properties.Resources.languageSelectIcon1;
+            this.langBtnMB.Location = new System.Drawing.Point(12, 12);
+            this.langBtnMB.Name = "langBtnMB";
+            this.langBtnMB.Size = new System.Drawing.Size(74, 48);
+            this.langBtnMB.TabIndex = 14;
+            this.langBtnMB.UseVisualStyleBackColor = false;
+            this.langBtnMB.Click += new System.EventHandler(this.langBtnMB_Click);
+            // 
             // WcForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Crib.Properties.Resources.WC;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.langBtnMB);
             this.Controls.Add(this.HandtowelPB);
             this.Controls.Add(this.PlantPB);
             this.Controls.Add(this.ToiletpaperPB);
@@ -163,7 +170,6 @@
             this.Controls.Add(this.ToiletPB);
             this.Controls.Add(this.SinkPB);
             this.Controls.Add(this.WcDoorPB);
-            this.Controls.Add(this.SelectLanguageBt);
             this.Name = "WcForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WcForm";
@@ -181,8 +187,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button SelectLanguageBt;
         private System.Windows.Forms.PictureBox WcDoorPB;
         private System.Windows.Forms.PictureBox SinkPB;
         private System.Windows.Forms.PictureBox ToiletPB;
@@ -191,5 +195,6 @@
         private System.Windows.Forms.PictureBox ToiletpaperPB;
         private System.Windows.Forms.PictureBox PlantPB;
         private System.Windows.Forms.PictureBox HandtowelPB;
+        private System.Windows.Forms.Button langBtnMB;
     }
 }
