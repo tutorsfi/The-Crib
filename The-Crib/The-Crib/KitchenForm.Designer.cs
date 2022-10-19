@@ -283,6 +283,7 @@ namespace The_Crib
             this.Controls.Add(this.FreezerKPB);
             this.Controls.Add(this.FridgeKPB);
             this.Name = "KitchenForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KitchenFormm";
             this.Load += new System.EventHandler(this.KitchenForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.FridgeKPB)).EndInit();

@@ -67,5 +67,7 @@ namespace The_Crib
             PictureBox image = sender as PictureBox;
             hallway.Show(image.Name, lanId);
         }
+
+      
     }
 }

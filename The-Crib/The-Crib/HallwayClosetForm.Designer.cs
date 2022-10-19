@@ -137,6 +137,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "HallwayClosetForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.HallwayClosetForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.jacketHWPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shoesHWPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.capHWPB)).EndInit();
