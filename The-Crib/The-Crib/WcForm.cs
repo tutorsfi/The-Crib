@@ -61,10 +61,10 @@ namespace The_Crib
 
         private void WcDoorPB_Click(object sender, EventArgs e)
         {
-            bool show = true;
+            bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>() // words to show when the wc door is clicked
             {
-                {"WcDoorPB","a door,ovi,двері,дверь"},
+                {"WcDoorPB","a hallway,käytävä,коридор,прихожая"},
                 {"room","a hallway,eteinen,word,word"}
             };
             string selectedWord = doorLibrary["WcDoorPB"]; // selecting the words from the library 
@@ -84,7 +84,7 @@ namespace The_Crib
             }
             else if (result == DialogResult.Yes) // if YES is clicked, the messagebox closes and opens a new form
             {
-                UpstairsHallwayForm hallway = new UpstairsHallwayForm(); // EDIT when hallwayform is available
+                HallwayForm hallway = new HallwayForm(); 
                 hallway.FormClosing += CloseForm;
                 hallway.LanguageId = lanId;
                 hallway.Show();

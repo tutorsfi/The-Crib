@@ -55,10 +55,6 @@ namespace The_Crib
             kids.Show(image.Name, lanId);
         }
 
-        private void KidsWardrobeForm_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            
-        }
 
         private void KidsWardrobeForm_Load(object sender, EventArgs e)
         {

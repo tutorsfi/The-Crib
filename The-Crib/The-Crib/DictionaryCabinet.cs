@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /// Author@ Karoliina Salo
-/// Version 12.10.2022
+/// Version 19.10.2022
 /// <summary>
-/// Dictionary-class for dining room cabinet. Unfinished.
+/// Dictionary-class for dining room cabinet. Finished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
 /// </summary>
 

@@ -9,10 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /// Author@ Karoliina Salo
-/// Version 12.10.2022
+/// Version 19.10.2022
 /// <summary>
-/// Dictionary-class for wc. Unfinished.
-/// Dictionary may hold some unused words due to lack of graphics received in time.
+/// Dictionary-class for lower cabinet. Finished.
 /// </summary>
 
 namespace The_Crib
@@ -22,9 +21,9 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all lower cabinet -words
         {
             // order ENG-FI-UA-RUS
-            {"PotPB","a pot,kattila,word,word"},
-            {"PanPB","a frying pan,paistinpannu,word,word"},
-            {"BowlPB","a bowl,kulho,word,word"}
+            {"PotPB","a pot,kattila,кастрюля,кастрюля"},
+            {"PanPB","a frying pan,paistinpannu,пательня,сковорода"},
+            {"BowlPB","a bowl,kulho,глибока тарілка,глубокая тарелка"}
         };
 
         // Method to show the custom messagebox with the original and translated word

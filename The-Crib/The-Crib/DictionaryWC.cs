@@ -29,7 +29,7 @@ namespace The_Crib
             {"ToiletBrushPB", "a toilet brush,vessaharja,йоржик для унітазу,йоржик для унітазу"},
             {"BidetPB", "a bidet shower,käsisuihku,біде,гигиенический душ"},
             {"HandtowelPB", "a hand towel,käsipyyhe,рушник для рук,полотенце для рук"},
-            {"PlantPB","a plant,kasvi,word,word"}
+            {"PlantPB","a potted plant,ruukkukasvi,рослина у горщику,растение в горшке"}
         };
 
         public void Show(string pic, int lanId)

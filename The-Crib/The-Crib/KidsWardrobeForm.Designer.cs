@@ -96,7 +96,6 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.KidsWardrobeForm_FormClosed);
             this.Load += new System.EventHandler(this.KidsWardrobeForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pantsKRPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shirtKRPB)).EndInit();
