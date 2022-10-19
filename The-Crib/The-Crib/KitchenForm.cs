@@ -56,7 +56,7 @@ namespace The_Crib
             bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>() // words to show when the wc door is clicked
             {
-                {"LeaveKitchenPB","a hallway,eteinen,word,word"},
+                {"LeaveKitchenPB","a hallway,käytävä,коридор,прихожая"},
                 {"room","a hallway,eteinen,word,word"}
             };
             string selectedWord = doorLibrary["LeaveKitchenPB"]; // selecting the words from the library 
@@ -189,7 +189,7 @@ namespace The_Crib
             bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"CabinetDoorsPB", "a cabinet,kaappi,word,word"},
+                {"CabinetDoorsPB", "a cabinet,kaappi,шафа,шкаф"},
                 {"room","word,word,word,word"}
             };
             string selectedWord = doorLibrary["CabinetDoorsPB"];
@@ -222,7 +222,7 @@ namespace The_Crib
             bool show = false;
             Dictionary<string, string> doorLibrary = new Dictionary<string, string>()
             {
-                {"DryingCabinetKPB", "a drying cabinet,kuivauskaappi,word,word"},
+                {"DryingCabinetKPB", "a drying cabinet,kuivauskaappi,сушильна шафа,шкаф для сушки"},
                 {"room","word,word,word,word"}
             };
             string selectedWord = doorLibrary["DryingCabinetKPB"];
@@ -256,7 +256,7 @@ namespace The_Crib
             {
                 Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
                 {
-                        {"EnterDiningRoomPB", "a dining room,ruokailutila,word,word"}
+                        {"EnterDiningRoomPB", "a dining room,ruokailutila,обідня зона,обеденная комната"}
                 };
                 string selectedWord = arrowLibrary["EnterDiningRoomPB"];//Selecting words for picture from library by key.
                 string[] separators = { "," };//Defining separators for array assigning
