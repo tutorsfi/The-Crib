@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /// Author@ Karoliina Salo
-/// Version 12.10.2022
+/// Version 19.10.2022
 /// <summary>
-/// Dictionary-class for wc. Unfinished.
+/// Dictionary-class for mirror cabinet. Unfinished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
 /// </summary>
 

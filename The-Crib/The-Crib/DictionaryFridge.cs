@@ -9,10 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /// Author@ Karoliina Salo
-/// Version 17.10.2022
+/// Version 19.10.2022
 /// <summary>
-/// Dictionary-class for fridge. Unfinished.
-/// Dictionary may hold some unused words due to lack of graphics received in time.
+/// Dictionary-class for fridge. Finished
 /// </summary>
 
 namespace The_Crib
@@ -22,21 +21,21 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all fridge -words
         {
             // order ENG-FI-UA-RUS
-            {"CucumberPB","a cucumber,kurkku"},
-            {"MilkPB","a milk,maito,word,word"},
-            {"OrangejuicePB","an orange juice,appelsiinimehu,word,word"},
-            {"MargarinePB","a margarine,margariini,word,word"},
-            {"TomatoesPB","a tomato,tomaatti,word,word"},
-            {"EggsPB","eggs,munia,word,word"},
-            {"GroundmeatPB","ground meat,jauheliha"},
-            {"CheesePB","a cheese,juusto"},
-            {"WaterbottlePB","a water bottle,vesipullo"},
-            {"SausagesPB","sausages,makkaroita"},
-            {"BeerPB","a beer,olut"},
-            {"BeerTwoPB","a beer,olut"},
-            {"SaladPB","a salad,salaatti"},
-            {"MustardPB","a mustard,sinappi"},
-            {"KetchupPB","a ketchup,ketsuppi"}
+            {"CucumberPB","a cucumber,kurkku,огірок,огурец"},
+            {"MilkPB","milk,maito,молоко,молоко"},
+            {"OrangejuicePB","orange juice,appelsiinimehu,апельсиновий сік,апельсиновый сок"},
+            {"MargarinePB","margarine,margariini,маргарин,маргарин"},
+            {"TomatoesPB","a tomato,tomaatti,помідор,помидор"},
+            {"EggsPB","an egg,kananmuna,яйце,яйцо"},
+            {"GroundmeatPB","ground meat,jauheliha,фарш,фарш"},
+            {"CheesePB","a cheese,juusto,сир,сыр"},
+            {"WaterbottlePB","water,vesi,вода,вода"},
+            {"SausagesPB","sausage,makkara,сосиска,сосиска"},
+            {"BeerPB","a beer,olut,пиво,пиво"},
+            {"BeerTwoPB","a beer,olut,пиво,пиво"},
+            {"SaladPB","a salad,salaatti,салат,салат"},
+            {"MustardPB","a mustard,sinappi,гірчиця,горчица"},
+            {"KetchupPB","a ketchup,ketsuppi,кетчуп,кетчуп"}
         };
 
         // Method to show the custom messagebox with the original and translated word

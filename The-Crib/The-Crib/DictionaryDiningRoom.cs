@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// Author@ Karoliina Salo
-/// Version 18.10.2022
+/// Version 19.10.2022
 /// <summary>
-/// Dictionary-class for dining room. Unfinished.
+/// Dictionary-class for dining room. Finished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
 /// </summary>
 
@@ -22,13 +22,13 @@ namespace The_Crib
         {
             // order ENG-FI-UA-RUS
             {"SideTablePB", "a side table,sivupöytä,приставний стіл,приставной столик"},
-            {"ChairPB", "a chair, tuoli,стілець,word"},
+            {"ChairPB", "a chair, tuoli,стілець,стул"},
             {"TablePB", "a table,pöytä,стіл,стол"},
             {"WindowPB", "a window,ikkuna,вікно,окно"},
             {"LampPB", "a ceiling lamp,kattolamppu,люстра,люстра"},
-            {"FruitbasketPB","a fruit basket,hedelmäkori"},
-            {"CandlelabraPB","a candlelabra,kynttiläjalka"},
-            {"CandlesPB","candles,kynttilät"}
+            {"FruitbasketPB","a fruit basket,hedelmäkori,фруктовий кошик,фруктовая корзина"},
+            {"CandlelabraPB","a candlelabra,kynttelikkö,підсвічник,подсвечник"},
+            {"CandlesPB","candle,kynttilä,свічка,свеча"}
         };
 
         public void Show(string pic, int lanId)

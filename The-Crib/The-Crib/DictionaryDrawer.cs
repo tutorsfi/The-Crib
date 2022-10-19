@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /// Author@ Karoliina Salo
-/// Version 17.10.2022
+/// Version 19.10.2022
 /// <summary>
-/// Dictionary-class for upstairs hallway. Unfinished, waiting for some graphics.
+/// Dictionary-class for a drawer in the kitchen. Finished.
 /// </summary>
 
 namespace The_Crib
@@ -21,10 +21,10 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>()
         {
             // order ENG-FI-UA-RUS
-            {"ScissorsPB","scissors,sakset,word,word"},
-            {"SpoonPB","a spoon,lusikka,word,word"},
-            {"ForkPB","a fork,haarukka,word,word"},
-            {"KnifePB","a knife,veitsi,word,word"}
+            {"ScissorsPB","scissors,sakset,ножиці,ножницы"},
+            {"SpoonPB","a spoon,lusikka,ложка,ложка"},
+            {"ForkPB","a fork,haarukka,виделка,вилка"},
+            {"KnifePB","a knife,veitsi,ніж,нож"}
         };
 
         public void Show(string pic, int lanId)

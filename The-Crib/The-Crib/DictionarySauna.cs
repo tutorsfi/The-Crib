@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /// Author@ Karoliina Salo
-/// Version 12.10.2022
+/// Version 19.10.2022
 /// <summary>
 /// Dictionary-class for sauna. Finished.
 /// Dictionary may hold some unused words due to lack of graphics received in time.
@@ -29,7 +29,7 @@ namespace The_Crib
             {"PailPB", "a pail,kiulu,відро для сауни,ведро для сауны"},
             {"SaunaLadlePB", "a sauna ladle,saunakauha,ківш для сауни,ковш для сауны"},
             {"GnomePB", "a sauna gnome,saunatonttu,гном для сауни,гном для сауны"},
-            {"SaunaStoolPB","a sauna stool, saunajakkara, word,табурет для сауны"}, // CHECK UA TRANSLATION
+            {"SaunaStoolPB","a sauna stool, saunajakkara, табурет для сауни,табурет для сауны"},
             {"ThermometerPB", "a thermometer,lämpömittari,термометр,термометр"}
         };
 

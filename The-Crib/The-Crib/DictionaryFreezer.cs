@@ -10,10 +10,9 @@ using System.Windows.Forms;
 namespace The_Crib
 
 /// Author@ Karoliina Salo
-/// Version 17.10.2022
+/// Version 19.10.2022
 /// <summary>
-/// Dictionary-class for freezer. Unfinished.
-/// Dictionary may hold some unused words due to lack of graphics received in time.
+/// Dictionary-class for freezer. Finished.
 /// </summary>
 {
     internal class DictionaryFreezer
@@ -21,10 +20,10 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all freezer -words
         {
             // order ENG-FI-UA-RUS
-            {"PizzaPB","a frozen pizza,pakastepizza,word,word"},
-            {"BerriesPB","frozen berries,pakastemarjat,word,word"},
-            {"VeggiesPB","frozen vegetables,pakastevihannekset,word,word"},
-            {"IcecreamPB","an ice cream,jäätelö,word,word"}
+            {"PizzaPB","a pizza,pitsa,піцца,пицца"},
+            {"BerriesPB","frozen berries,pakastemarjat,заморожені ягоди,замороженные ягоды"},
+            {"VeggiesPB","frozen vegetables,pakastevihannekset,заморожені овочі,замороженные овощи"},
+            {"IcecreamPB","an ice cream,jäätelö,морозиво,мороженое"}
         };
 
         // Method to show the custom messagebox with the original and translated word
