@@ -76,12 +76,13 @@
             // 
             // EnglishLaBT
             // 
+            this.EnglishLaBT.BackgroundImage = global::The_Crib.Properties.Resources.eng_flag;
+            this.EnglishLaBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.EnglishLaBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EnglishLaBT.Location = new System.Drawing.Point(1156, 301);
             this.EnglishLaBT.Name = "EnglishLaBT";
             this.EnglishLaBT.Size = new System.Drawing.Size(200, 120);
             this.EnglishLaBT.TabIndex = 0;
-            this.EnglishLaBT.Text = "ENG";
             this.EnglishLaBT.UseVisualStyleBackColor = true;
             this.EnglishLaBT.Click += new System.EventHandler(this.EnglishLaBT_Click);
             // 
