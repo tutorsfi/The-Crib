@@ -32,7 +32,7 @@ namespace The_Crib
         Dictionary<string, string> arrowLibrary = new Dictionary<string, string>()
             {
                 {"ReturnBT","return,palaa,повернення,возвращаться" }, // need to verify
-                {"ChangeFormBT","go,mene,go-UA,go-RUS" } // need to verify
+                {"ChangeFormBT","go,mene,йти,идти" } // need to verify
             };
 
         //Method for doors
