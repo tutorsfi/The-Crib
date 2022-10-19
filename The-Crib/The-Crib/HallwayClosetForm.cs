@@ -32,6 +32,11 @@ namespace The_Crib
             InitializeComponent();
         }
 
+        void CloseForm(object sender, FormClosingEventArgs e)
+        {
+            this.Close();
+        }
+
         private void jacketHWPB_Click(object sender, EventArgs e)
         {
             PictureBox image = sender as PictureBox;
@@ -66,6 +71,11 @@ namespace The_Crib
         {
             PictureBox image = sender as PictureBox;
             hallway.Show(image.Name, lanId);
+        }
+
+        private void HallwayClosetForm_Load(object sender, EventArgs e)
+        {
+            lanId = laId;
         }
     }
 }
