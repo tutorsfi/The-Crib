@@ -146,7 +146,7 @@
             this.TranslatorsLB.Name = "TranslatorsLB";
             this.TranslatorsLB.Size = new System.Drawing.Size(241, 62);
             this.TranslatorsLB.TabIndex = 11;
-            this.TranslatorsLB.Text = "Dima Shkoliarenko\r\nName\r\n";
+            this.TranslatorsLB.Text = "Dima Shkoliarenko\r\nYauheni Marushka\r\n";
             // 
             // CreditsForm
             // 

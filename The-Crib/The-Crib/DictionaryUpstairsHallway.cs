@@ -21,7 +21,7 @@ namespace The_Crib
         Dictionary<string, string> wordLibrary = new Dictionary<string, string>() // library to store all hallway-words
         {
             // order ENG-FI-UA-RUS
-            {"", "Word,Sana,Word,Word"}
+            {"", "Word,Sana,Word,Word"} // base for possible future graphics
         };
 
         public void Show(string pic, int lanId)
