@@ -136,6 +136,8 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "HallwayClosetForm";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.HallwayClosetForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.jacketHWPB)).EndInit();
