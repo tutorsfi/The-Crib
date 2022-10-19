@@ -51,13 +51,7 @@ namespace The_Crib
             look.Show(image.Name, lanId);
         }
 
-        private void SelectLanguageBt_Click(object sender, EventArgs e)
-        {
-            Form1 seLa = new Form1(); // shows form1 where the language is selected
-            seLa.FormClosing += CloseForm; // closing the current form while opening the new one
-            seLa.Show(); // showing the new form
-            this.Hide(); // hiding the current form
-        }
+  
 
         private void WcDoorPB_Click(object sender, EventArgs e)
         {
@@ -124,6 +118,14 @@ namespace The_Crib
 
             }
 
+        }
+
+        private void langBtnMB_Click(object sender, EventArgs e)
+        {
+            Form1 seLa = new Form1();
+            seLa.FormClosing += CloseForm;
+            seLa.Show();
+            this.Hide();
         }
     }
 }

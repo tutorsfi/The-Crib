@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SelectLanguageBt = new System.Windows.Forms.Button();
             this.LeaveLB = new System.Windows.Forms.Label();
             this.ToiletpaperPB = new System.Windows.Forms.PictureBox();
             this.MirrorCabinetPB = new System.Windows.Forms.PictureBox();
@@ -38,6 +37,7 @@
             this.ShowerPB = new System.Windows.Forms.PictureBox();
             this.ToiletPB = new System.Windows.Forms.PictureBox();
             this.WashingMachinePB = new System.Windows.Forms.PictureBox();
+            this.langBtnMB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ToiletpaperPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MirrorCabinetPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BathroomLeavePB)).BeginInit();
@@ -47,16 +47,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.ToiletPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WashingMachinePB)).BeginInit();
             this.SuspendLayout();
-            // 
-            // SelectLanguageBt
-            // 
-            this.SelectLanguageBt.Location = new System.Drawing.Point(12, 12);
-            this.SelectLanguageBt.Name = "SelectLanguageBt";
-            this.SelectLanguageBt.Size = new System.Drawing.Size(109, 28);
-            this.SelectLanguageBt.TabIndex = 2;
-            this.SelectLanguageBt.Text = "Select language";
-            this.SelectLanguageBt.UseVisualStyleBackColor = true;
-            this.SelectLanguageBt.Click += new System.EventHandler(this.SelectLanguageBt_Click);
             // 
             // LeaveLB
             // 
@@ -157,6 +147,22 @@
             this.WashingMachinePB.TabStop = false;
             this.WashingMachinePB.Click += new System.EventHandler(this.BathroomImgPB);
             // 
+            // langBtnMB
+            // 
+            this.langBtnMB.BackColor = System.Drawing.Color.CadetBlue;
+            this.langBtnMB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.langBtnMB.FlatAppearance.BorderSize = 0;
+            this.langBtnMB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.langBtnMB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langBtnMB.ForeColor = System.Drawing.Color.White;
+            this.langBtnMB.Image = global::The_Crib.Properties.Resources.languageSelectIcon1;
+            this.langBtnMB.Location = new System.Drawing.Point(12, 12);
+            this.langBtnMB.Name = "langBtnMB";
+            this.langBtnMB.Size = new System.Drawing.Size(74, 48);
+            this.langBtnMB.TabIndex = 11;
+            this.langBtnMB.UseVisualStyleBackColor = false;
+            this.langBtnMB.Click += new System.EventHandler(this.langBtnMB_Click);
+            // 
             // BathroomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -164,6 +170,7 @@
             this.BackgroundImage = global::The_Crib.Properties.Resources.Bathroom;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1634, 891);
+            this.Controls.Add(this.langBtnMB);
             this.Controls.Add(this.ToiletpaperPB);
             this.Controls.Add(this.MirrorCabinetPB);
             this.Controls.Add(this.BathroomLeavePB);
@@ -172,7 +179,6 @@
             this.Controls.Add(this.ShowerPB);
             this.Controls.Add(this.ToiletPB);
             this.Controls.Add(this.WashingMachinePB);
-            this.Controls.Add(this.SelectLanguageBt);
             this.Name = "BathroomForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BathroomForm";
@@ -190,7 +196,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button SelectLanguageBt;
         private System.Windows.Forms.PictureBox WashingMachinePB;
         private System.Windows.Forms.PictureBox ToiletPB;
         private System.Windows.Forms.PictureBox ShowerPB;
@@ -200,5 +205,6 @@
         private System.Windows.Forms.PictureBox BathroomLeavePB;
         private System.Windows.Forms.PictureBox MirrorCabinetPB;
         private System.Windows.Forms.PictureBox ToiletpaperPB;
+        private System.Windows.Forms.Button langBtnMB;
     }
 }
