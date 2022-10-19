@@ -751,5 +751,8 @@
   <ItemGroup>
     <None Include="Resources\languageSelectIcon1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eng-flag.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
